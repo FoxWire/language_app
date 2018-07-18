@@ -1,0 +1,284 @@
+
+Penn Treebank II Constituent Tags
+Note: This information comes from "Bracketing Guidelines for Treebank II Style Penn Treebank Project" - part of the documentation that comes with the Penn Treebank.
+
+Contents:
+Bracket Labels
+Clause Level
+Phrase Level
+Word Level
+Function Tags
+Form/function discrepancies
+Grammatical role
+Adverbials
+Miscellaneous
+Index of All Tags
+Bracket Labels
+
+Clause Level
+S - simple declarative clause, i.e. one that is not introduced by a (possible empty) subordinating conjunction or a wh-word and that does not exhibit subject-verb inversion.
+SBAR -ADJP - Adjective Phrase.
+ADVP - Adverb Phrase.
+CONJP - Conjunction Phrase.
+FRAG - Fragment.
+INTJ - Interjection. Corresponds approximately to the part-of-speech tag UH.
+LST - List marker. Includes surrounding punctuation.
+NAC - Not a Constituent; used to show the scope of certain prenominal modifiers within an NP.
+NP - Noun Phrase. 
+NX - Used within certain complex NPs to mark the head of the NP. Corresponds very roughly to N-bar level but used quite differently.
+PP - Prepositional Phrase.
+PRN - Parenthetical. 
+PRT - Particle. Category for words that should be tagged RP. 
+QP - Quantifier Phrase (i.e. complex measure/amount phrase); used within NP.
+RRC - Reduced Relative Clause. 
+UCP - Unlike Coordinated Phrase. 
+VP - Vereb Phrase. 
+WHADJP - Wh-adjective Phrase. Adjectival phrase containing a wh-adverb, as in how hot.
+WHAVP - Wh-adverb Phrase. Introduces a clause with an NP gap. May be null (containing the 0 complementizer) or lexical, containing a wh-adverb such as how or why.
+WHNP - Wh-noun Phrase. Introduces a clause with an NP gap. May be null (containing the 0 complementizer) or lexical, containing some wh-word, e.g. who, which book, whose daughter, none of which, or how many leopards.
+WHPP - Wh-prepositional Phrase. Prepositional phrase containing a wh-noun phrase (such as of which or by whose authority) that either introduces a PP gap or is contained by a WHNP.
+X - Unknown, uncertain, or unbracketable. X is often used for bracketing typos and in bracketing the...the-constructions. Clause introduced by a (possibly empty) subordinating conjunction.
+SBARQ - Direct question introduced by a wh-word or a wh-phrase. Indirect questions and relative clauses should be bracketed as SBAR, not SBARQ.
+SINV - Inverted declarative sentence, i.e. one in which the subject follows the tensed verb or modal.
+SQ - Inverted yes/no question, or main clause of a wh-question, following the wh-phrase in SBARQ.
+
+Phrase Level
+ADJP - Adjective Phrase.
+ADVP - Adverb Phrase.
+CONJP - Conjunction Phrase.
+FRAG - Fragment.
+INTJ - Interjection. Corresponds approximately to the part-of-speech tag UH.
+LST - List marker. Includes surrounding punctuation.
+NAC - Not a Constituent; used to show the scope of certain prenominal modifiers within an NP.
+NP - Noun Phrase. 
+NX - Used within certain complex NPs to mark the head of the NP. Corresponds very roughly to N-bar level but used quite differently.
+PP - Prepositional Phrase.
+PRN - Parenthetical. 
+PRT - Particle. Category for words that should be tagged RP. 
+QP - Quantifier Phrase (i.e. complex measure/amount phrase); used within NP.
+RRC - Reduced Relative Clause. 
+UCP - Unlike Coordinated Phrase. 
+VP - Vereb Phrase. 
+WHADJP - Wh-adjective Phrase. Adjectival phrase containing a wh-adverb, as in how hot.
+WHAVP - Wh-adverb Phrase. Introduces a clause with an NP gap. May be null (containing the 0 complementizer) or lexical, containing a wh-adverb such as how or why.
+WHNP - Wh-noun Phrase. Introduces a clause with an NP gap. May be null (containing the 0 complementizer) or lexical, containing some wh-word, e.g. who, which book, whose daughter, none of which, or how many leopards.
+WHPP - Wh-prepositional Phrase. Prepositional phrase containing a wh-noun phrase (such as of which or by whose authority) that either introduces a PP gap or is contained by a WHNP.
+X - Unknown, uncertain, or unbracketable. X is often used for bracketing typos and in bracketing the...the-constructions.
+Word level
+CC - Coordinating conjunction
+CD - Cardinal number
+DT - Determiner
+EX - Existential there
+FW - Foreign word
+IN - Preposition or subordinating conjunction
+JJ - Adjective
+JJR - Adjective, comparative
+JJS - Adjective, superlative
+LS - List item marker
+MD - Modal
+NN - Noun, singular or mass
+NNS - Noun, plural
+NNP - Proper noun, singular
+NNPS - Proper noun, plural
+PDT - Predeterminer
+POS - Possessive ending
+PRP - Personal pronoun
+PRP$ - Possessive pronoun (prolog version PRP-S)
+RB - Adverb
+RBR - Adverb, comparative
+RBS - Adverb, superlative
+RP - Particle
+SYM - Symbol
+TO - to
+UH - Interjection
+VB - Verb, base form
+VBD - Verb, past tense
+VBG - Verb, gerund or present participle
+VBN - Verb, past participle
+VBP - Verb, non-3rd person singular present
+VBZ - Verb, 3rd person singular present
+WDT - Wh-determiner
+WP - Wh-pronoun
+WP$ - Possessive wh-pronoun (prolog version WP-S)
+WRB - Wh-adverb
+Function tags
+Form/function discrepancies
+-ADV (adverbial) - marks a constituent other than ADVP or PP when it is used adverbially (e.g. NPs or free ("headless" relatives). However, constituents that themselves are modifying an ADVP generally do not get -ADV. If a more specific tag is available (for example, -TMP) then it is used alone and -ADV is implied. See the Adverbials section.
+-NOM (nominal) - marks free ("headless") relatives and gerunds when they act nominally.
+Grammatical role
+-DTV (dative) - marks the dative object in the unshifted form of the double object construction. If the preposition introducing the "dative" object is for, it is considered benefactive (-BNF). -DTV (and -BNF) is only used after verbs that can undergo dative shift.
+-LGS (logical subject) - is used to mark the logical subject in passives. It attaches to the NP object of by and not to the PP node itself.
+-PRD (predicate) - marks any predicate that is not VP. In the do so construction, the so is annotated as a predicate.
+-PUT - marks the locative complement of put. 
+-SBJ (surface subject) - marks the structural surface subject of both matrix and embedded clauses, including those with null subjects.
+-TPC ("topicalized") - marks elements that appear before the subject in a declarative sentence, but in two cases only:
+if the front element is associated with a *T* in the position of the gap.
+if the fronted element is left-dislocated (i.e. it is associated with a resumptive pronoun in the position of the gap).
+-VOC (vocative) - marks nouns of address, regardless of their position in the sentence. It is not coindexed to the subject and not get -TPC when it is sentence-initial.
+Adverbials
+Adverbials are generally VP adjuncts.
+
+-BNF (benefactive) - marks the beneficiary of an action (attaches to NP or PP). 
+This tag is used only when (1) the verb can undergo dative shift and (2) the prepositional variant (with the same meaning) uses for. The prepositional objects of dative-shifting verbs with other prepositions than for (such as to or of) are annotated -DTV.
+-DIR (direction) - marks adverbials that answer the questions "from where?" and "to where?" It implies motion, which can be metaphorical as in "...rose 5 pts. to 57-1/2" or "increased 70% to 5.8 billion yen" -DIR is most often used with verbs of motion/transit and financial verbs.
+-EXT (extent) - marks adverbial phrases that describe the spatial extent of an activity. -EXT was incorporated primarily for cases of movement in financial space, but is also used in analogous situations elsewhere. Obligatory complements do not receive -EXT. Words such as fully and completely are absolutes and do not receive -EXT. 
+-LOC (locative) - marks adverbials that indicate place/setting of the event. -LOC may also indicate metaphorical location. There is likely to be some varation in the use of -LOC due to differing annotator interpretations. In cases where the annotator is faced with a choice between -LOC or -TMP, the default is -LOC. In cases involving SBAR, SBAR should not receive -LOC. -LOC has some uses that are not adverbial, such as with place names that are adjoined to other NPs and NAC-LOC premodifiers of NPs. The special tag -PUT is used for the locative argument of put.
+-MNR (manner) - marks adverbials that indicate manner, including instrument phrases.
+-PRP (purpose or reason) - marks purpose or reason clauses and PPs.
+-TMP (temporal) - marks temporal or aspectual adverbials that answer the questions when, how often, or how long. It has some uses that are not strictly adverbial, auch as with dates that modify other NPs at S- or VP-level. In cases of apposition involving SBAR, the SBAR should not be labeled -TMP. Only in "financialspeak," and only when the dominating PP is a PP-DIR, may temporal modifiers be put at PP object level. Note that -TMP is not used in possessive phrases. 
+
+Miscellaneous
+-CLR (closely related) - marks constituents that occupy some middle ground between arguments and adjunct of the verb phrase. These roughly correspond to "predication adjuncts", prepositional ditransitives, and some "phrasel verbs". Although constituents marked with -CLR are not strictly speaking complements, they are treated as complements whenever it makes a bracketing difference. The precise meaning of -CLR depends somewhat on the category of the phrase.
+on S or SBAR - These categories are usually arguments, so the -CLR tag indicates that the clause is more adverbial than normal clausal arguments. The most common case is the infinitival semi-complement of use, but there are a variety of other cases.
+on PP, ADVP, SBAR-PRP, etc - On categories that are ordinarily interpreted as (adjunct) adverbials, -CLR indicates a somewhat closer relationship to the verb. For example:
+Prepositional Ditransitives
+In order to ensure consistency, the Treebank recognizes only a limited class of verbs that take more than one complement (-DTV and -PUT and Small Clauses) Verbs that fall outside these classes (including most of the prepositional ditransitive verbs in class [D2]) are often associated with -CLR.
+Phrasal verbs
+Phrasal verbs are also annotated with -CLR or a combination of -PRT and PP-CLR. Words that are considered borderline between particle and adverb are often bracketed with ADVP-CLR.
+Predication Adjuncts
+Many of Quirk's predication adjuncts are annotated with -CLR.
+on NP - To the extent that -CLR is used on NPs, it indicates that the NP is part of some kind of "fixed phrase" or expression, such as take care of. Variation is more likely for NPs than for other uses of -CLR.
+-CLF (cleft) - marks it-clefts ("true clefts") and may be added to the labels S, SINV, or SQ.
+-HLN (headline) - marks headlines and datelines. Note that headlines and datelines always constitute a unit of text that is structurally independent from the following sentence.
+-TTL (title) - is attached to the top node of a title when this title appears inside running text. -TTL implies -NOM. The internal structure of the title is bracketed as usual.
+
+
+$: dollar
+    $ -$ --$ A$ C$ HK$ M$ NZ$ S$ U.S.$ US$
+'': closing quotation mark
+    ' ''
+(: opening parenthesis
+    ( [ {
+): closing parenthesis
+    ) ] }
+,: comma
+    ,
+--: dash
+    --
+.: sentence terminator
+    . ! ?
+:: colon or ellipsis
+    : ; ...
+CC: conjunction, coordinating
+    & 'n and both but either et for less minus neither nor or plus so
+    therefore times v. versus vs. whether yet
+CD: numeral, cardinal
+    mid-1890 nine-thirty forty-two one-tenth ten million 0.5 one forty-
+    seven 1987 twenty '79 zero two 78-degrees eighty-four IX '60s .025
+    fifteen 271,124 dozen quintillion DM2,000 ...
+DT: determiner
+    all an another any both del each either every half la many much nary
+    neither no some such that the them these this those
+EX: existential there
+    there
+FW: foreign word
+    gemeinschaft hund ich jeux habeas Haementeria Herr K'ang-si vous
+    lutihaw alai je jour objets salutaris fille quibusdam pas trop Monte
+    terram fiche oui corporis ...
+IN: preposition or conjunction, subordinating
+    astride among uppon whether out inside pro despite on by throughout
+    below within for towards near behind atop around if like until below
+    next into if beside ...
+JJ: adjective or numeral, ordinal
+    third ill-mannered pre-war regrettable oiled calamitous first separable
+    ectoplasmic battery-powered participatory fourth still-to-be-named
+    multilingual multi-disciplinary ...
+JJR: adjective, comparative
+    bleaker braver breezier briefer brighter brisker broader bumper busier
+    calmer cheaper choosier cleaner clearer closer colder commoner costlier
+    cozier creamier crunchier cuter ...
+JJS: adjective, superlative
+    calmest cheapest choicest classiest cleanest clearest closest commonest
+    corniest costliest crassest creepiest crudest cutest darkest deadliest
+    dearest deepest densest dinkiest ...
+LS: list item marker
+    A A. B B. C C. D E F First G H I J K One SP-44001 SP-44002 SP-44005
+    SP-44007 Second Third Three Two * a b c d first five four one six three
+    two
+MD: modal auxiliary
+    can cannot could couldn't dare may might must need ought shall should
+    shouldn't will would
+NN: noun, common, singular or mass
+    common-carrier cabbage knuckle-duster Casino afghan shed thermostat
+    investment slide humour falloff slick wind hyena override subhumanity
+    machinist ...
+NNP: noun, proper, singular
+    Motown Venneboerger Czestochwa Ranzer Conchita Trumplane Christos
+    Oceanside Escobar Kreisler Sawyer Cougar Yvette Ervin ODI Darryl CTCA
+    Shannon A.K.C. Meltex Liverpool ...
+NNPS: noun, proper, plural
+    Americans Americas Amharas Amityvilles Amusements Anarcho-Syndicalists
+    Andalusians Andes Andruses Angels Animals Anthony Antilles Antiques
+    Apache Apaches Apocrypha ...
+NNS: noun, common, plural
+    undergraduates scotches bric-a-brac products bodyguards facets coasts
+    divestitures storehouses designs clubs fragrances averages
+    subjectivists apprehensions muses factory-jobs ...
+PDT: pre-determiner
+    all both half many quite such sure this
+POS: genitive marker
+    ' 's
+PRP: pronoun, personal
+    hers herself him himself hisself it itself me myself one oneself ours
+    ourselves ownself self she thee theirs them themselves they thou thy us
+PRP$: pronoun, possessive
+    her his mine my our ours their thy your
+RB: adverb
+    occasionally unabatingly maddeningly adventurously professedly
+    stirringly prominently technologically magisterially predominately
+    swiftly fiscally pitilessly ...
+RBR: adverb, comparative
+    further gloomier grander graver greater grimmer harder harsher
+    healthier heavier higher however larger later leaner lengthier less-
+    perfectly lesser lonelier longer louder lower more ...
+RBS: adverb, superlative
+    best biggest bluntest earliest farthest first furthest hardest
+    heartiest highest largest least less most nearest second tightest worst
+RP: particle
+    aboard about across along apart around aside at away back before behind
+    by crop down ever fast for forth from go high i.e. in into just later
+    low more off on open out over per pie raising start teeth that through
+    under unto up up-pp upon whole with you
+SYM: symbol
+    % & ' '' ''. ) ). * + ,. < = > @ A[fj] U.S U.S.S.R * ** ***
+TO: "to" as preposition or infinitive marker
+    to
+UH: interjection
+    Goodbye Goody Gosh Wow Jeepers Jee-sus Hubba Hey Kee-reist Oops amen
+    huh howdy uh dammit whammo shucks heck anyways whodunnit honey golly
+    man baby diddle hush sonuvabitch ...
+VB: verb, base form
+    ask assemble assess assign assume atone attention avoid bake balkanize
+    bank begin behold believe bend benefit bevel beware bless boil bomb
+    boost brace break bring broil brush build ...
+VBD: verb, past tense
+    dipped pleaded swiped regummed soaked tidied convened halted registered
+    cushioned exacted snubbed strode aimed adopted belied figgered
+    speculated wore appreciated contemplated ...
+VBG: verb, present participle or gerund
+    telegraphing stirring focusing angering judging stalling lactating
+    hankerin' alleging veering capping approaching traveling besieging
+    encrypting interrupting erasing wincing ...
+VBN: verb, past participle
+    multihulled dilapidated aerosolized chaired languished panelized used
+    experimented flourished imitated reunifed factored condensed sheared
+    unsettled primed dubbed desired ...
+VBP: verb, present tense, not 3rd person singular
+    predominate wrap resort sue twist spill cure lengthen brush terminate
+    appear tend stray glisten obtain comprise detest tease attract
+    emphasize mold postpone sever return wag ...
+VBZ: verb, present tense, 3rd person singular
+    bases reconstructs marks mixes displeases seals carps weaves snatches
+    slumps stretches authorizes smolders pictures emerges stockpiles
+    seduces fizzes uses bolsters slaps speaks pleads ...
+WDT: WH-determiner
+    that what whatever which whichever
+WP: WH-pronoun
+    that what whatever whatsoever which who whom whosoever
+WP$: WH-pronoun, possessive
+    whose
+WRB: Wh-adverb
+    how however whence whenever where whereby whereever wherein whereof why
+``: opening quotation mark
+    ` ``
+None
