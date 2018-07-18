@@ -20,7 +20,7 @@ from nltk.parse import stanford
 
 
 # Loop each of the texts and create one list of all the sentences
-paths = ['./input_a.txt', './input_b.txt', './input_c.txt', './input_d.txt']
+paths = ['./input_a.txt', './input_b.txt', './input_c.txt', './input_d.txt', './input_e.txt', './input_f.txt']
 sr = SentenceReader()
 sentences = []
 for path in paths:
@@ -89,50 +89,49 @@ def print_parse_tree(sentence):
 
 
 
-
 '''
 If they get the question right, it will just randomly select another question, if they
 get it wrong, it will find the next similar one and ask it. 
 Some of the stuff in the loop might not be 100% correct. 
 '''
 
-# card = cards[0]
-# while cards:
-# 	print("\033[H\033[J")
-# 	print(card.ask_question())
-# 	user_answer = input("Answer: ")
-# 	answer = card.give_answer(user_answer)
-# 	print(repr(answer))
-# 	if answer[0]:
-# 		# They got the question right, just pick another question
-# 		shuffle(cards)
-# 		card = cards.pop()
-# 	else:
-# 		# They got the answer wrong
-# 		card, cards = select_next_question(card, cards)
-
-# 	input('Enter to continue')
-
-
-
-
-'''
-just for testing, get a card, show the chunk, find the card with the best match 
-'''
-
 card = cards[0]
-print("Random card:")
-print('\tsentence:', card.sentence)
-print('\tchunk:', card.chunk)
-print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-next_card = select_next_question(card, cards)[0]
-print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-print("The best match:")
-print("\tsentence:", next_card.sentence)
-print("\tchunk:", next_card.chunk)
+while cards:
+	print("\033[H\033[J")
+	print(card.ask_question())
+	user_answer = input("Answer: ")
+	answer = card.give_answer(user_answer)
+	print(repr(answer))
+	if answer[0]:
+		# They got the question right, just pick another question
+		shuffle(cards)
+		card = cards.pop()
+	else:
+		# They got the answer wrong
+		card, cards = select_next_question(card, cards)
 
-print_parse_tree(card.chunk)
-print_parse_tree(next_card.chunk)
+	input('Enter to continue')
+
+
+
+
+# '''
+# just for testing, get a card, show the chunk, find the card with the best match 
+# '''
+
+# card = cards[0]
+# print("Random card:")
+# print('\tsentence:', card.sentence)
+# print('\tchunk:', card.chunk)
+# print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+# next_card = select_next_question(card, cards)[0]
+# print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+# print("The best match:")
+# print("\tsentence:", next_card.sentence)
+# print("\tchunk:", next_card.chunk)
+
+# print_parse_tree(card.chunk)
+# print_parse_tree(next_card.chunk)
 
 
 
