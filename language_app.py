@@ -95,6 +95,7 @@ get it wrong, it will find the next similar one and ask it.
 Some of the stuff in the loop might not be 100% correct. 
 '''
 
+
 card = cards[0]
 while cards:
 	print("\033[H\033[J")
