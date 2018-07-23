@@ -115,13 +115,17 @@ def convert_parse_tree_to_zss_tree(tree_as_list):
     return root_node
 
 
-zss_tree = convert_parse_tree_to_zss_tree(tree_as_list)
+'''
+We want to use this method to compare the trees of two cards. 
 
-print(simple_distance(zss_tree, test_tree))
-print()
-print(zss_tree)
-print()
-print(test_tree)
+You should make a new branch for this experiment.
+
+
+
+'''
+
+
+
 
 
 

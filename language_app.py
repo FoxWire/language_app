@@ -112,27 +112,3 @@ while cards:
 		card, cards = select_next_question(card, cards)
 
 	input('Enter to continue')
-
-
-
-
-# '''
-# just for testing, get a card, show the chunk, find the card with the best match 
-# '''
-
-# card = cards[0]
-# print("Random card:")
-# print('\tsentence:', card.sentence)
-# print('\tchunk:', card.chunk)
-# print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-# next_card = select_next_question(card, cards)[0]
-# print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-# print("The best match:")
-# print("\tsentence:", next_card.sentence)
-# print("\tchunk:", next_card.chunk)
-
-# print_parse_tree(card.chunk)
-# print_parse_tree(next_card.chunk)
-
-
-
