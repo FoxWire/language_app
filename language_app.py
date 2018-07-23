@@ -10,7 +10,7 @@ At the moment, it can:
 from read_in import SentenceReader
 from cloze_deletion import SentenceChunker
 from google_translate.google_translate import Translator
-from parser import Comparer
+from parser import TreeComparer
 from card import Card 
 import re
 from random import shuffle
@@ -18,46 +18,54 @@ from random import shuffle
 from nltk.parse import stanford
 
 
+def prepare_cards():
+	# Loop each of the texts and create one list of all the sentences
+	paths = ['./input_a.txt', './input_b.txt', './input_c.txt', './input_d.txt', './input_e.txt', './input_f.txt']
+	sr = SentenceReader()
+	sentences = []
+	for path in paths:
+		sentences.extend([sentence for sentence in sr.get_sentences(path)])
 
-# Loop each of the texts and create one list of all the sentences
-paths = ['./input_a.txt', './input_b.txt', './input_c.txt', './input_d.txt', './input_e.txt', './input_f.txt']
-sr = SentenceReader()
-sentences = []
-for path in paths:
-	sentences.extend([sentence for sentence in sr.get_sentences(path)])
-
-# Creates a list called sents with chunks. Each item in this list will be a list
-# containing the sentence itself and another list of all the chunks for that sentence
-chunker = SentenceChunker()
-sents_with_chunks = []
-for sentence in sentences:
-	sents_with_chunks.append([sentence, chunker.get_chunks(sentence)])
-
-# Make a list of cards
-translator = Translator()
-cards = []
-for sent in sents_with_chunks:
-	whole_sentence = sent[0]
-	# Here we iterate over the chunks for each sentence and create a card for each. 
-	for chunk in sent[1]:
-		# check if suitable
-		chunk_length = len(chunk.split(' '))
-		if chunk_length >= 4 and chunk_length <= 8:
-			cards.append(Card(whole_sentence, chunk, translator.get_translation(chunk), chunker.get_labels(chunk)))
+	# Creates a list called sents with chunks. Each item in this list will be a list
+	# containing the sentence itself and another list of all the chunks for that sentence
+	chunker = SentenceChunker()
+	sents_with_chunks = []
+	for sentence in sentences:
+		sents_with_chunks.append([sentence, chunker.get_chunks(sentence)])
 
 
+	'''
+	
+	'''
 
-# Shuffle the cards 
-shuffle(cards)
 
-# print("!!!!!!!!!!!!!!")
-# print(sents_with_chunks[0])
+	# Make a list of cards
+	translator = Translator()
+	cards = []
+	for sent in sents_with_chunks:
+		whole_sentence = sent[0]
+		# Here we iterate over the chunks for each sentence and create a card for each. 
+		for chunk in sent[1]:
+			# check if suitable
+			chunk_length = len(chunk.split(' '))
+			if chunk_length >= 4 and chunk_length <= 8:
+				cards.append(Card(	whole_sentence,
+				 					chunk,
+				 					translator.get_translation(chunk),
+				 					chunker.get_labels(chunk),
+				 					chunker.get_tree_string(chunk)
+				 					))
+
+	# Shuffle the cards 
+	shuffle(cards)
+	return cards
+
 
 def select_next_question(card, cards):
 	'''
 	This takes a card and a list of cards
 	'''
-	comp = Comparer()
+	comp = TreeComparer()
 	labels = card.labels
 
 	# Get all cards, excluding the one that the user has just seen. 
@@ -66,7 +74,7 @@ def select_next_question(card, cards):
 	results = []
 	# iterate over all other cards 
 	for other_card in other_cards:
-		results.append((other_card, comp.compare(labels, other_card.labels)))
+		results.append((other_card, comp.compare(card, other_card)))
 
 	# Get the card that is most similar
 	next_card = sorted(results, key=lambda item: item[1])[0]
@@ -96,19 +104,21 @@ Some of the stuff in the loop might not be 100% correct.
 '''
 
 
-card = cards[0]
-while cards:
-	print("\033[H\033[J")
-	print(card.ask_question())
-	user_answer = input("Answer: ")
-	answer = card.give_answer(user_answer)
-	print(repr(answer))
-	if answer[0]:
-		# They got the question right, just pick another question
-		shuffle(cards)
-		card = cards.pop()
-	else:
-		# They got the answer wrong
-		card, cards = select_next_question(card, cards)
+if __name__ == "__main__":
+	cards = prepare_cards()
+	card = cards[0]
+	while cards:
+		print("\033[H\033[J")
+		print(card.ask_question())
+		user_answer = input("Answer: ")
+		answer = card.give_answer(user_answer)
+		print(repr(answer))
+		if answer[0]:
+			# They got the question right, just pick another question
+			shuffle(cards)
+			card = cards.pop()
+		else:
+			# They got the answer wrong
+			card, cards = select_next_question(card, cards)
 
-	input('Enter to continue')
+		input('Enter to continue')	

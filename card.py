@@ -5,12 +5,13 @@
 
 class Card():
 
-	def __init__(self, sentence, chunk, chunk_translation, labels):
+	def __init__(self, sentence, chunk, chunk_translation, labels, tree_string):
 		self.sentence = sentence
 		self.chunk = chunk
 		self.chunk_translation = chunk_translation
 		self.cloze_deletion = self._create_cloze_deletion(self.sentence, self.chunk)
 		self.labels = labels
+		self.tree_string = tree_string
 
 	def _create_cloze_deletion(self, sentence, chunk):
 		return sentence.replace(chunk, '_' * len(chunk))

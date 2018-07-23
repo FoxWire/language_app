@@ -147,6 +147,10 @@ class SentenceChunker():
 		self.cache_file = 'sentence_chunker_cache.json'
 	
 	def get_chunks(self, sentence):
+		'''
+		Take a sentence, return a tuple with the sentence, the list of chunks and the string representation
+		of the parse tree.
+		'''
 
 		# Check if you have already chunked this sentence
 		result = self._check_cache(sentence)
@@ -192,9 +196,18 @@ class SentenceChunker():
 				else:
 					sentences.append(result.group())
 
-			self._write_to_cache(sentence, sentences, labels)
+			self._write_to_cache(sentence, sentences, labels, str(tree))
 
 			return sentences
+
+
+	def get_tree_string(self, chunk):
+		results = self._check_cache(chunk)
+		if results and results.get('tree_string'):
+			return results['tree_string']
+		else:
+			chunks = self.get_chunks(chunk)
+			return self.get_tree_string(chunk)
 
 
 	def get_labels(self, sentence):
@@ -217,7 +230,7 @@ class SentenceChunker():
 			return cache.get(sentence)
 
 
-	def _write_to_cache(self, sentence, chunks, labels):
+	def _write_to_cache(self, sentence, chunks, labels, tree_string):
 	
 		# Read from the cache file
 		with open('sentence_chunker_cache.json') as data_file:
@@ -226,7 +239,8 @@ class SentenceChunker():
 			# Add the new entry to the cache
 			dict = {
 			'chunks': chunks,
-			'labels': labels
+			'labels': labels,
+			'tree_string': tree_string
 			}
 			cache[sentence] = dict
 

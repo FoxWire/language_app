@@ -12,39 +12,6 @@ import json
 import re
 
 
-A = (
-    Node("f")
-        .addkid(Node("a")
-            .addkid(Node("d"))
-            .addkid(Node("c")
-                .addkid(Node("b"))))
-        .addkid(Node("e"))
-    )
-B = (
-    Node("f")
-        .addkid(Node("a")
-            .addkid(Node("d"))
-            .addkid(Node("c")
-                .addkid(Node("b"))))
-        .addkid(Node("e"))
-    )
-
-test_tree = (
-    Node("ROOT")
-        .addkid(Node("S")
-            .addkid(Node("NP")
-                .addkid(Node("PRP")
-                    .addkid(Node("I"))))
-            .addkid(Node("VP")
-                .addkid(Node("VBP")
-                    .addkid(Node("am"))))
-                .addkid(Node("NP")
-                    .addkid(Node("NNP")
-                        .addkid(Node("Stuart")))))
-    )
-
-
-
 parser = stanford.StanfordParser()
 
 # These are the sentences to be parsed
@@ -53,7 +20,6 @@ chunk = 'I am Stuart'
 # parse the sentences
 tree = next(parser.raw_parse(chunk))
 
-tree.pretty_print()
 
 tree_as_string = str(tree)
 print(tree_as_string)
@@ -89,8 +55,11 @@ def convert_parse_tree_to_python_tree(tree_as_list):
 
 
 
-def convert_parse_tree_to_zss_tree(tree_as_list):
+def convert_parse_tree_to_zss_tree(tree_as_string):
+
+    tree_as_list = [item.strip() for item in re.split(r'([\(\)])', tree_as_string) if item.strip()]
     tree_as_list = tree_as_list[2:-1]
+
     stack = [Node('ROOT')]
     root_node = stack[0]
     # Iterate over the list
@@ -124,6 +93,17 @@ You should make a new branch for this experiment.
 
 '''
 
+sentence_one = "I am a woman with a cat."
+
+sentence_two = "I am a woman with a cat."
+
+tree_a = next(parser.raw_parse(sentence_one))
+tree_b = next(parser.raw_parse(sentence_two))
+
+a = convert_parse_tree_to_zss_tree(str(tree_a))
+b = convert_parse_tree_to_zss_tree(str(tree_b))
+
+print(simple_distance(a, b))
 
 
 

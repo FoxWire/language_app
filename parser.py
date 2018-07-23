@@ -2,66 +2,35 @@ import os
 from nltk.parse import stanford
 import nltk
 from scipy.spatial import distance
-
-
-class Comparer():
-	'''
-	This class compares based on the frequency distribution method. 
-	This was the first attempt. It compares naively based on the number of 
-	specific label in the vector. It doesn't take the structure of the 
-	tree into consideration.
-	'''
-
-	def __init__(self):
-		self.parser = stanford.StanfordParser()
-		self.syncats = self._get_syncats()
-
-
-	def _get_syncats(self):
-		# Get a list of the syntactic categories
-		with open('new_markers.txt', 'r') as input:
-			return [line.strip() for line in input]
-
-	def _get_freq_dest(self, labels):
-
-		# Create the feature set based on the frequency distribution
-		freq_dist = nltk.FreqDist()
-		for label in labels:
-			freq_dist[label] += 1
-
-		feature_set = {}
-		for cat in self.syncats:
-			feature_set[cat] = freq_dist[cat]
-
-		return feature_set
-
-	def _get_difference(self, vector_a, vector_b):
-		return distance.cosine(vector_a, vector_b)	
-
-
-	def compare(self, labels_a, labels_b):
-
-		feature_set = self._get_freq_dest(labels_a)	
-		vector_a = [val for val in feature_set.values()]
-
-		feature_set = self._get_freq_dest(labels_b)	
-		vector_b = [val for val in feature_set.values()]
-
-		return self._get_difference(vector_a, vector_b)
+from zss import simple_distance, Node
+import re
 
 
 class TreeComparer():
 	'''
 	This class uses the zzs algorithm to work out the similarity between 
-	two trees.
+	two trees. The comparison should mean that the structure will be compared. 
+	I have also left the leaves of the trees intact, so they are also part of the comparison.
+	This could be desirable for finding sentences with the same words, there could be some focus on
+	vocabulary.
+
+	Each card will need to store a string representation of the chunk as a tree.
 	'''
 
 	def __init__(self):
 		self.parser = stanford.StanfordParser()
 
+	def compare(self, card_a, card_b):
+		zss_tree_a = self.convert_parse_tree_to_zss_tree(card_a.tree_string)
+		zss_tree_b = self.convert_parse_tree_to_zss_tree(card_b.tree_string)
+		return simple_distance(zss_tree_a, zss_tree_b)
 
-	def convert_parse_tree_to_python_tree(tree_as_list):
+
+	def convert_parse_tree_to_python_tree(self, tree_as_string):
+	    
+		tree_as_list = [item.strip() for item in re.split(r'([\(\)])', tree_as_string) if item.strip()]
 	    tree_as_list = tree_as_list[2:-1]
+	    
 	    stack = [ ['ROOT', []],  ]
 	    root = stack[0]
 	    # Iterate over the list
@@ -86,8 +55,11 @@ class TreeComparer():
 	    return root
 
 
-	def convert_parse_tree_to_zss_tree(tree_as_list):
+	def convert_parse_tree_to_zss_tree(self, tree_as_string):
+
+	    tree_as_list = [item.strip() for item in re.split(r'([\(\)])', tree_as_string) if item.strip()]
 	    tree_as_list = tree_as_list[2:-1]
+
 	    stack = [Node('ROOT')]
 	    root_node = stack[0]
 	    # Iterate over the list
