@@ -5,7 +5,6 @@ Notes: At the moment this deals with unicode characters, because the sample text
 was in that format. You might want to make sure at some point that it can cope with all formats.
 '''
 
-
 from nltk.tokenize import sent_tokenize
 
 class SentenceReader():

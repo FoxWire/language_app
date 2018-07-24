@@ -31,7 +31,7 @@ class Translator():
 		# check that the translation has not already been done. 
 		result = self._check_cache(chunk)
 		if result:
-			print("***  INFO: Translation retrieved from cache   ***")
+			# print("***  INFO: Translation retrieved from cache   ***")
 			self.characters_saved += len(chunk)
 			self._update_character_data()
 			return result

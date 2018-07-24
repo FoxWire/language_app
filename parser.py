@@ -2,87 +2,169 @@ import os
 from nltk.parse import stanford
 import nltk
 from scipy.spatial import distance
-from zss import simple_distance, Node
 import re
+import json
 
 
-class TreeComparer():
+text = '''
+S - simple declarative clause, i.e. one that is not introduced by a (possible empty) subordinating conjunction or a wh-word and that does not exhibit subject-verb inversion.
+SBAR -ADJP - Adjective Phrase.
+ADVP - Adverb Phrase.
+CONJP - Conjunction Phrase.
+FRAG - Fragment.
+INTJ - Interjection. Corresponds approximately to the part-of-speech tag UH.
+LST - List marker. Includes surrounding punctuation.
+NAC - Not a Constituent; used to show the scope of certain prenominal modifiers within an NP.
+NP - Noun Phrase. 
+NX - Used within certain complex NPs to mark the head of the NP. Corresponds very roughly to N-bar level but used quite differently.
+PP - Prepositional Phrase.
+PRN - Parenthetical. 
+PRT - Particle. Category for words that should be tagged RP. 
+QP - Quantifier Phrase (i.e. complex measure/amount phrase); used within NP.
+RRC - Reduced Relative Clause. 
+UCP - Unlike Coordinated Phrase. 
+VP - Vereb Phrase. 
+WHADJP - Wh-adjective Phrase. Adjectival phrase containing a wh-adverb, as in how hot.
+WHAVP - Wh-adverb Phrase. Introduces a clause with an NP gap. May be null (containing the 0 complementizer) or lexical, containing a wh-adverb such as how or why.
+WHNP - Wh-noun Phrase. Introduces a clause with an NP gap. May be null (containing the 0 complementizer) or lexical, containing some wh-word, e.g. who, which book, whose daughter, none of which, or how many leopards.
+WHPP - Wh-prepositional Phrase. Prepositional phrase containing a wh-noun phrase (such as of which or by whose authority) that either introduces a PP gap or is contained by a WHNP.
+X - Unknown, uncertain, or unbracketable. X is often used for bracketing typos and in bracketing the...the-constructions. Clause introduced by a (possibly empty) subordinating conjunction.
+SBARQ - Direct question introduced by a wh-word or a wh-phrase. Indirect questions and relative clauses should be bracketed as SBAR, not SBARQ.
+SINV - Inverted declarative sentence, i.e. one in which the subject follows the tensed verb or modal.
+SQ - Inverted yes/no question, or main clause of a wh-question, following the wh-phrase in SBARQ.
+'''
+
+class Parser():
 	'''
-	This class uses the zzs algorithm to work out the similarity between 
-	two trees. The comparison should mean that the structure will be compared. 
-	I have also left the leaves of the trees intact, so they are also part of the comparison.
-	This could be desirable for finding sentences with the same words, there could be some focus on
-	vocabulary.
+	This class has one main method that will take a sentence and return a tuple of:
+		- the sentence
+		- the list of chunks for that sentence
+		- and the parse tree as a string
 
-	Each card will need to store a string representation of the chunk as a tree.
+	It will cache the results of parse in a json file
 	'''
 
 	def __init__(self):
 		self.parser = stanford.StanfordParser()
-
-	def compare(self, card_a, card_b):
-		zss_tree_a = self.convert_parse_tree_to_zss_tree(card_a.tree_string)
-		zss_tree_b = self.convert_parse_tree_to_zss_tree(card_b.tree_string)
-		return simple_distance(zss_tree_a, zss_tree_b)
+		self.cache_file = 'sentence_chunker_cache.json'
 
 
-	def convert_parse_tree_to_python_tree(self, tree_as_string):
-	    
-		tree_as_list = [item.strip() for item in re.split(r'([\(\)])', tree_as_string) if item.strip()]
-	    tree_as_list = tree_as_list[2:-1]
-	    
-	    stack = [ ['ROOT', []],  ]
-	    root = stack[0]
-	    # Iterate over the list
-	    for i, item in enumerate(tree_as_list):
-	        if item == '(':
+	def load_labels(self):
+		'''
+		This will read in the text above from another file and create the list of labels 
+		that are needed for filtering.
+		Will be used in the init to create a set
+		'''
+		all_labels = {line.split('-')[0].strip() for line in text.split('\n')}
+	
+	def parse(self, sentence):
+		'''
+		This method takes a sentence and returns three pieces of data. The sentence itself, 
+		the chunks of the sentence and the tree string.
+		The method is called once when only the chunks are needed and once for the other two pieces of
+		data. At some point this should be refactored into two methods (that may share the use of one
+		underlying 'parse' method)
+		'''
+		
+		# Check if you have already chunked this sentence
+		result = self._check_cache(sentence)
+		if result:
+			# print("***   INFO: Sentences retrieved from cache   ***")
+			return (sentence, result['chunks'], result['tree_string'])
 
-	            # If the node doesn't have children
-	            match = re.search(r'[A-Z]+[ ][A-Za-z]+', tree_as_list[i + 1])
-	            if match:
-	                label = match.group().split(' ')
-	                node = [label[0], label[1]]
-	            else:
-	                node = [tree_as_list[i + 1], []]
+		# Only attempt to chunk the sentence if it's not in the cache
+		else:
+			# print("***   INFO: Parsing sentences. This may take some time.   ***")
+			# Work out the number of parts of speech in the sentence
+			no_of_pos = len(sentence.split(' '))
 
-	            # Add the node to the children of the current item
-	            stack[-1][1].append(node)
-	            # Then add the node to the stack itself
-	            stack.append(node)
-	        elif item == ')':
-	            # this node has no children so just pop it from the stack
-	            stack.pop()
-	    return root
+			# Get the parse tree
+			tree = next(self.parser.raw_parse(sentence))
 
+			# Get all the subtrees flattened as tuples
+			phrases = [(sub.flatten().label(), sub.leaves()) for sub in tree.subtrees()]
 
-	def convert_parse_tree_to_zss_tree(self, tree_as_string):
+			# Convert the text ^^^above^^^ into a set of labels
+			all_labels = {line.split('-')[0].strip() for line in text.split('\n')}
+				
+			# Filter on the set of labels. This means that you only use the 
+			# 'higher level' trees that are specified in the text.
+			chunks = [phrase for phrase in phrases if phrase[0] in all_labels]
 
-	    tree_as_list = [item.strip() for item in re.split(r'([\(\)])', tree_as_string) if item.strip()]
-	    tree_as_list = tree_as_list[2:-1]
+			# filter out the one word phrases and the full sentence
+			chunks = [chunk for chunk in chunks if len(chunk[1]) > 1 and len(chunk[1]) < no_of_pos]
 
-	    stack = [Node('ROOT')]
-	    root_node = stack[0]
-	    # Iterate over the list
-	    for i, item in enumerate(tree_as_list):
-	        if item == '(':
-	            # match the string for each item 
-	            match = re.search(r'[A-Z]+[ ][A-Za-z]+', tree_as_list[i + 1])
-	            if match:
-	                # if match, node has no children
-	                label = match.group().split(' ')
-	                node = Node(label[0]).addkid(Node(label[1]))
-	            else:
-	                # otherwise node has children
-	                node = Node(tree_as_list[i + 1])
-	            # Add the node to the children of the current item
-	            stack[-1].addkid(node)
-	            # Then add the node to the stack itself
-	            stack.append(node)
-	        elif item == ')':
-	            # this node has no children so just pop it from the stack
-	            stack.pop()
-	    return root_node
+			# Use regex to rebuilt the lists of leaves into strings.
+			formatted_chunks = []
+			for chunk in chunks:
+				regex = r''
+				for leaf in chunk[1]:
+					regex += leaf + '\s*'
+
+				result = re.search(regex, sentence)
+				if not result:
+					print("***   INFO: Regex: {} didn't match sentence {}   ***".format(regex, sentence))
+				
+				else:
+					formatted_chunks.append(result.group())
+
+			parsed_object = (sentence, formatted_chunks, str(tree))
+			self._write_to_cache(parsed_object)
+			return parsed_object
 
 
+	# def get_tree_string(self, chunk):
+	# 	results = self._check_cache(chunk)
+	# 	if results and results.get('tree_string'):
+	# 		return results['tree_string']
+	# 	else:
+	# 		chunks = self.get_chunks(chunk)
+	# 		return self.get_tree_string(chunk)
+
+
+	# def get_labels(self, sentence):
+	# 	results = self._check_cache(sentence)
+	# 	if results:
+	# 		return results['labels']
+	# 	else:
+	# 		# If the chunk or sentence that is passed in is not in the cache, you will need to parse it
+	# 		# the get chunks method actually does the parsing and caching, so you can just call it 
+	# 		# (ignore the chunks that come back) and then recursively call the get labels method again
+	# 		chunks = self.get_chunks(sentence)
+	# 		return self.get_labels(sentence)
+
+	def _check_cache(self, sentence):
+
+		# Read from the cache file
+		with open('sentence_chunker_cache.json') as data_file:
+			cache = json.loads(data_file.read())
+
+			return cache.get(sentence)
+
+
+	def _write_to_cache(self, parsed_object):
+	
+		# Read from the cache file
+		with open(self.cache_file) as data_file:
+			cache = json.loads(data_file.read())
+
+			# Add the new entry to the cache
+			dict = {
+			'chunks': parsed_object[1],
+			'tree_string': parsed_object[2]
+			}
+			cache[parsed_object[0]] = dict
+
+		# write to the cache file again
+		with open(self.cache_file, 'w') as cache_file:
+			json.dump(cache, cache_file, indent=4)
+
+
+
+if __name__ == '__main__':
+	parser = Parser()
+	chunks = parser.parse("My name is Stuart.")
+	print(chunks)
+	
 
 

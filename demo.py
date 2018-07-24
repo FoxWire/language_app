@@ -7,7 +7,9 @@ then keep going on enter
 
 from language_app import prepare_cards, select_next_question, print_parse_tree
 from random import randint
+from comparer import TreeComparer
 cards = prepare_cards()
+
 
 
 while True:
@@ -26,5 +28,12 @@ while True:
 	print_parse_tree(next_card.chunk)
 	input("Enter to continue...")
 
+# card = cards[0]
+# other_card = cards[45]
 
+# comp = TreeComparer()
+# print(card)
+# print()
+# print(other_card)
+# print(comp.compare(card, other_card))
 
