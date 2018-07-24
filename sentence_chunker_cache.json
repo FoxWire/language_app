@@ -15440,5 +15440,2262 @@
             "any more"
         ],
         "tree_string": "(ROOT (S (VP (VB take) (NP (NNS risks)) (ADVP (DT any) (RBR more)))))"
+    },
+    "I was diagnosed with type 1 diabetes when I was 14.": {
+        "chunks": [
+            "was diagnosed with type 1 diabetes when I was 14",
+            "diagnosed with type 1 diabetes when I was 14",
+            "with type 1 diabetes ",
+            "type 1 diabetes ",
+            "when I was 14",
+            "I was 14",
+            "was 14"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD was)\n      (VP\n        (VBN diagnosed)\n        (PP (IN with) (NP (NN type) (CD 1) (NN diabetes)))\n        (SBAR\n          (WHADVP (WRB when))\n          (S (NP (PRP I)) (VP (VBD was) (NP (CD 14)))))))\n    (. .)))"
+    },
+    "This means my pancreas no longer naturally produces insulin; and without insulin, my blood glucose levels will go dangerously high.": {
+        "chunks": [
+            "This means my pancreas no longer naturally produces insulin",
+            "means my pancreas no longer naturally produces insulin",
+            "my pancreas no longer naturally produces insulin",
+            "my pancreas no longer naturally produces insulin",
+            "my pancreas ",
+            "no longer ",
+            "naturally produces insulin",
+            "without insulin, my blood glucose levels will go dangerously high",
+            "without insulin",
+            "my blood glucose levels ",
+            "will go dangerously high",
+            "go dangerously high"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (DT This))\n      (VP\n        (VBZ means)\n        (SBAR\n          (S\n            (NP (PRP$ my) (NN pancreas))\n            (ADVP (RB no) (RB longer))\n            (VP\n              (ADVP (RB naturally))\n              (VBZ produces)\n              (NP (NN insulin)))))))\n    (: ;)\n    (CC and)\n    (S\n      (PP (IN without) (NP (NN insulin)))\n      (, ,)\n      (NP (PRP$ my) (NN blood) (NN glucose) (NNS levels))\n      (VP (MD will) (VP (VB go) (ADJP (RB dangerously) (JJ high)))))\n    (. .)))"
+    },
+    "The biggest impact was on my sleep.": {
+        "chunks": [
+            "The biggest impact ",
+            "was on my sleep",
+            "on my sleep",
+            "my sleep"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT The) (JJS biggest) (NN impact))\n    (VP (VBD was) (PP (IN on) (NP (PRP$ my) (NN sleep))))\n    (. .)))"
+    },
+    "I used to love lying in on weekends.": {
+        "chunks": [
+            "used to love lying in on weekends",
+            "to love lying in on weekends",
+            "to love lying in on weekends",
+            "love lying in on weekends",
+            "lying in on weekends",
+            "lying in on weekends",
+            "on weekends"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD used)\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VB love)\n            (S\n              (VP\n                (VBG lying)\n                (PRT (RP in))\n                (PP (IN on) (NP (NNS weekends)))))))))\n    (. .)))"
+    },
+    "After I was diagnosed in 2002, I had to set my alarm for 7am to take my insulin and eat something, then continue testing my blood sugar and inject myself several times a day.": {
+        "chunks": [
+            "After I was diagnosed in 2002",
+            "I was diagnosed in 2002",
+            "was diagnosed in 2002",
+            "diagnosed in 2002",
+            "in 2002",
+            "had to set my alarm for 7am to take my insulin and eat something, then continue testing my blood sugar and inject myself several times a day",
+            "to set my alarm for 7am ",
+            "to set my alarm for 7am ",
+            "set my alarm for 7am ",
+            "my alarm ",
+            "for 7am ",
+            "7am ",
+            "to take my insulin and eat something, then continue testing my blood sugar and inject myself several times a day",
+            "to take my insulin and eat something, then continue testing my blood sugar and inject myself several times a day",
+            "take my insulin and eat something, then continue testing my blood sugar and inject myself several times a day",
+            "take my insulin ",
+            "my insulin ",
+            "eat something",
+            "then continue testing my blood sugar ",
+            "testing my blood sugar ",
+            "testing my blood sugar ",
+            "my blood sugar ",
+            "inject myself several times a day",
+            "several times a day",
+            "several times ",
+            "a day"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (SBAR\n      (IN After)\n      (S\n        (NP (PRP I))\n        (VP\n          (VBD was)\n          (VP (VBN diagnosed) (PP (IN in) (NP (CD 2002)))))))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VBD had)\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VB set)\n            (NP (PRP$ my) (NN alarm))\n            (PP (IN for) (NP (CD 7) (RB am))))))\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VP (VB take) (NP (PRP$ my) (NN insulin)))\n            (CC and)\n            (VP (VB eat) (NP (NN something)))\n            (, ,)\n            (VP\n              (ADVP (RB then))\n              (VB continue)\n              (S\n                (VP\n                  (VBG testing)\n                  (NP (PRP$ my) (NN blood) (NN sugar)))))\n            (CC and)\n            (VP\n              (VB inject)\n              (NP (PRP myself))\n              (NP (NP (JJ several) (NNS times)) (NP (DT a) (NN day))))))))\n    (. .)))"
+    },
+    "This process became a little easier when I got an insulin pump, and later a continuous glucose monitor (CGM).": {
+        "chunks": [
+            "This process ",
+            "a little ",
+            "an insulin pump",
+            "later a continuous glucose monitor "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT This) (NN process))\n    (VP\n      (VBD became)\n      (ADJP\n        (ADJP (NP (DT a) (RB little)) (JJR easier))\n        (SBAR\n          (WHADVP (WRB when))\n          (S\n            (NP (PRP I))\n            (VP\n              (VBD got)\n              (NP\n                (NP (DT an) (NN insulin) (NN pump))\n                (, ,)\n                (CC and)\n                (NP\n                  (NP\n                    (RB later)\n                    (DT a)\n                    (JJ continuous)\n                    (NN glucose)\n                    (NN monitor))\n                  (PRN (-LRB- -LRB-) (NP (NNP CGM)) (-RRB- -RRB-)))))))))\n    (. .)))"
+    },
+    "The pump continuously infuses insulin into my body, and the CGM sensor can report my blood sugar every five minutes.": {
+        "chunks": [
+            "The pump continuously infuses insulin into my body",
+            "The pump ",
+            "infuses insulin into my body",
+            "into my body",
+            "my body",
+            "the CGM sensor can report my blood sugar every five minutes",
+            "the CGM sensor ",
+            "can report my blood sugar every five minutes",
+            "report my blood sugar every five minutes",
+            "my blood sugar ",
+            "every five minutes"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (DT The) (NN pump))\n      (ADVP (RB continuously))\n      (VP\n        (VBZ infuses)\n        (NP (NN insulin))\n        (PP (IN into) (NP (PRP$ my) (NN body)))))\n    (, ,)\n    (CC and)\n    (S\n      (NP (DT the) (NNP CGM) (NN sensor))\n      (VP\n        (MD can)\n        (VP\n          (VB report)\n          (NP (PRP$ my) (NN blood) (NN sugar))\n          (NP (DT every) (CD five) (NNS minutes)))))\n    (. .)))"
+    },
+    "At night, I relied on the CGM's built-in alarm to wake me if my glucose passed the threshold that required immediate action; but though I tried several CGMs, the alarms were never loud enough, and they couldn't be turned up or changed.": {
+        "chunks": [
+            "At night, I relied on the CGM's built-in alarm to wake me if my glucose passed the threshold that required immediate action",
+            "At night",
+            "relied on the CGM's built-in alarm to wake me if my glucose passed the threshold that required immediate action",
+            "on the CGM's built-in alarm ",
+            "the CGM's built-in alarm ",
+            "the CGM's ",
+            "to wake me if my glucose passed the threshold that required immediate action",
+            "to wake me if my glucose passed the threshold that required immediate action",
+            "wake me if my glucose passed the threshold that required immediate action",
+            "if my glucose passed the threshold that required immediate action",
+            "my glucose passed the threshold that required immediate action",
+            "my glucose ",
+            "passed the threshold that required immediate action",
+            "the threshold that required immediate action",
+            "the threshold ",
+            "that required immediate action",
+            "required immediate action",
+            "required immediate action",
+            "immediate action",
+            "but though I tried several CGMs, the alarms were never loud enough, and they couldn't be turned up or changed",
+            "but though I tried several CGMs, the alarms were never loud enough",
+            "though I tried several CGMs",
+            "I tried several CGMs",
+            "tried several CGMs",
+            "several CGMs",
+            "the alarms ",
+            "were never loud enough",
+            "loud enough",
+            "they couldn't be turned up or changed",
+            "couldn't be turned up or changed",
+            "couldn't be turned up ",
+            "be turned up ",
+            "turned up "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (PP (IN At) (NP (NN night)))\n      (, ,)\n      (NP (PRP I))\n      (VP\n        (VBD relied)\n        (PP\n          (IN on)\n          (NP\n            (NP (DT the) (NNP CGM) (POS 's))\n            (JJ built-in)\n            (NN alarm)))\n        (S\n          (VP\n            (TO to)\n            (VP\n              (VB wake)\n              (NP (PRP me))\n              (SBAR\n                (IN if)\n                (S\n                  (NP (PRP$ my) (NN glucose))\n                  (VP\n                    (VBD passed)\n                    (NP\n                      (NP (DT the) (NN threshold))\n                      (SBAR\n                        (WHNP (WDT that))\n                        (S\n                          (VP\n                            (VBD required)\n                            (NP (JJ immediate) (NN action))))))))))))))\n    (: ;)\n    (S\n      (S\n        (CC but)\n        (SBAR\n          (IN though)\n          (S\n            (NP (PRP I))\n            (VP (VBD tried) (NP (JJ several) (NNS CGMs)))))\n        (, ,)\n        (NP (DT the) (NNS alarms))\n        (VP\n          (VBD were)\n          (ADVP (RB never))\n          (ADVP (RB loud) (RB enough))))\n      (, ,)\n      (CC and)\n      (S\n        (NP (PRP they))\n        (VP\n          (VP\n            (MD could)\n            (RB n't)\n            (VP (VB be) (VP (VBN turned) (PRT (RP up)))))\n          (CC or)\n          (VP (VBD changed)))))\n    (. .)))"
+    },
+    "I talked to manufacturers, but nothing improved.": {
+        "chunks": [
+            "I talked to manufacturers",
+            "talked to manufacturers",
+            "to manufacturers",
+            "nothing improved"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP I))\n      (VP (VBD talked) (PP (TO to) (NP (NNS manufacturers)))))\n    (, ,)\n    (CC but)\n    (S (NP (NN nothing)) (VP (VBD improved)))\n    (. .)))"
+    },
+    "Once I went to college and lived alone, this became a bigger problem; I was increasingly afraid of going to sleep at night.": {
+        "chunks": [
+            "Once I went to college and lived alone, this became a bigger problem",
+            "Once I went to college and lived alone",
+            "I went to college and lived alone",
+            "went to college and lived alone",
+            "went to college ",
+            "to college ",
+            "lived alone",
+            "became a bigger problem",
+            "a bigger problem",
+            "I was increasingly afraid of going to sleep at night",
+            "was increasingly afraid of going to sleep at night",
+            "of going to sleep at night",
+            "going to sleep at night",
+            "going to sleep at night",
+            "to sleep at night",
+            "to sleep at night",
+            "sleep at night",
+            "at night"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (SBAR\n        (IN Once)\n        (S\n          (NP (PRP I))\n          (VP\n            (VP (VBD went) (PP (TO to) (NP (NN college))))\n            (CC and)\n            (VP (VBD lived) (ADVP (RB alone))))))\n      (, ,)\n      (NP (DT this))\n      (VP (VBD became) (NP (DT a) (JJR bigger) (NN problem))))\n    (: ;)\n    (S\n      (NP (PRP I))\n      (VP\n        (VBD was)\n        (ADJP\n          (RB increasingly)\n          (JJ afraid)\n          (PP\n            (IN of)\n            (S\n              (VP\n                (VBG going)\n                (S\n                  (VP\n                    (TO to)\n                    (VP (VB sleep) (PP (IN at) (NP (NN night))))))))))))\n    (. .)))"
+    },
+    "The alarms on my phone woke me, though, and it occurred to me that if I could send the data from my device to my phone, I could solve the problem myself.": {
+        "chunks": [
+            "The alarms on my phone woke me, though",
+            "The alarms on my phone ",
+            "The alarms ",
+            "on my phone ",
+            "my phone ",
+            "woke me, though",
+            "it occurred to me that if I could send the data from my device to my phone, I could solve the problem myself",
+            "occurred to me that if I could send the data from my device to my phone, I could solve the problem myself",
+            "to me ",
+            "that if I could send the data from my device to my phone, I could solve the problem myself",
+            "if I could send the data from my device to my phone, I could solve the problem myself",
+            "if I could send the data from my device to my phone",
+            "I could send the data from my device to my phone",
+            "could send the data from my device to my phone",
+            "send the data from my device to my phone",
+            "the data ",
+            "from my device ",
+            "my device ",
+            "to my phone",
+            "my phone ",
+            "could solve the problem myself",
+            "solve the problem myself",
+            "the problem myself",
+            "the problem "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP\n        (NP (DT The) (NNS alarms))\n        (PP (IN on) (NP (PRP$ my) (NN phone))))\n      (VP (VBD woke) (NP (PRP me)) (, ,) (ADVP (RB though))))\n    (, ,)\n    (CC and)\n    (S\n      (NP (PRP it))\n      (VP\n        (VBD occurred)\n        (PP (TO to) (NP (PRP me)))\n        (SBAR\n          (IN that)\n          (S\n            (SBAR\n              (IN if)\n              (S\n                (NP (PRP I))\n                (VP\n                  (MD could)\n                  (VP\n                    (VB send)\n                    (NP (DT the) (NNS data))\n                    (PP (IN from) (NP (PRP$ my) (NN device)))\n                    (PP (TO to) (NP (PRP$ my) (NN phone)))))))\n            (, ,)\n            (NP (PRP I))\n            (VP\n              (MD could)\n              (VP\n                (VB solve)\n                (S (NP (DT the) (NN problem)) (NP (PRP myself)))))))))\n    (. .)))"
+    },
+    "I came across someone on Twitter who had managed to reverse-engineer the software on his young son's CGM, so he could monitor his son's blood sugar remotely.": {
+        "chunks": [
+            "I came across someone on Twitter who had managed to reverse-engineer the software on his young son's CGM",
+            "came across someone on Twitter who had managed to reverse-engineer the software on his young son's CGM",
+            "across someone ",
+            "on Twitter who had managed to reverse-engineer the software on his young son's CGM",
+            "Twitter who had managed to reverse-engineer the software on his young son's CGM",
+            "who had managed to reverse-engineer the software on his young son's CGM",
+            "had managed to reverse-engineer the software on his young son's CGM",
+            "had managed to reverse-engineer the software on his young son's CGM",
+            "managed to reverse-engineer the software on his young son's CGM",
+            "to reverse-engineer the software on his young son's CGM",
+            "to reverse-engineer the software on his young son's CGM",
+            "reverse-engineer the software on his young son's CGM",
+            "the software ",
+            "on his young son's CGM",
+            "his young son's CGM",
+            "his young son's ",
+            "he could monitor his son's blood sugar remotely",
+            "could monitor his son's blood sugar remotely",
+            "monitor his son's blood sugar remotely",
+            "his son's blood sugar remotely",
+            "his son's "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP I))\n      (VP\n        (VBD came)\n        (PP (IN across) (NP (NN someone)))\n        (PP\n          (IN on)\n          (NP\n            (NP (NNP Twitter))\n            (SBAR\n              (WHNP (WP who))\n              (S\n                (VP\n                  (VBD had)\n                  (VP\n                    (VBN managed)\n                    (S\n                      (VP\n                        (TO to)\n                        (VP\n                          (VB reverse-engineer)\n                          (NP (DT the) (NN software))\n                          (PP\n                            (IN on)\n                            (NP\n                              (NP\n                                (PRP$ his)\n                                (JJ young)\n                                (NN son)\n                                (POS 's))\n                              (NNP CGM))))))))))))))\n    (, ,)\n    (IN so)\n    (S\n      (NP (PRP he))\n      (VP\n        (MD could)\n        (VP\n          (VB monitor)\n          (NP\n            (NP (PRP$ his) (NN son) (POS 's))\n            (NN blood)\n            (NN sugar)\n            (NN remotely)))))\n    (. .)))"
+    },
+    "He shared his code with me, which was a big breakthrough.": {
+        "chunks": [
+            "his code ",
+            "with me, which was a big breakthrough",
+            "me, which was a big breakthrough",
+            "which was a big breakthrough",
+            "was a big breakthrough",
+            "was a big breakthrough",
+            "a big breakthrough"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP\n      (VBD shared)\n      (NP (PRP$ his) (NN code))\n      (PP\n        (IN with)\n        (NP\n          (NP (PRP me))\n          (, ,)\n          (SBAR\n            (WHNP (WDT which))\n            (S (VP (VBD was) (NP (DT a) (JJ big) (NN breakthrough))))))))\n    (. .)))"
+    },
+    "With help from my then boyfriend and now husband, Scott, who is a computer networking engineer, I was able to send CGM data to my phone via a laptop.": {
+        "chunks": [
+            "With help from my then boyfriend and now husband, Scott, who is a computer networking engineer",
+            "help from my then boyfriend and now husband, Scott, who is a computer networking engineer",
+            "help from my then boyfriend and now husband, Scott",
+            "help from my then boyfriend ",
+            "from my then boyfriend ",
+            "my then boyfriend ",
+            "husband, Scott",
+            "who is a computer networking engineer",
+            "is a computer networking engineer",
+            "is a computer networking engineer",
+            "a computer networking engineer",
+            "was able to send CGM data to my phone via a laptop",
+            "to send CGM data to my phone via a laptop",
+            "to send CGM data to my phone via a laptop",
+            "send CGM data to my phone via a laptop",
+            "CGM data ",
+            "to my phone via a laptop",
+            "my phone via a laptop",
+            "my phone ",
+            "via a laptop",
+            "a laptop"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP\n      (IN With)\n      (NP\n        (NP\n          (NP\n            (NP (NN help))\n            (PP (IN from) (NP (PRP$ my) (JJ then) (NN boyfriend))))\n          (CC and)\n          (ADVP (RB now))\n          (NP (NP (NN husband)) (, ,) (NP (NNP Scott))))\n        (, ,)\n        (SBAR\n          (WHNP (WP who))\n          (S\n            (VP\n              (VBZ is)\n              (NP (DT a) (NN computer) (NN networking) (NN engineer)))))))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VBD was)\n      (ADJP\n        (JJ able)\n        (S\n          (VP\n            (TO to)\n            (VP\n              (VB send)\n              (NP (NNP CGM) (NNS data))\n              (PP\n                (TO to)\n                (NP\n                  (NP (PRP$ my) (NN phone))\n                  (PP (IN via) (NP (DT a) (NN laptop))))))))))\n    (. .)))"
+    },
+    "(My own background is in communications and public relations.)": {
+        "chunks": [
+            "My own background ",
+            "is in communications and public relations",
+            "in communications and public relations",
+            "communications and public relations",
+            "communications and public "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (-LRB- -LRB-)\n    (NP (PRP$ My) (JJ own) (NN background))\n    (VP\n      (VBZ is)\n      (PP\n        (IN in)\n        (NP\n          (UCP (NNS communications) (CC and) (JJ public))\n          (NNS relations))))\n    (. .)\n    (-RRB- -RRB-)))"
+    },
+    "We created an alarm that would rouse me if my blood glucose levels were too low or too high.": {
+        "chunks": [
+            "created an alarm that would rouse me if my blood glucose levels were too low or too high",
+            "an alarm that would rouse me if my blood glucose levels were too low or too high",
+            "an alarm ",
+            "that would rouse me if my blood glucose levels were too low or too high",
+            "would rouse me if my blood glucose levels were too low or too high",
+            "would rouse me if my blood glucose levels were too low or too high",
+            "rouse me if my blood glucose levels were too low or too high",
+            "if my blood glucose levels were too low or too high",
+            "my blood glucose levels were too low or too high",
+            "my blood glucose levels ",
+            "were too low or too high"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP We))\n    (VP\n      (VBD created)\n      (NP\n        (NP (DT an) (NN alarm))\n        (SBAR\n          (WHNP (WDT that))\n          (S\n            (VP\n              (MD would)\n              (VP\n                (VB rouse)\n                (NP (PRP me))\n                (SBAR\n                  (IN if)\n                  (S\n                    (NP\n                      (PRP$ my)\n                      (NN blood)\n                      (NN glucose)\n                      (NNS levels))\n                    (VP\n                      (VBD were)\n                      (ADJP\n                        (ADJP (RB too) (JJ low))\n                        (CC or)\n                        (ADJP (RB too) (JJ high))))))))))))\n    (. .)))"
+    },
+    "From there, it was a small step to build a webpage so I could add a snooze button to press after taking action.": {
+        "chunks": [
+            "From there",
+            "was a small step to build a webpage so I could add a snooze button to press after taking action",
+            "a small step to build a webpage so I could add a snooze button to press after taking action",
+            "to build a webpage so I could add a snooze button to press after taking action",
+            "to build a webpage so I could add a snooze button to press after taking action",
+            "build a webpage so I could add a snooze button to press after taking action",
+            "a webpage ",
+            "so I could add a snooze button to press after taking action",
+            "I could add a snooze button to press after taking action",
+            "could add a snooze button to press after taking action",
+            "add a snooze button to press after taking action",
+            "a snooze button ",
+            "to press after taking action",
+            "to press after taking action",
+            "press after taking action",
+            "after taking action",
+            "taking action",
+            "taking action"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP (IN From) (NP (RB there)))\n    (, ,)\n    (NP (PRP it))\n    (VP\n      (VBD was)\n      (NP\n        (DT a)\n        (JJ small)\n        (NN step)\n        (S\n          (VP\n            (TO to)\n            (VP\n              (VB build)\n              (NP (DT a) (NN webpage))\n              (SBAR\n                (IN so)\n                (S\n                  (NP (PRP I))\n                  (VP\n                    (MD could)\n                    (VP\n                      (VB add)\n                      (NP (DT a) (JJ snooze) (NN button))\n                      (S\n                        (VP\n                          (TO to)\n                          (VP\n                            (VB press)\n                            (PP\n                              (IN after)\n                              (S (VP (VBG taking) (NP (NN action)))))))))))))))))\n    (. .)))"
+    },
+    "This allowed me to create a remote monitoring system so that if I still slept through an alarm, Scott would be alerted and call me or drive over.": {
+        "chunks": [
+            "me to create a remote monitoring system so that if I still slept through an alarm, Scott would be alerted and call me or drive over",
+            "to create a remote monitoring system so that if I still slept through an alarm, Scott would be alerted and call me or drive over",
+            "create a remote monitoring system so that if I still slept through an alarm, Scott would be alerted and call me or drive over",
+            "a remote monitoring system ",
+            "so that if I still slept through an alarm, Scott would be alerted and call me or drive over",
+            "if I still slept through an alarm, Scott would be alerted and call me or drive over",
+            "if I still slept through an alarm",
+            "I still slept through an alarm",
+            "slept through an alarm",
+            "through an alarm",
+            "an alarm",
+            "would be alerted and call me or drive over",
+            "be alerted and call me or drive over",
+            "be alerted ",
+            "call me or drive over",
+            "call me ",
+            "drive over"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT This))\n    (VP\n      (VBD allowed)\n      (S\n        (NP (PRP me))\n        (VP\n          (TO to)\n          (VP\n            (VB create)\n            (NP (DT a) (JJ remote) (NN monitoring) (NN system))\n            (SBAR\n              (RB so)\n              (IN that)\n              (S\n                (SBAR\n                  (IN if)\n                  (S\n                    (NP (PRP I))\n                    (ADVP (RB still))\n                    (VP\n                      (VBD slept)\n                      (PP (IN through) (NP (DT an) (NN alarm))))))\n                (, ,)\n                (NP (NNP Scott))\n                (VP\n                  (MD would)\n                  (VP\n                    (VP (VB be) (ADJP (JJ alerted)))\n                    (CC and)\n                    (VP\n                      (VP (VB call) (NP (PRP me)))\n                      (CC or)\n                      (VP (VB drive) (PRT (RP over))))))))))))\n    (. .)))"
+    },
+    "Scott and I also created an algorithm that forecasted when my blood sugar was likely to become low or too high, sending alerts to my phone or smartwatch.": {
+        "chunks": [
+            "Scott and I ",
+            "created an algorithm that forecasted when my blood sugar was likely to become low or too high, sending alerts to my phone or smartwatch",
+            "an algorithm that forecasted when my blood sugar was likely to become low or too high",
+            "an algorithm ",
+            "that forecasted when my blood sugar was likely to become low or too high",
+            "forecasted when my blood sugar was likely to become low or too high",
+            "forecasted when my blood sugar was likely to become low or too high",
+            "when my blood sugar was likely to become low or too high",
+            "my blood sugar was likely to become low or too high",
+            "my blood sugar ",
+            "was likely to become low or too high",
+            "to become low or too high",
+            "to become low or too high",
+            "become low or too high",
+            "sending alerts to my phone or smartwatch",
+            "sending alerts to my phone or smartwatch",
+            "to my phone or smartwatch",
+            "my phone or smartwatch"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NNP Scott) (CC and) (PRP I))\n    (ADVP (RB also))\n    (VP\n      (VBD created)\n      (NP\n        (NP (DT an) (NN algorithm))\n        (SBAR\n          (WHNP (WDT that))\n          (S\n            (VP\n              (VBD forecasted)\n              (SBAR\n                (WHADVP (WRB when))\n                (S\n                  (NP (PRP$ my) (NN blood) (NN sugar))\n                  (VP\n                    (VBD was)\n                    (ADJP\n                      (JJ likely)\n                      (S\n                        (VP\n                          (TO to)\n                          (VP\n                            (VB become)\n                            (ADJP\n                              (ADJP (JJ low))\n                              (CC or)\n                              (ADJP (RB too) (JJ high))))))))))))))\n      (, ,)\n      (S\n        (VP\n          (VBG sending)\n          (NP (NNS alerts))\n          (PP\n            (TO to)\n            (NP (PRP$ my) (NN phone) (CC or) (NN smartwatch))))))\n    (. .)))"
+    },
+    "I was happier and no longer feared going to sleep, but this was still an open loop system: it was up to me to take any needed action.": {
+        "chunks": [
+            "I was happier and no longer feared going to sleep, but this was still an open loop system",
+            "I was happier and no longer feared going to sleep",
+            "was happier and no longer feared going to sleep",
+            "was happier ",
+            "no longer feared going to sleep",
+            "no longer ",
+            "going to sleep",
+            "going to sleep",
+            "to sleep",
+            "to sleep",
+            "this was still an open loop system",
+            "was still an open loop system",
+            "an open loop system",
+            "it was up to me to take any needed action",
+            "was up to me to take any needed action",
+            "up to me ",
+            "to me ",
+            "to take any needed action",
+            "to take any needed action",
+            "take any needed action",
+            "any needed action"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (S\n        (NP (PRP I))\n        (VP\n          (VP (VBD was) (ADJP (JJR happier)))\n          (CC and)\n          (VP\n            (ADVP (RB no) (RB longer))\n            (VBD feared)\n            (S (VP (VBG going) (S (VP (TO to) (VP (VB sleep)))))))))\n      (, ,)\n      (CC but)\n      (S\n        (NP (DT this))\n        (VP\n          (VBD was)\n          (ADVP (RB still))\n          (NP (DT an) (JJ open) (NN loop) (NN system)))))\n    (: :)\n    (S\n      (NP (PRP it))\n      (VP\n        (VBD was)\n        (ADVP (RB up) (PP (TO to) (NP (PRP me))))\n        (S\n          (VP\n            (TO to)\n            (VP (VB take) (NP (DT any) (VBN needed) (NN action)))))))\n    (. .)))"
+    },
+    "A few months later, working with others in the open-source diabetes community, we realised that by adding a small computer and a radio stick to the pump and CGM, we could create a system that not only processed the data, but also sent commands directly to the pump.": {
+        "chunks": [
+            "A few months later",
+            "A few months ",
+            "working with others in the open-source diabetes community",
+            "working with others in the open-source diabetes community",
+            "with others in the open-source diabetes community",
+            "others in the open-source diabetes community",
+            "in the open-source diabetes community",
+            "the open-source diabetes community",
+            "realised that by adding a small computer and a radio stick to the pump and CGM, we could create a system that not only processed the data, but also sent commands directly to the pump",
+            "that by adding a small computer and a radio stick to the pump and CGM, we could create a system that not only processed the data, but also sent commands directly to the pump",
+            "by adding a small computer and a radio stick to the pump and CGM, we could create a system that not only processed the data, but also sent commands directly to the pump",
+            "by adding a small computer and a radio stick to the pump and CGM",
+            "adding a small computer and a radio stick to the pump and CGM",
+            "adding a small computer and a radio stick to the pump and CGM",
+            "a small computer and a radio stick to the pump and CGM",
+            "a small computer and a radio ",
+            "a small computer ",
+            "a radio ",
+            "stick to the pump and CGM",
+            "to the pump and CGM",
+            "the pump and CGM",
+            "the pump ",
+            "could create a system that not only processed the data, but also sent commands directly to the pump",
+            "create a system that not only processed the data, but also sent commands directly to the pump",
+            "a system that not only processed the data, but also sent commands directly to the pump",
+            "a system ",
+            "that not only processed the data, but also sent commands directly to the pump",
+            "not only processed the data, but also sent commands directly to the pump",
+            "not only processed the data, but also sent commands directly to the pump",
+            "not only ",
+            "processed the data",
+            "the data",
+            "also sent commands directly to the pump",
+            "to the pump ",
+            "the pump "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP (NP (DT A) (JJ few) (NNS months)) (RB later))\n    (, ,)\n    (S\n      (VP\n        (VBG working)\n        (PP\n          (IN with)\n          (NP\n            (NP (NNS others))\n            (PP\n              (IN in)\n              (NP\n                (DT the)\n                (JJ open-source)\n                (NN diabetes)\n                (NN community)))))))\n    (, ,)\n    (NP (PRP we))\n    (VP\n      (VBD realised)\n      (SBAR\n        (IN that)\n        (S\n          (PP\n            (IN by)\n            (S\n              (VP\n                (VBG adding)\n                (S\n                  (NP\n                    (NP (DT a) (JJ small) (NN computer))\n                    (CC and)\n                    (NP (DT a) (NN radio)))\n                  (VP\n                    (VB stick)\n                    (PP\n                      (TO to)\n                      (NP\n                        (NP (DT the) (NN pump))\n                        (CC and)\n                        (NP (NNP CGM)))))))))\n          (, ,)\n          (NP (PRP we))\n          (VP\n            (MD could)\n            (VP\n              (VB create)\n              (NP\n                (NP (DT a) (NN system))\n                (SBAR\n                  (WHNP (WDT that))\n                  (S\n                    (VP\n                      (CONJP (RB not) (JJ only))\n                      (VP (VBD processed) (NP (DT the) (NNS data)))\n                      (, ,)\n                      (CC but)\n                      (VP\n                        (ADVP (RB also))\n                        (VBD sent)\n                        (NP (NNS commands))\n                        (ADVP (RB directly))\n                        (PP (TO to) (NP (DT the) (NN pump)))))))))))))\n    (. .)))"
+    },
+    "That's how we created what is in effect an artificial pancreas, or a closed loop system.": {
+        "chunks": [
+            "we created what is in effect an artificial pancreas, or a closed loop system",
+            "created what is in effect an artificial pancreas, or a closed loop system",
+            "what is in effect an artificial pancreas, or a closed loop system",
+            "is in effect an artificial pancreas, or a closed loop system",
+            "is in effect an artificial pancreas, or a closed loop system",
+            "in effect an artificial pancreas, or a closed loop system",
+            "effect an artificial pancreas, or a closed loop system",
+            "effect an artificial pancreas",
+            "an artificial pancreas",
+            "a closed loop system"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT That))\n    (VP\n      (VBZ 's)\n      (SBAR\n        (WHADVP (WRB how))\n        (S\n          (NP (PRP we))\n          (VP\n            (VBD created)\n            (SBAR\n              (WHNP (WP what))\n              (S\n                (VP\n                  (VBZ is)\n                  (PP\n                    (IN in)\n                    (NP\n                      (NP\n                        (NP (NN effect))\n                        (NP (DT an) (JJ artificial) (NN pancreas)))\n                      (, ,)\n                      (CC or)\n                      (NP (DT a) (VBN closed) (NN loop) (NN system)))))))))))\n    (. .)))"
+    },
+    "The first day I woke up after closing the loop, I was blown away by how much better I felt.": {
+        "chunks": [
+            "The first day I woke up after closing the loop",
+            "The first day ",
+            "woke up after closing the loop",
+            "after closing the loop",
+            "closing the loop",
+            "closing the loop",
+            "the loop",
+            "was blown away by how much better I felt",
+            "blown away by how much better I felt",
+            "by how much better I felt",
+            "how much better I felt",
+            "how much better ",
+            "how much ",
+            "I felt"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (DT The) (JJ first) (NN day))\n      (NP (PRP I))\n      (VP\n        (VBD woke)\n        (PRT (RP up))\n        (PP\n          (IN after)\n          (S (VP (VBG closing) (NP (DT the) (NN loop)))))))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VBD was)\n      (VP\n        (VBN blown)\n        (PRT (RP away))\n        (PP\n          (IN by)\n          (SBAR\n            (WHNP (WHNP (WRB how) (RB much)) (ADJP (JJR better)))\n            (S (NP (PRP I)) (VP (VBD felt)))))))\n    (. .)))"
+    },
+    "I decided I was never going to leave home (Scott and I live in Seattle) without it.": {
+        "chunks": [
+            "Scott and I live in Seattle",
+            "Scott and I ",
+            "live in Seattle",
+            "in Seattle",
+            "without it"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD decided)\n      (SBAR\n        (S\n          (NP (PRP I))\n          (VP\n            (VBD was)\n            (ADVP (RB never))\n            (VP\n              (VBG going)\n              (S\n                (VP\n                  (TO to)\n                  (VP\n                    (VB leave)\n                    (ADVP (RB home))\n                    (PRN\n                      (-LRB- -LRB-)\n                      (S\n                        (NP (NNP Scott) (CC and) (PRP I))\n                        (VP\n                          (VBP live)\n                          (PP (IN in) (NP (NNP Seattle)))))\n                      (-RRB- -RRB-))\n                    (PP (IN without) (NP (PRP it)))))))))))\n    (. .)))"
+    },
+    "The equipment can fit in a bag or a pocket.": {
+        "chunks": [
+            "The equipment ",
+            "can fit in a bag or a pocket",
+            "fit in a bag or a pocket",
+            "in a bag or a pocket",
+            "a bag or a pocket",
+            "a bag ",
+            "a pocket"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT The) (NN equipment))\n    (VP\n      (MD can)\n      (VP\n        (VB fit)\n        (PP\n          (IN in)\n          (NP (NP (DT a) (NN bag)) (CC or) (NP (DT a) (NN pocket))))))\n    (. .)))"
+    },
+    "We designed it for safety: if something breaks or I lose it, I can go back to using my insulin pump manually.": {
+        "chunks": [
+            "We designed it for safety",
+            "designed it for safety",
+            "for safety",
+            "if something breaks or I lose it, I can go back to using my insulin pump manually",
+            "if something breaks or I lose it",
+            "something breaks or I lose it",
+            "something breaks or I ",
+            "something breaks ",
+            "lose it",
+            "can go back to using my insulin pump manually",
+            "go back to using my insulin pump manually",
+            "to using my insulin pump manually",
+            "using my insulin pump manually",
+            "using my insulin pump manually",
+            "my insulin pump "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP We))\n      (VP\n        (VBD designed)\n        (NP (PRP it))\n        (PP (IN for) (NP (NN safety)))))\n    (: :)\n    (S\n      (SBAR\n        (IN if)\n        (S\n          (NP (NP (NN something) (NNS breaks)) (CC or) (NP (PRP I)))\n          (VP (VBP lose) (NP (PRP it)))))\n      (, ,)\n      (NP (PRP I))\n      (VP\n        (MD can)\n        (VP\n          (VB go)\n          (PRT (RP back))\n          (PP\n            (TO to)\n            (S\n              (VP\n                (VBG using)\n                (NP (PRP$ my) (NN insulin) (NN pump))\n                (ADVP (RB manually))))))))\n    (. .)))"
+    },
+    "Endocrinologists have been interested in our developments, and for me, having a computer make adjustments while I sleep is far safer than trying groggily to make decisions overnight.": {
+        "chunks": [
+            "in our developments, and for me",
+            "in our developments",
+            "our developments",
+            "for me",
+            "having a computer make adjustments while I sleep is far safer than trying groggily to make decisions overnight",
+            "having a computer make adjustments while I sleep is far safer than trying groggily to make decisions overnight",
+            "a computer make adjustments while I sleep is far safer than trying groggily to make decisions overnight",
+            "a computer ",
+            "make adjustments while I sleep is far safer than trying groggily to make decisions overnight",
+            "while I sleep is far safer than trying groggily to make decisions overnight",
+            "I sleep is far safer than trying groggily to make decisions overnight",
+            "sleep is far safer than trying groggily to make decisions overnight",
+            "is far safer than trying groggily to make decisions overnight",
+            "is far safer than trying groggily to make decisions overnight",
+            "is far safer than trying groggily to make decisions overnight",
+            "than trying groggily to make decisions overnight",
+            "trying groggily to make decisions overnight",
+            "trying groggily to make decisions overnight",
+            "to make decisions overnight",
+            "to make decisions overnight",
+            "make decisions overnight"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NNS Endocrinologists))\n    (VP\n      (VBP have)\n      (VP\n        (VBN been)\n        (ADJP\n          (JJ interested)\n          (PP\n            (PP (IN in) (NP (PRP$ our) (NNS developments)))\n            (, ,)\n            (CC and)\n            (PP (IN for) (NP (PRP me)))))\n        (, ,)\n        (S\n          (VP\n            (VBG having)\n            (S\n              (NP (DT a) (NN computer))\n              (VP\n                (VB make)\n                (NP (NNS adjustments))\n                (SBAR\n                  (IN while)\n                  (S\n                    (NP (PRP I))\n                    (VP\n                      (VBP sleep)\n                      (SBAR\n                        (S\n                          (VP\n                            (VBZ is)\n                            (ADJP\n                              (ADJP (RB far) (JJR safer))\n                              (PP\n                                (IN than)\n                                (S\n                                  (VP\n                                    (VBG trying)\n                                    (ADVP (RB groggily))\n                                    (S\n                                      (VP\n                                        (TO to)\n                                        (VP\n                                          (VB make)\n                                          (NP (NNS decisions))\n                                          (ADVP (RB overnight)))))))))))))))))))))\n    (. .)))"
+    },
+    "The system also makes small adjustments every five minutes, rather than large adjustments infrequently, as humans do.": {
+        "chunks": [
+            "The system ",
+            "makes small adjustments every five minutes, rather than large adjustments infrequently, as humans do",
+            "small adjustments every five minutes, rather than large adjustments infrequently",
+            "small adjustments every five minutes, rather than large adjustments ",
+            "small adjustments every five minutes",
+            "small adjustments ",
+            "every five minutes",
+            "every five ",
+            "rather than ",
+            "large adjustments ",
+            "as humans do",
+            "humans do"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT The) (NN system))\n    (ADVP (RB also))\n    (VP\n      (VBZ makes)\n      (S\n        (NP\n          (NP\n            (NP (JJ small) (NNS adjustments))\n            (NP (QP (DT every) (CD five)) (NNS minutes)))\n          (, ,)\n          (CONJP (RB rather) (IN than))\n          (NP (JJ large) (NNS adjustments)))\n        (ADJP (JJ infrequently)))\n      (, ,)\n      (SBAR (IN as) (S (NP (NNS humans)) (VP (VBP do)))))\n    (. .)))"
+    },
+    "Having created something that changed and improved my own life, and having benefited from others' open-source work, I wanted to share our work so other people could use it.": {
+        "chunks": [
+            "Having created something that changed and improved my own life",
+            "Having created something that changed and improved my own life",
+            "created something that changed and improved my own life",
+            "something that changed and improved my own life",
+            "that changed and improved my own life",
+            "changed and improved my own life",
+            "changed and improved my own life",
+            "improved my own life",
+            "my own life",
+            "having benefited from others' open-source work, I wanted to share our work so other people could use it",
+            "having benefited from others' open-source work",
+            "having benefited from others' open-source work",
+            "benefited from others' open-source work",
+            "from others' open-source work",
+            "others' open-source work",
+            "others' ",
+            "wanted to share our work so other people could use it",
+            "to share our work so other people could use it",
+            "to share our work so other people could use it",
+            "share our work so other people could use it",
+            "our work ",
+            "so other people could use it",
+            "other people could use it",
+            "other people ",
+            "could use it",
+            "use it"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (VP\n        (VBG Having)\n        (VP\n          (VBN created)\n          (NP\n            (NP (NN something))\n            (SBAR\n              (WHNP (WDT that))\n              (S\n                (VP\n                  (VP (VBD changed))\n                  (CC and)\n                  (VP\n                    (VBD improved)\n                    (NP (PRP$ my) (JJ own) (NN life))))))))))\n    (, ,)\n    (CC and)\n    (S\n      (S\n        (VP\n          (VBG having)\n          (VP\n            (VBN benefited)\n            (PP\n              (IN from)\n              (NP\n                (NP (NNS others) (POS '))\n                (JJ open-source)\n                (NN work))))))\n      (, ,)\n      (NP (PRP I))\n      (VP\n        (VBD wanted)\n        (S\n          (VP\n            (TO to)\n            (VP\n              (VB share)\n              (NP (PRP$ our) (NN work))\n              (SBAR\n                (IN so)\n                (S\n                  (NP (JJ other) (NNS people))\n                  (VP (MD could) (VP (VB use) (NP (PRP it)))))))))))\n    (. .)))"
+    },
+    "This is why we created OpenAPS  the Open Artificial Pancreas System project: to make the code, design and documentation available to others for free, so they can build a pancreas of their own.": {
+        "chunks": [
+            "This is why we created OpenAPS  the Open Artificial Pancreas System project: to make the code, design and documentation available to others for free",
+            "is why we created OpenAPS  the Open Artificial Pancreas System project: to make the code, design and documentation available to others for free",
+            "why we created OpenAPS  the Open Artificial Pancreas System project: to make the code, design and documentation available to others for free",
+            "we created OpenAPS  the Open Artificial Pancreas System project: to make the code, design and documentation available to others for free",
+            "created OpenAPS  the Open Artificial Pancreas System project: to make the code, design and documentation available to others for free",
+            "OpenAPS  the Open Artificial Pancreas System project: to make the code, design and documentation available to others for free",
+            "OpenAPS  the Open Artificial Pancreas System project",
+            "the Open Artificial Pancreas System project",
+            "to make the code, design and documentation available to others for free",
+            "to make the code, design and documentation available to others for free",
+            "make the code, design and documentation available to others for free",
+            "the code, design and documentation available to others for free",
+            "the code, design and documentation ",
+            "to others for free",
+            "others for free",
+            "for free",
+            "they can build a pancreas of their own",
+            "can build a pancreas of their own",
+            "build a pancreas of their own",
+            "a pancreas of their own",
+            "a pancreas ",
+            "of their own",
+            "their own"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (DT This))\n      (VP\n        (VBZ is)\n        (SBAR\n          (WHADVP (WRB why))\n          (S\n            (NP (PRP we))\n            (VP\n              (VBD created)\n              (NP\n                (NP\n                  (NP (NNP OpenAPS))\n                  (NP\n                    (DT the)\n                    (NNP Open)\n                    (NNP Artificial)\n                    (NNPS Pancreas)\n                    (NNP System)\n                    (NN project)))\n                (: :)\n                (S\n                  (VP\n                    (TO to)\n                    (VP\n                      (VB make)\n                      (NP\n                        (NP\n                          (DT the)\n                          (NN code)\n                          (, ,)\n                          (NN design)\n                          (CC and)\n                          (NN documentation))\n                        (ADJP\n                          (JJ available)\n                          (PP\n                            (TO to)\n                            (NP\n                              (NP (NNS others))\n                              (PP (IN for) (ADJP (JJ free))))))))))))))))\n    (, ,)\n    (IN so)\n    (S\n      (NP (PRP they))\n      (VP\n        (MD can)\n        (VP\n          (VB build)\n          (NP\n            (NP (DT a) (NN pancreas))\n            (PP (IN of) (NP (PRP$ their) (JJ own)))))))\n    (. .)))"
+    },
+    "More than 725 people worldwide have now built various types of DIY closed-loop systems, and the growing community has continued to improve the code and the systems.": {
+        "chunks": [
+            "More than 725 people worldwide have now built various types of DIY closed-loop systems",
+            "More than 725 people ",
+            "More than 725 ",
+            "have now built various types of DIY closed-loop systems",
+            "built various types of DIY closed-loop systems",
+            "various types of DIY closed-loop systems",
+            "various types ",
+            "of DIY closed-loop systems",
+            "DIY closed-loop systems",
+            "the growing community has continued to improve the code and the systems",
+            "the growing community ",
+            "has continued to improve the code and the systems",
+            "continued to improve the code and the systems",
+            "to improve the code and the systems",
+            "to improve the code and the systems",
+            "improve the code and the systems",
+            "the code and the systems",
+            "the code ",
+            "the systems"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (QP (JJR More) (IN than) (CD 725)) (NNS people))\n      (ADVP (RB worldwide))\n      (VP\n        (VBP have)\n        (ADVP (RB now))\n        (VP\n          (VBN built)\n          (NP\n            (NP (JJ various) (NNS types))\n            (PP\n              (IN of)\n              (NP (NNP DIY) (NN closed-loop) (NNS systems)))))))\n    (, ,)\n    (CC and)\n    (S\n      (NP (DT the) (VBG growing) (NN community))\n      (VP\n        (VBZ has)\n        (VP\n          (VBN continued)\n          (S\n            (VP\n              (TO to)\n              (VP\n                (VB improve)\n                (NP\n                  (NP (DT the) (NN code))\n                  (CC and)\n                  (NP (DT the) (NNS systems)))))))))\n    (. .)))"
+    },
+    "Many of us have no medical or engineering training and we work on improvements in the evening or at the weekend, for free.": {
+        "chunks": [
+            "Many of us have no medical or engineering training ",
+            "Many of us ",
+            "of us ",
+            "have no medical or engineering training ",
+            "no medical or engineering training ",
+            "medical or engineering ",
+            "we work on improvements in the evening or at the weekend, for free",
+            "work on improvements in the evening or at the weekend, for free",
+            "on improvements in the evening or at the weekend",
+            "on improvements in the evening ",
+            "improvements in the evening ",
+            "in the evening ",
+            "the evening ",
+            "at the weekend",
+            "the weekend",
+            "for free"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (NP (JJ Many)) (PP (IN of) (NP (PRP us))))\n      (VP\n        (VBP have)\n        (NP\n          (DT no)\n          (UCP (JJ medical) (CC or) (NN engineering))\n          (NN training))))\n    (CC and)\n    (S\n      (NP (PRP we))\n      (VP\n        (VBP work)\n        (PP\n          (PP\n            (IN on)\n            (NP\n              (NP (NNS improvements))\n              (PP (IN in) (NP (DT the) (NN evening)))))\n          (CC or)\n          (PP (IN at) (NP (DT the) (NN weekend))))\n        (, ,)\n        (PP (IN for) (ADJP (JJ free)))))\n    (. .)))"
+    },
+    "Commercial devices similar to ours are now being trialled and gradually coming on to the market: we're happy to be helping companies to speed up development.": {
+        "chunks": [
+            "Commercial devices similar to ours are now being trialled and gradually coming on to the market",
+            "Commercial devices similar to ours ",
+            "Commercial devices ",
+            "to ours ",
+            "are now being trialled and gradually coming on to the market",
+            "being trialled and gradually coming on to the market",
+            "being trialled ",
+            "gradually coming on to the market",
+            "on to the market",
+            "to the market",
+            "the market",
+            "we're happy to be helping companies to speed up development",
+            "'re happy to be helping companies to speed up development",
+            "to be helping companies to speed up development",
+            "to be helping companies to speed up development",
+            "be helping companies to speed up development",
+            "helping companies to speed up development",
+            "to speed up development",
+            "to speed up development",
+            "speed up development"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP\n        (NP (JJ Commercial) (NNS devices))\n        (ADJP (JJ similar) (PP (TO to) (NP (PRP ours)))))\n      (VP\n        (VBP are)\n        (ADVP (RB now))\n        (VP\n          (VP (VBG being) (VP (VBN trialled)))\n          (CC and)\n          (VP\n            (ADVP (RB gradually))\n            (VBG coming)\n            (PP (IN on) (PP (TO to) (NP (DT the) (NN market))))))))\n    (: :)\n    (S\n      (NP (PRP we))\n      (VP\n        (VBP 're)\n        (ADJP\n          (JJ happy)\n          (S\n            (VP\n              (TO to)\n              (VP\n                (VB be)\n                (VP\n                  (VBG helping)\n                  (NP (NNS companies))\n                  (S\n                    (VP\n                      (TO to)\n                      (VP\n                        (VB speed)\n                        (PRT (RP up))\n                        (NP (NN development))))))))))))\n    (. .)))"
+    },
+    "The most important thing is that people don't have to wait.": {
+        "chunks": [
+            "The most important thing ",
+            "is that people don't have to wait",
+            "that people don't have to wait",
+            "people don't have to wait",
+            "don't have to wait",
+            "have to wait",
+            "to wait",
+            "to wait"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT The) (ADJP (RBS most) (JJ important)) (NN thing))\n    (VP\n      (VBZ is)\n      (SBAR\n        (IN that)\n        (S\n          (NP (NNS people))\n          (VP\n            (VBP do)\n            (RB n't)\n            (VP (VB have) (S (VP (TO to) (VP (VB wait)))))))))\n    (. .)))"
+    },
+    "The fact that others now have the freedom to make that choice is something I'm very proud of.": {
+        "chunks": [
+            "The fact that others now have the freedom to make that choice ",
+            "The fact ",
+            "that others now have the freedom to make that choice ",
+            "others now have the freedom to make that choice ",
+            "have the freedom to make that choice ",
+            "the freedom to make that choice ",
+            "to make that choice ",
+            "to make that choice ",
+            "make that choice ",
+            "that choice ",
+            "is something I'm very proud of",
+            "something I'm very proud of",
+            "I'm very proud of",
+            "I'm very proud of",
+            "'m very proud of"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NN fact))\n      (SBAR\n        (IN that)\n        (S\n          (NP (NNS others))\n          (ADVP (RB now))\n          (VP\n            (VBP have)\n            (NP\n              (DT the)\n              (NN freedom)\n              (S\n                (VP\n                  (TO to)\n                  (VP (VB make) (NP (DT that) (NN choice))))))))))\n    (VP\n      (VBZ is)\n      (NP\n        (NP (NN something))\n        (SBAR\n          (S\n            (NP (PRP I))\n            (VP (VBP 'm) (ADJP (RB very) (JJ proud) (PP (IN of))))))))\n    (. .)))"
+    },
+    "with type 1 diabetes ": {
+        "chunks": [
+            "with type 1 diabetes ",
+            "type 1 diabetes "
+        ],
+        "tree_string": "(ROOT (PP (IN with) (NP (NN type) (CD 1) (NN diabetes))))"
+    },
+    "type 1 diabetes ": {
+        "chunks": [
+            "type 1 diabetes ",
+            "1 diabetes "
+        ],
+        "tree_string": "(ROOT (NP (NP (NN type)) (NP (CD 1) (NN diabetes))))"
+    },
+    "when I was 14": {
+        "chunks": [
+            "I was 14",
+            "was 14"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHADVP (WRB when))\n    (S (NP (PRP I)) (VP (VBD was) (NP (CD 14))))))"
+    },
+    "means my pancreas no longer naturally produces insulin": {
+        "chunks": [
+            "means my pancreas no longer naturally ",
+            "my pancreas ",
+            "no longer ",
+            "produces insulin"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP\n      (VBZ means)\n      (NP (PRP$ my) (NN pancreas))\n      (ADVP (RB no) (RB longer))\n      (ADVP (RB naturally)))\n    (NP (CD produces) (NN insulin))))"
+    },
+    "my pancreas no longer naturally produces insulin": {
+        "chunks": [
+            "my pancreas ",
+            "no longer naturally produces insulin",
+            "no longer "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP (PRP$ my) (NN pancreas))\n    (VP\n      (ADVP (RB no) (RB longer))\n      (ADVP (RB naturally))\n      (VBZ produces)\n      (NP (NN insulin)))))"
+    },
+    "my blood glucose levels ": {
+        "chunks": [
+            "my blood glucose levels ",
+            "my blood ",
+            "glucose levels "
+        ],
+        "tree_string": "(ROOT (NP (NP (PRP$ my) (NN blood)) (NP (NN glucose) (NNS levels))))"
+    },
+    "will go dangerously high": {
+        "chunks": [
+            "go dangerously high"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP (MD will) (VP (VB go) (ADJP (RB dangerously) (JJ high))))))"
+    },
+    "The biggest impact ": {
+        "chunks": [
+            "The biggest impact ",
+            "The biggest impact "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT The) (JJS biggest) (NN impact))))"
+    },
+    "was on my sleep": {
+        "chunks": [
+            "was on ",
+            "my sleep"
+        ],
+        "tree_string": "(ROOT (SINV (VP (VBD was) (ADVP (RB on))) (NP (PRP$ my) (NN sleep))))"
+    },
+    "used to love lying in on weekends": {
+        "chunks": [
+            "to love lying in on weekends",
+            "to love lying in on weekends",
+            "love lying in on weekends",
+            "lying in on weekends",
+            "lying in on weekends",
+            "on weekends"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN used)\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB love)\n          (S\n            (VP\n              (VBG lying)\n              (PRT (RP in))\n              (PP (IN on) (NP (NNS weekends))))))))))"
+    },
+    "to love lying in on weekends": {
+        "chunks": [
+            "love lying in on weekends",
+            "lying in on weekends",
+            "lying in on weekends",
+            "on weekends"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB love)\n          (S\n            (VP\n              (VBG lying)\n              (PRT (RP in))\n              (PP (IN on) (NP (NNS weekends))))))))))"
+    },
+    "love lying in on weekends": {
+        "chunks": [
+            "lying in on weekends",
+            "lying in on weekends",
+            "on weekends"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB love)\n      (S\n        (VP\n          (VBG lying)\n          (PRT (RP in))\n          (PP (IN on) (NP (NNS weekends))))))))"
+    },
+    "lying in on weekends": {
+        "chunks": [
+            "on weekends"
+        ],
+        "tree_string": "(ROOT\n  (S (VP (VBG lying) (PRT (RP in)) (PP (IN on) (NP (NNS weekends))))))"
+    },
+    "After I was diagnosed in 2002": {
+        "chunks": [
+            "I was diagnosed in 2002",
+            "was diagnosed in 2002",
+            "diagnosed in 2002",
+            "in 2002"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN After)\n    (S\n      (NP (PRP I))\n      (VP (VBD was) (VP (VBN diagnosed) (PP (IN in) (NP (CD 2002))))))))"
+    },
+    "I was diagnosed in 2002": {
+        "chunks": [
+            "was diagnosed in 2002",
+            "diagnosed in 2002",
+            "in 2002"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP (VBD was) (VP (VBN diagnosed) (PP (IN in) (NP (CD 2002)))))))"
+    },
+    "was diagnosed in 2002": {
+        "chunks": [
+            "diagnosed in 2002",
+            "in 2002"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP (VBD was) (VP (VBN diagnosed) (PP (IN in) (NP (CD 2002)))))))"
+    },
+    "to set my alarm for 7am ": {
+        "chunks": [
+            "set my alarm for 7am ",
+            "my alarm ",
+            "for 7am ",
+            "7am "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB set)\n          (NP (PRP$ my) (NN alarm))\n          (PP (IN for) (NP (CD 7) (RB am))))))))"
+    },
+    "set my alarm for 7am ": {
+        "chunks": [
+            "my alarm ",
+            "for 7am ",
+            "7am "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB set)\n      (NP (PRP$ my) (NN alarm))\n      (PP (IN for) (NP (CD 7) (RB am))))))"
+    },
+    "take my insulin ": {
+        "chunks": [
+            "take my insulin ",
+            "take my insulin ",
+            "my insulin "
+        ],
+        "tree_string": "(ROOT (S (VP (VB take) (NP (PRP$ my) (NN insulin)))))"
+    },
+    "then continue testing my blood sugar ": {
+        "chunks": [
+            "then continue testing my blood sugar ",
+            "continue testing my blood sugar ",
+            "testing my blood sugar ",
+            "testing my blood sugar ",
+            "my blood sugar "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP (RB then))\n    (VP\n      (VB continue)\n      (S (VP (VBG testing) (NP (PRP$ my) (NN blood) (NN sugar)))))))"
+    },
+    "testing my blood sugar ": {
+        "chunks": [
+            "testing my blood sugar ",
+            "testing my blood sugar ",
+            "my blood sugar "
+        ],
+        "tree_string": "(ROOT (S (VP (VBG testing) (NP (PRP$ my) (NN blood) (NN sugar)))))"
+    },
+    "my blood sugar ": {
+        "chunks": [
+            "my blood sugar ",
+            "my blood sugar "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (PRP$ my) (NN blood) (NN sugar))))"
+    },
+    "inject myself several times a day": {
+        "chunks": [
+            "myself several times a day",
+            "several times a day",
+            "several times ",
+            "a day"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB inject)\n      (NP\n        (PRP myself)\n        (NP (NP (JJ several) (NNS times)) (NP (DT a) (NN day)))))))"
+    },
+    "several times a day": {
+        "chunks": [
+            "several times ",
+            "a day"
+        ],
+        "tree_string": "(ROOT (FRAG (NP (NP (JJ several) (NNS times)) (NP (DT a) (NN day)))))"
+    },
+    "later a continuous glucose monitor ": {
+        "chunks": [
+            "later a continuous glucose monitor ",
+            "later a continuous glucose monitor "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP (RB later) (DT a) (JJ continuous) (NN glucose) (NN monitor))))"
+    },
+    "The pump continuously infuses insulin into my body": {
+        "chunks": [
+            "The pump ",
+            "continuously infuses insulin into my body",
+            "continuously infuses insulin ",
+            "into my body",
+            "my body"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT The) (NN pump))\n    (NP\n      (NP (ADJP (RB continuously) (JJ infuses)) (NN insulin))\n      (PP (IN into) (NP (PRP$ my) (NN body))))))"
+    },
+    "infuses insulin into my body": {
+        "chunks": [
+            "insulin into my body",
+            "into my body",
+            "my body"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBZ infuses))\n    (NP (NP (NN insulin)) (PP (IN into) (NP (PRP$ my) (NN body))))))"
+    },
+    "the CGM sensor ": {
+        "chunks": [
+            "the CGM sensor "
+        ],
+        "tree_string": "(ROOT (NP (DT the) (NN CGM) (NN sensor)))"
+    },
+    "can report my blood sugar every five minutes": {
+        "chunks": [
+            "report my blood sugar every five minutes",
+            "my blood sugar ",
+            "every five minutes"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (MD can)\n      (VP\n        (VB report)\n        (NP (PRP$ my) (NN blood) (NN sugar))\n        (NP (DT every) (CD five) (NNS minutes))))))"
+    },
+    "report my blood sugar every five minutes": {
+        "chunks": [
+            "my blood sugar ",
+            "every five minutes"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB report)\n      (NP (PRP$ my) (NN blood) (NN sugar))\n      (NP (DT every) (CD five) (NNS minutes)))))"
+    },
+    "on the CGM's built-in alarm ": {
+        "chunks": [
+            "the CGM's built-in alarm ",
+            "the CGM's "
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN on)\n    (NP (NP (DT the) (NNP CGM) (POS 's)) (JJ built-in) (NN alarm))))"
+    },
+    "the CGM's built-in alarm ": {
+        "chunks": [
+            "the CGM's "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT the) (NNP CGM) (POS 's)) (NN built-in) (NN alarm)))"
+    },
+    "passed the threshold that required immediate action": {
+        "chunks": [
+            "passed the threshold ",
+            "the threshold ",
+            "that required immediate action"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD passed) (NP (DT the) (NN threshold)))\n    (NP (DT that) (JJ required) (JJ immediate) (NN action))))"
+    },
+    "the threshold that required immediate action": {
+        "chunks": [
+            "the threshold ",
+            "that required immediate action"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT the) (NN threshold))\n    (NP (DT that) (JJ required) (JJ immediate) (NN action))))"
+    },
+    "that required immediate action": {
+        "chunks": [
+            "required immediate action",
+            "required immediate action",
+            "immediate action"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHNP (WDT that))\n    (S (VP (VBD required) (NP (JJ immediate) (NN action))))))"
+    },
+    "though I tried several CGMs": {
+        "chunks": [
+            "I tried several CGMs",
+            "tried several CGMs",
+            "several CGMs"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN though)\n    (S (NP (PRP I)) (VP (VBD tried) (NP (JJ several) (NNS CGMs))))))"
+    },
+    "I tried several CGMs": {
+        "chunks": [
+            "tried several CGMs",
+            "several CGMs"
+        ],
+        "tree_string": "(ROOT (S (NP (PRP I)) (VP (VBD tried) (NP (JJ several) (NNS CGMs)))))"
+    },
+    "were never loud enough": {
+        "chunks": [
+            "were never loud "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD were) (ADVP (RB never)) (ADJP (JJ loud)))\n    (NP (RB enough))))"
+    },
+    "they couldn't be turned up or changed": {
+        "chunks": [
+            "couldn't be turned up ",
+            "be turned up ",
+            "turned up "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP they))\n    (VP\n      (VP\n        (MD could)\n        (RB n't)\n        (VP (VB be) (VP (VBN turned) (PRT (RP up)))))\n      (CC or)\n      (VP (VBD changed)))))"
+    },
+    "couldn't be turned up or changed": {
+        "chunks": [
+            "be turned up or changed",
+            "turned up or changed",
+            "turned up "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (MD could)\n      (RB n't)\n      (VP\n        (VB be)\n        (VP\n          (VP (VBN turned) (PRT (RP up)))\n          (CC or)\n          (VP (VBN changed)))))))"
+    },
+    "couldn't be turned up ": {
+        "chunks": [
+            "be turned up ",
+            "turned up "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (MD could)\n      (RB n't)\n      (VP (VB be) (VP (VBN turned) (PRT (RP up)))))))"
+    },
+    "be turned up ": {
+        "chunks": [
+            "be turned up ",
+            "be turned up ",
+            "turned up "
+        ],
+        "tree_string": "(ROOT (S (VP (VB be) (VP (VBN turned) (PRT (RP up))))))"
+    },
+    "I talked to manufacturers": {
+        "chunks": [
+            "talked to manufacturers",
+            "to manufacturers"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP (VBD talked) (PP (TO to) (NP (NNS manufacturers))))))"
+    },
+    "Once I went to college and lived alone": {
+        "chunks": [
+            "I went to college and lived alone",
+            "went to college and lived alone",
+            "went to college ",
+            "to college ",
+            "lived alone"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN Once)\n    (S\n      (NP (PRP I))\n      (VP\n        (VP (VBD went) (PP (TO to) (NP (NN college))))\n        (CC and)\n        (VP (VBD lived) (ADVP (RB alone)))))))"
+    },
+    "I went to college and lived alone": {
+        "chunks": [
+            "went to college and lived alone",
+            "went to college ",
+            "to college ",
+            "lived alone"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VP (VBD went) (PP (TO to) (NP (NN college))))\n      (CC and)\n      (VP (VBD lived) (ADVP (RB alone))))))"
+    },
+    "went to college and lived alone": {
+        "chunks": [
+            "went to college and lived ",
+            "went to college ",
+            "to college "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP\n      (VP (VBD went) (PP (TO to) (NP (NN college))))\n      (CC and)\n      (VP (VBD lived)))\n    (NP (RB alone))))"
+    },
+    "went to college ": {
+        "chunks": [
+            "went to college ",
+            "went to college ",
+            "to college "
+        ],
+        "tree_string": "(ROOT (FRAG (VP (VBD went) (PP (TO to) (NP (NN college))))))"
+    },
+    "became a bigger problem": {
+        "chunks": [
+            "a bigger problem"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD became))\n    (NP (DT a) (ADJP (JJR bigger)) (NN problem))))"
+    },
+    "of going to sleep at night": {
+        "chunks": [
+            "going to sleep at night",
+            "going to sleep at night",
+            "to sleep at night",
+            "to sleep at night",
+            "sleep at night",
+            "at night"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN of)\n    (S\n      (VP\n        (VBG going)\n        (S (VP (TO to) (VP (VB sleep) (PP (IN at) (NP (NN night))))))))))"
+    },
+    "going to sleep at night": {
+        "chunks": [
+            "to sleep at night",
+            "to sleep at night",
+            "sleep at night",
+            "at night"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG going)\n      (S (VP (TO to) (VP (VB sleep) (PP (IN at) (NP (NN night)))))))))"
+    },
+    "to sleep at night": {
+        "chunks": [
+            "sleep at night",
+            "at night"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S (VP (TO to) (VP (VB sleep) (PP (IN at) (NP (NN night))))))))"
+    },
+    "The alarms on my phone woke me, though": {
+        "chunks": [
+            "The alarms on my phone ",
+            "The alarms ",
+            "on my phone ",
+            "my phone ",
+            "woke me, though"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP\n      (NP (DT The) (NNS alarms))\n      (PP (IN on) (NP (PRP$ my) (NN phone))))\n    (VP (VBD woke) (NP (PRP me)) (, ,) (ADVP (RB though)))))"
+    },
+    "The alarms on my phone ": {
+        "chunks": [
+            "The alarms on my phone ",
+            "The alarms ",
+            "on my phone ",
+            "my phone "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT The) (NNS alarms))\n    (PP (IN on) (NP (PRP$ my) (NN phone)))))"
+    },
+    "on my phone ": {
+        "chunks": [
+            "on my phone ",
+            "my phone "
+        ],
+        "tree_string": "(ROOT (PP (IN on) (NP (PRP$ my) (NN phone))))"
+    },
+    "from my device ": {
+        "chunks": [
+            "from my device ",
+            "my device "
+        ],
+        "tree_string": "(ROOT (PP (IN from) (NP (PRP$ my) (NN device))))"
+    },
+    "could solve the problem myself": {
+        "chunks": [
+            "could solve the problem ",
+            "solve the problem ",
+            "the problem "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (MD could) (VP (VB solve) (NP (DT the) (NN problem))))\n    (NP (PRP myself))))"
+    },
+    "solve the problem myself": {
+        "chunks": [
+            "solve the problem ",
+            "the problem "
+        ],
+        "tree_string": "(ROOT\n  (SINV (VP (VB solve) (NP (DT the) (NN problem))) (NP (PRP myself))))"
+    },
+    "reverse-engineer the software on his young son's CGM": {
+        "chunks": [
+            "the software ",
+            "on his young son's CGM",
+            "his young son's CGM",
+            "his young son's "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (NN reverse-engineer))\n    (NP\n      (NP (DT the) (NN software))\n      (PP\n        (IN on)\n        (NP (NP (PRP$ his) (JJ young) (NN son) (POS 's)) (NNP CGM))))))"
+    },
+    "on his young son's CGM": {
+        "chunks": [
+            "his young son's "
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN on)\n    (NP (NP (PRP$ his) (JJ young) (NN son) (POS 's)) (NNP CGM))))"
+    },
+    "his young son's CGM": {
+        "chunks": [],
+        "tree_string": "(ROOT (NP (NP (PRP$ his) (JJ young) (NN son) (POS 's)) (NNP CGM)))"
+    },
+    "his young son's ": {
+        "chunks": [
+            "his young son"
+        ],
+        "tree_string": "(ROOT (S (NP (PRP$ his) (JJ young) (NN son)) (VP (VBZ 's))))"
+    },
+    "he could monitor his son's blood sugar remotely": {
+        "chunks": [
+            "monitor his son's blood sugar remotely",
+            "his son's blood sugar remotely",
+            "his son's "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP he))\n    (VP\n      (MD could)\n      (VP\n        (VB monitor)\n        (NP\n          (NP (PRP$ his) (NN son) (POS 's))\n          (NN blood)\n          (NN sugar)\n          (NN remotely))))))"
+    },
+    "could monitor his son's blood sugar remotely": {
+        "chunks": [
+            "could monitor his son's blood ",
+            "monitor his son's blood ",
+            "his son's blood ",
+            "his son's ",
+            "sugar remotely"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP\n      (MD could)\n      (VP\n        (VB monitor)\n        (NP (NP (PRP$ his) (NN son) (POS 's)) (NN blood))))\n    (NP (NN sugar) (NNS remotely))))"
+    },
+    "monitor his son's blood sugar remotely": {
+        "chunks": [
+            "his son's "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB monitor)\n      (NP\n        (NP (PRP$ his) (NN son) (POS 's))\n        (NN blood)\n        (NN sugar)\n        (NN remotely)))))"
+    },
+    "his son's blood sugar remotely": {
+        "chunks": [
+            "his son's "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NP (PRP$ his) (NN son) (POS 's)) (NN blood) (NN sugar))\n    (VP (VBZ remotely))))"
+    },
+    "with me, which was a big breakthrough": {
+        "chunks": [
+            "which was a big breakthrough",
+            "was a big breakthrough",
+            "was a big breakthrough",
+            "a big breakthrough"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN with)\n    (NP\n      (NP (PRP me))\n      (, ,)\n      (SBAR\n        (WHNP (WDT which))\n        (S (VP (VBD was) (NP (DT a) (JJ big) (NN breakthrough))))))))"
+    },
+    "me, which was a big breakthrough": {
+        "chunks": [
+            "which was a big breakthrough",
+            "was a big breakthrough",
+            "was a big breakthrough",
+            "a big breakthrough"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP\n      (NP (PRP me))\n      (, ,)\n      (SBAR\n        (WHNP (WDT which))\n        (S (VP (VBD was) (NP (DT a) (JJ big) (NN breakthrough))))))))"
+    },
+    "which was a big breakthrough": {
+        "chunks": [
+            "was a big breakthrough",
+            "was a big breakthrough",
+            "a big breakthrough"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHNP (WDT which))\n    (S (VP (VBD was) (NP (DT a) (JJ big) (NN breakthrough))))))"
+    },
+    "was a big breakthrough": {
+        "chunks": [
+            "a big breakthrough"
+        ],
+        "tree_string": "(ROOT (SINV (VP (VBD was)) (NP (DT a) (JJ big) (NN breakthrough))))"
+    },
+    "help from my then boyfriend ": {
+        "chunks": [
+            "help from my then boyfriend ",
+            "help from my then boyfriend ",
+            "from my then boyfriend ",
+            "my then boyfriend "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB help)\n      (PP (IN from) (NP (PRP$ my) (JJ then) (NN boyfriend))))))"
+    },
+    "from my then boyfriend ": {
+        "chunks": [
+            "from my then boyfriend ",
+            "my then boyfriend "
+        ],
+        "tree_string": "(ROOT (PP (IN from) (NP (PRP$ my) (JJ then) (NN boyfriend))))"
+    },
+    "my then boyfriend ": {
+        "chunks": [
+            "my then boyfriend ",
+            "my then boyfriend "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (PRP$ my) (JJ then) (NN boyfriend))))"
+    },
+    "who is a computer networking engineer": {
+        "chunks": [
+            "is a computer networking engineer",
+            "a computer networking engineer"
+        ],
+        "tree_string": "(ROOT\n  (SBARQ\n    (WHNP (WP who))\n    (SQ\n      (VBZ is)\n      (NP (DT a) (NN computer) (NN networking) (NN engineer)))))"
+    },
+    "is a computer networking engineer": {
+        "chunks": [
+            "a computer networking engineer"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VBZ is)\n    (NP (DT a) (NN computer) (NN networking) (NNS engineer))))"
+    },
+    "a computer networking engineer": {
+        "chunks": [
+            "a computer ",
+            "networking engineer"
+        ],
+        "tree_string": "(ROOT\n  (NP (NP (DT a) (NN computer)) (NP (NN networking) (NN engineer))))"
+    },
+    "to my phone via a laptop": {
+        "chunks": [
+            "my phone via a laptop",
+            "my phone ",
+            "via a laptop",
+            "a laptop"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (TO to)\n    (NP\n      (NP (PRP$ my) (NN phone))\n      (PP (IN via) (NP (DT a) (NN laptop))))))"
+    },
+    "my phone via a laptop": {
+        "chunks": [
+            "my phone ",
+            "via a laptop",
+            "a laptop"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (PRP$ my) (NN phone))\n    (PP (IN via) (NP (DT a) (NN laptop)))))"
+    },
+    "My own background ": {
+        "chunks": [
+            "My own background ",
+            "My own background "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (PRP$ My) (JJ own) (NN background))))"
+    },
+    "is in communications and public relations": {
+        "chunks": [
+            "in communications and public relations",
+            "communications and public relations",
+            "communications and public "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (VBZ is)\n      (PP\n        (IN in)\n        (NP\n          (UCP (NNS communications) (CC and) (JJ public))\n          (NNS relations))))))"
+    },
+    "in communications and public relations": {
+        "chunks": [
+            "communications and public relations",
+            "public relations"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN in)\n    (NP\n      (NP (NNS communications))\n      (CC and)\n      (NP (JJ public) (NNS relations)))))"
+    },
+    "communications and public relations": {
+        "chunks": [
+            "public relations"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (NNS communications))\n    (CC and)\n    (NP (JJ public) (NNS relations))))"
+    },
+    "communications and public ": {
+        "chunks": [
+            "communications and public "
+        ],
+        "tree_string": "(ROOT (UCP (NNS communications) (CC and) (JJ public)))"
+    },
+    "were too low or too high": {
+        "chunks": [],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (VBD were)\n      (ADJP\n        (ADJP (RB too) (JJ low))\n        (CC or)\n        (ADJP (RB too) (JJ high))))))"
+    },
+    "a snooze button ": {
+        "chunks": [
+            "a snooze button "
+        ],
+        "tree_string": "(ROOT (NP (DT a) (NN snooze) (NN button)))"
+    },
+    "to press after taking action": {
+        "chunks": [
+            "press after taking action",
+            "after taking action",
+            "taking action",
+            "taking action"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB press)\n          (PP (IN after) (S (VP (VBG taking) (NP (NN action))))))))))"
+    },
+    "press after taking action": {
+        "chunks": [
+            "after taking action",
+            "taking action",
+            "taking action"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB press)\n      (PP (IN after) (S (VP (VBG taking) (NP (NN action))))))))"
+    },
+    "a remote monitoring system ": {
+        "chunks": [
+            "a remote monitoring system ",
+            "a remote monitoring "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT a) (JJ remote) (NN monitoring)) (NP (NN system))))"
+    },
+    "if I still slept through an alarm": {
+        "chunks": [
+            "I still slept through an alarm",
+            "slept through an alarm",
+            "through an alarm",
+            "an alarm"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN if)\n    (S\n      (NP (PRP I))\n      (ADVP (RB still))\n      (VP (VBD slept) (PP (IN through) (NP (DT an) (NN alarm)))))))"
+    },
+    "I still slept through an alarm": {
+        "chunks": [
+            "still slept through an alarm",
+            "through an alarm",
+            "an alarm"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (ADVP (RB still))\n      (VBD slept)\n      (PP (IN through) (NP (DT an) (NN alarm))))))"
+    },
+    "slept through an alarm": {
+        "chunks": [
+            "slept through ",
+            "an alarm"
+        ],
+        "tree_string": "(ROOT\n  (SINV (VP (VBD slept) (PRT (RP through))) (NP (DT an) (NN alarm))))"
+    },
+    "be alerted and call me or drive over": {
+        "chunks": [
+            "be alerted ",
+            "call me ",
+            "drive over"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VP (VB be) (ADJP (JJ alerted)))\n      (CC and)\n      (VP (VB call) (NP (PRP me)))\n      (CC or)\n      (VP (VB drive) (PRT (RP over))))))"
+    },
+    "call me or drive over": {
+        "chunks": [
+            "call me ",
+            "drive over"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VP (VB call) (NP (PRP me)))\n      (CC or)\n      (VP (VB drive) (PRT (RP over))))))"
+    },
+    "Scott and I ": {
+        "chunks": [
+            "Scott and I "
+        ],
+        "tree_string": "(ROOT (NP (NP (NNP Scott)) (CC and) (NP (PRP I))))"
+    },
+    "was likely to become low or too high": {
+        "chunks": [
+            "to become low or too high",
+            "to become low or too high",
+            "become low or too high"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (VBD was)\n      (ADJP\n        (JJ likely)\n        (S\n          (VP\n            (TO to)\n            (VP\n              (VB become)\n              (ADJP\n                (ADJP (JJ low))\n                (CC or)\n                (ADJP (RB too) (JJ high))))))))))"
+    },
+    "to become low or too high": {
+        "chunks": [
+            "to become low ",
+            "to become low ",
+            "become low ",
+            "too high"
+        ],
+        "tree_string": "(ROOT\n  (UCP\n    (S (VP (TO to) (VP (VB become) (ADJP (JJ low)))))\n    (CC or)\n    (ADVP (RB too) (JJ high))))"
+    },
+    "become low or too high": {
+        "chunks": [
+            "become low "
+        ],
+        "tree_string": "(ROOT\n  (UCP\n    (VP (VBN become) (S (ADJP (JJ low))))\n    (CC or)\n    (ADJP (RB too) (JJ high))))"
+    },
+    "sending alerts to my phone or smartwatch": {
+        "chunks": [
+            "to my phone or smartwatch",
+            "my phone or smartwatch"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG sending)\n      (NP (NNS alerts))\n      (PP (TO to) (NP (PRP$ my) (NN phone) (CC or) (NN smartwatch))))))"
+    },
+    "to my phone or smartwatch": {
+        "chunks": [
+            "my phone or smartwatch"
+        ],
+        "tree_string": "(ROOT (PP (TO to) (NP (PRP$ my) (NN phone) (CC or) (NN smartwatch))))"
+    },
+    "my phone or smartwatch": {
+        "chunks": [
+            "my phone "
+        ],
+        "tree_string": "(ROOT (NP (NP (PRP$ my) (NN phone)) (CC or) (NP (NN smartwatch))))"
+    },
+    "no longer feared going to sleep": {
+        "chunks": [
+            "no longer ",
+            "going to sleep",
+            "going to sleep",
+            "to sleep",
+            "to sleep"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (ADVP (RB no) (RB longer))\n    (VBN feared)\n    (S (VP (VBG going) (S (VP (TO to) (VP (VB sleep))))))))"
+    },
+    "this was still an open loop system": {
+        "chunks": [
+            "was still an open loop system",
+            "an open loop system"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT this))\n    (VP\n      (VBD was)\n      (ADVP (RB still))\n      (NP (DT an) (JJ open) (NN loop) (NN system)))))"
+    },
+    "was still an open loop system": {
+        "chunks": [
+            "was still ",
+            "an open loop system"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD was) (ADVP (RB still)))\n    (NP (DT an) (JJ open) (NN loop) (NN system))))"
+    },
+    "an open loop system": {
+        "chunks": [
+            "an open loop "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT an) (JJ open) (NN loop)) (NP (NN system))))"
+    },
+    "up to me ": {
+        "chunks": [
+            "up to me ",
+            "to me "
+        ],
+        "tree_string": "(ROOT (ADVP (RB up) (PP (TO to) (NP (PRP me)))))"
+    },
+    "to take any needed action": {
+        "chunks": [
+            "take any needed action",
+            "any needed action"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP (VB take) (NP (DT any) (VBN needed) (NN action)))))))"
+    },
+    "take any needed action": {
+        "chunks": [
+            "any needed action"
+        ],
+        "tree_string": "(ROOT (S (VP (VB take) (NP (DT any) (VBN needed) (NN action)))))"
+    },
+    "A few months later": {
+        "chunks": [
+            "A few months "
+        ],
+        "tree_string": "(ROOT (ADVP (NP (DT A) (JJ few) (NNS months)) (RB later)))"
+    },
+    "A few months ": {
+        "chunks": [
+            "A few months ",
+            "A few months "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT A) (JJ few) (NNS months))))"
+    },
+    "working with others in the open-source diabetes community": {
+        "chunks": [
+            "with others in the open-source diabetes community",
+            "others in the open-source diabetes community",
+            "in the open-source diabetes community",
+            "the open-source diabetes community"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG working)\n      (PP\n        (IN with)\n        (NP\n          (NP (NNS others))\n          (PP\n            (IN in)\n            (NP\n              (DT the)\n              (JJ open-source)\n              (NN diabetes)\n              (NN community))))))))"
+    },
+    "with others in the open-source diabetes community": {
+        "chunks": [
+            "others in the open-source diabetes community",
+            "in the open-source diabetes community",
+            "the open-source diabetes community"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN with)\n    (NP\n      (NP (NNS others))\n      (PP\n        (IN in)\n        (NP (DT the) (JJ open-source) (NN diabetes) (NN community))))))"
+    },
+    "others in the open-source diabetes community": {
+        "chunks": [
+            "in the open-source diabetes community",
+            "the open-source diabetes community"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (NNS others))\n    (PP\n      (IN in)\n      (NP (DT the) (JJ open-source) (NN diabetes) (NN community)))))"
+    },
+    "in the open-source diabetes community": {
+        "chunks": [
+            "the open-source diabetes community"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN in)\n    (NP (DT the) (JJ open-source) (NN diabetes) (NN community))))"
+    },
+    "the open-source diabetes community": {
+        "chunks": [
+            "the open-source diabetes "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT the) (JJ open-source) (NN diabetes))\n    (NP (NN community))))"
+    },
+    "a small computer and a radio ": {
+        "chunks": [
+            "a small computer and a radio ",
+            "a small computer ",
+            "a radio "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT a) (JJ small) (NN computer))\n    (CC and)\n    (NP (DT a) (NN radio))))"
+    },
+    "a small computer ": {
+        "chunks": [
+            "a small computer ",
+            "a small computer "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT a) (JJ small) (NN computer))))"
+    },
+    "stick to the pump and CGM": {
+        "chunks": [
+            "to the pump and CGM",
+            "the pump and CGM",
+            "the pump "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB stick)\n      (PP\n        (TO to)\n        (NP (NP (DT the) (NN pump)) (CC and) (NP (NNP CGM)))))))"
+    },
+    "to the pump and CGM": {
+        "chunks": [
+            "the pump and CGM",
+            "the pump "
+        ],
+        "tree_string": "(ROOT\n  (PP (TO to) (NP (NP (DT the) (NN pump)) (CC and) (NP (NNP CGM)))))"
+    },
+    "the pump and CGM": {
+        "chunks": [
+            "the pump "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT the) (NN pump)) (CC and) (NP (NNP CGM))))"
+    },
+    "also sent commands directly to the pump": {
+        "chunks": [
+            "commands directly to the pump",
+            "to the pump",
+            "the pump"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (ADVP (RB also))\n    (VP (VBD sent))\n    (NP\n      (NP (NNS commands))\n      (ADJP (RB directly) (PP (TO to) (NP (DT the) (NN pump)))))))"
+    },
+    "to the pump ": {
+        "chunks": [
+            "to the pump ",
+            "the pump "
+        ],
+        "tree_string": "(ROOT (PP (TO to) (NP (DT the) (NN pump))))"
+    },
+    "effect an artificial pancreas": {
+        "chunks": [
+            "an artificial pancreas"
+        ],
+        "tree_string": "(ROOT\n  (S (VP (VB effect) (NP (DT an) (JJ artificial) (NN pancreas)))))"
+    },
+    "a closed loop system": {
+        "chunks": [
+            "closed loop system",
+            "loop system"
+        ],
+        "tree_string": "(ROOT\n  (FRAG (X (SYM a)) (VP (VBD closed) (NP (NN loop) (NN system)))))"
+    },
+    "The first day ": {
+        "chunks": [
+            "The first day ",
+            "The first day "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT The) (JJ first) (NN day))))"
+    },
+    "woke up after closing the loop": {
+        "chunks": [
+            "woke up after closing ",
+            "after closing ",
+            "the loop"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD woke) (PRT (RP up)) (PP (IN after) (NP (NN closing))))\n    (NP (DT the) (NN loop))))"
+    },
+    "after closing the loop": {
+        "chunks": [
+            "closing the loop",
+            "closing the loop",
+            "the loop"
+        ],
+        "tree_string": "(ROOT (PP (IN after) (S (VP (VBG closing) (NP (DT the) (NN loop))))))"
+    },
+    "blown away by how much better I felt": {
+        "chunks": [
+            "by how much better I felt",
+            "how much better I felt",
+            "how much better ",
+            "how much ",
+            "I felt"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN blown)\n    (PRT (RP away))\n    (PP\n      (IN by)\n      (SBAR\n        (WHNP (WHNP (WRB how) (RB much)) (ADJP (JJR better)))\n        (S (NP (PRP I)) (VP (VBD felt)))))))"
+    },
+    "by how much better I felt": {
+        "chunks": [
+            "how much better I felt",
+            "how much better ",
+            "how much ",
+            "I felt"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN by)\n    (SBAR\n      (WHNP (WHNP (WRB how) (RB much)) (ADJP (JJR better)))\n      (S (NP (PRP I)) (VP (VBD felt))))))"
+    },
+    "how much better I felt": {
+        "chunks": [
+            "how much better ",
+            "how much ",
+            "I felt"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHNP (WHNP (WRB how) (RB much)) (ADJP (JJR better)))\n    (S (NP (PRP I)) (VP (VBD felt)))))"
+    },
+    "how much better ": {
+        "chunks": [
+            "how much better "
+        ],
+        "tree_string": "(ROOT (FRAG (WHADVP (WRB how) (RB much)) (ADJP (JJR better))))"
+    },
+    "Scott and I live in Seattle": {
+        "chunks": [
+            "Scott and I ",
+            "live in Seattle",
+            "in Seattle"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NNP Scott) (CC and) (PRP I))\n    (VP (VBP live) (PP (IN in) (NP (NNP Seattle))))))"
+    },
+    "can fit in a bag or a pocket": {
+        "chunks": [
+            "fit in a bag or a pocket",
+            "in a bag or a pocket",
+            "a bag or a pocket",
+            "a bag ",
+            "a pocket"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (MD can)\n      (VP\n        (VB fit)\n        (PP\n          (IN in)\n          (NP (NP (DT a) (NN bag)) (CC or) (NP (DT a) (NN pocket))))))))"
+    },
+    "fit in a bag or a pocket": {
+        "chunks": [
+            "in a bag or a pocket",
+            "a bag or a pocket",
+            "a bag ",
+            "a pocket"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB fit)\n      (PP\n        (IN in)\n        (NP (NP (DT a) (NN bag)) (CC or) (NP (DT a) (NN pocket)))))))"
+    },
+    "in a bag or a pocket": {
+        "chunks": [
+            "a bag or a pocket",
+            "a bag ",
+            "a pocket"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN in)\n    (NP (NP (DT a) (NN bag)) (CC or) (NP (DT a) (NN pocket)))))"
+    },
+    "a bag or a pocket": {
+        "chunks": [
+            "a bag ",
+            "a pocket"
+        ],
+        "tree_string": "(ROOT (NP (NP (DT a) (NN bag)) (CC or) (NP (DT a) (NN pocket))))"
+    },
+    "We designed it for safety": {
+        "chunks": [
+            "designed it for safety",
+            "for safety"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP We))\n    (VP (VBD designed) (NP (PRP it)) (PP (IN for) (NP (NN safety))))))"
+    },
+    "designed it for safety": {
+        "chunks": [
+            "for safety"
+        ],
+        "tree_string": "(ROOT\n  (VP (VBN designed) (NP (PRP it)) (PP (IN for) (NP (NN safety)))))"
+    },
+    "if something breaks or I lose it": {
+        "chunks": [
+            "something breaks or I lose it",
+            "something breaks or I ",
+            "something breaks ",
+            "lose it"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN if)\n    (S\n      (NP (NP (NN something) (NNS breaks)) (CC or) (NP (PRP I)))\n      (VP (VBP lose) (NP (PRP it))))))"
+    },
+    "something breaks or I lose it": {
+        "chunks": [
+            "something breaks or I ",
+            "something breaks ",
+            "lose it"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NP (NN something) (NNS breaks)) (CC or) (NP (PRP I)))\n    (VP (VBP lose) (NP (PRP it)))))"
+    },
+    "something breaks or I ": {
+        "chunks": [
+            "something breaks or I ",
+            "something breaks "
+        ],
+        "tree_string": "(ROOT (NP (NP (NN something) (NNS breaks)) (CC or) (NP (PRP I))))"
+    },
+    "go back to using my insulin pump manually": {
+        "chunks": [
+            "to using my insulin pump manually",
+            "using my insulin pump manually",
+            "using my insulin pump manually",
+            "my insulin pump "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB go)\n      (ADVP (RB back))\n      (PP\n        (TO to)\n        (S\n          (VP\n            (VBG using)\n            (NP (PRP$ my) (NN insulin) (NN pump))\n            (ADVP (RB manually))))))))"
+    },
+    "to using my insulin pump manually": {
+        "chunks": [
+            "using my insulin pump manually",
+            "using my insulin pump manually",
+            "my insulin pump "
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN to)\n    (S\n      (VP\n        (VBG using)\n        (NP (PRP$ my) (NN insulin) (NN pump))\n        (ADVP (RB manually))))))"
+    },
+    "using my insulin pump manually": {
+        "chunks": [
+            "my insulin pump "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG using)\n      (NP (PRP$ my) (NN insulin) (NN pump))\n      (ADVP (RB manually)))))"
+    },
+    "my insulin pump ": {
+        "chunks": [
+            "my insulin pump ",
+            "my insulin "
+        ],
+        "tree_string": "(ROOT (S (NP (PRP$ my) (NN insulin)) (VP (VBP pump))))"
+    },
+    "in our developments, and for me": {
+        "chunks": [
+            "in our developments",
+            "our developments",
+            "and for me",
+            "for me"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP (IN in) (NP (PRP$ our) (NNS developments)))\n    (, ,)\n    (VP (VB and) (PP (IN for) (NP (PRP me))))))"
+    },
+    "than trying groggily to make decisions overnight": {
+        "chunks": [
+            "trying groggily to make decisions overnight",
+            "trying groggily to make decisions overnight",
+            "to make decisions overnight",
+            "to make decisions overnight",
+            "make decisions overnight"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN than)\n    (S\n      (VP\n        (VBG trying)\n        (ADVP (RB groggily))\n        (S\n          (VP\n            (TO to)\n            (VP (VB make) (NP (NNS decisions)) (ADVP (RB overnight)))))))))"
+    },
+    "trying groggily to make decisions overnight": {
+        "chunks": [
+            "to make decisions overnight",
+            "to make decisions overnight",
+            "make decisions overnight"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG trying)\n      (ADVP (RB groggily))\n      (S\n        (VP\n          (TO to)\n          (VP (VB make) (NP (NNS decisions)) (ADVP (RB overnight))))))))"
+    },
+    "to make decisions overnight": {
+        "chunks": [
+            "make decisions overnight"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP (VB make) (NP (NNS decisions)) (ADVP (RB overnight)))))))"
+    },
+    "small adjustments every five minutes": {
+        "chunks": [
+            "small adjustments ",
+            "every five minutes"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (JJ small) (NNS adjustments))\n    (NP (DT every) (CD five) (NNS minutes))))"
+    },
+    "something that changed and improved my own life": {
+        "chunks": [
+            "that changed and improved my own life",
+            "changed and improved my own life",
+            "changed and improved my own life",
+            "improved my own life",
+            "my own life"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP (NN something))\n    (SBAR\n      (WHNP (WDT that))\n      (S\n        (VP\n          (VP (VBD changed))\n          (CC and)\n          (VP (VBD improved) (NP (PRP$ my) (JJ own) (NN life))))))))"
+    },
+    "that changed and improved my own life": {
+        "chunks": [
+            "changed and improved my own life",
+            "changed and improved my own life",
+            "improved my own life",
+            "my own life"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHNP (WDT that))\n    (S\n      (VP\n        (VP (VBD changed))\n        (CC and)\n        (VP (VBD improved) (NP (PRP$ my) (JJ own) (NN life)))))))"
+    },
+    "changed and improved my own life": {
+        "chunks": [
+            "improved my own life",
+            "my own life"
+        ],
+        "tree_string": "(ROOT\n  (UCP\n    (ADJP (JJ changed))\n    (CC and)\n    (VP (VBN improved) (NP (PRP$ my) (JJ own) (NN life)))))"
+    },
+    "improved my own life": {
+        "chunks": [
+            "my own life"
+        ],
+        "tree_string": "(ROOT (SINV (VP (VBD improved)) (NP (PRP$ my) (JJ own) (NN life))))"
+    },
+    "having benefited from others' open-source work": {
+        "chunks": [
+            "from others' open-source work",
+            "others' open-source work",
+            "others' "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG having)\n      (VP\n        (VBN benefited)\n        (PP\n          (IN from)\n          (NP (NP (NNS others) (POS ')) (JJ open-source) (NN work)))))))"
+    },
+    "benefited from others' open-source work": {
+        "chunks": [
+            "others' open-source work",
+            "others' "
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN benefited)\n    (PP\n      (IN from)\n      (NP (NP (NNS others) (POS ')) (JJ open-source) (NN work)))))"
+    },
+    "from others' open-source work": {
+        "chunks": [
+            "others' "
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN from)\n    (NP (NP (NNS others) (POS ')) (JJ open-source) (NN work))))"
+    },
+    "so other people could use it": {
+        "chunks": [
+            "other people could use it",
+            "other people ",
+            "could use it",
+            "use it"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN so)\n    (S\n      (NP (JJ other) (NNS people))\n      (VP (MD could) (VP (VB use) (NP (PRP it)))))))"
+    },
+    "other people could use it": {
+        "chunks": [
+            "other people ",
+            "could use it",
+            "use it"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (JJ other) (NNS people))\n    (VP (MD could) (VP (VB use) (NP (PRP it))))))"
+    },
+    "OpenAPS  the Open Artificial Pancreas System project": {
+        "chunks": [
+            "OpenAPS  the Open Artificial Pancreas System project",
+            "OpenAPS  the Open Artificial Pancreas System project",
+            "the Open Artificial Pancreas System project"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB OpenAPS)\n      (NP\n        (DT the)\n        (NNP Open)\n        (NNP Artificial)\n        (NNPS Pancreas)\n        (NNP System)\n        (NN project)))))"
+    },
+    "the Open Artificial Pancreas System project": {
+        "chunks": [
+            "the Open Artificial Pancreas System "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP\n      (DT the)\n      (NNP Open)\n      (NNP Artificial)\n      (NNP Pancreas)\n      (NNP System))\n    (VP (VBP project))))"
+    },
+    "the code, design and documentation ": {
+        "chunks": [
+            "the code",
+            "design and documentation "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT the) (NN code))\n    (, ,)\n    (NP (NN design) (CC and) (NN documentation))))"
+    },
+    "to others for free": {
+        "chunks": [
+            "others for free",
+            "for free"
+        ],
+        "tree_string": "(ROOT\n  (PP (TO to) (NP (NP (NNS others)) (PP (IN for) (ADJP (JJ free))))))"
+    },
+    "they can build a pancreas of their own": {
+        "chunks": [
+            "can build a pancreas of their own",
+            "build a pancreas of their own",
+            "a pancreas of their own",
+            "a pancreas ",
+            "of their own",
+            "their own"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP they))\n    (VP\n      (MD can)\n      (VP\n        (VB build)\n        (NP\n          (NP (DT a) (NN pancreas))\n          (PP (IN of) (NP (PRP$ their) (JJ own))))))))"
+    },
+    "can build a pancreas of their own": {
+        "chunks": [
+            "can build ",
+            "a pancreas of their own",
+            "a pancreas ",
+            "of their own",
+            "their own"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (MD can) (VP (VB build)))\n    (NP\n      (NP (DT a) (NN pancreas))\n      (PP (IN of) (NP (PRP$ their) (JJ own))))))"
+    },
+    "build a pancreas of their own": {
+        "chunks": [
+            "a pancreas of their own",
+            "a pancreas ",
+            "of their own",
+            "their own"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB build)\n      (NP\n        (NP (DT a) (NN pancreas))\n        (PP (IN of) (NP (PRP$ their) (JJ own)))))))"
+    },
+    "a pancreas of their own": {
+        "chunks": [
+            "a pancreas ",
+            "of their own",
+            "their own"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT a) (NN pancreas))\n    (PP (IN of) (NP (PRP$ their) (JJ own)))))"
+    },
+    "More than 725 people ": {
+        "chunks": [
+            "More than 725 people ",
+            "More than 725 people ",
+            "More than 725 "
+        ],
+        "tree_string": "(ROOT (X (NP (QP (JJR More) (IN than) (CD 725)) (NN people))))"
+    },
+    "More than 725 ": {
+        "chunks": [
+            "More than "
+        ],
+        "tree_string": "(ROOT (ADJP (ADVP (RBR More) (IN than)) (VBN 725)))"
+    },
+    "built various types of DIY closed-loop systems": {
+        "chunks": [
+            "built various types of DIY ",
+            "various types of DIY ",
+            "various types ",
+            "of DIY ",
+            "closed-loop systems"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP\n      (VBD built)\n      (NP (NP (JJ various) (NNS types)) (PP (IN of) (NP (NNP DIY)))))\n    (NP (JJ closed-loop) (NNS systems))))"
+    },
+    "various types of DIY closed-loop systems": {
+        "chunks": [
+            "various types ",
+            "of DIY closed-loop systems",
+            "DIY closed-loop systems"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (JJ various) (NNS types))\n    (PP (IN of) (NP (NNP DIY) (NN closed-loop) (NNS systems)))))"
+    },
+    "of DIY closed-loop systems": {
+        "chunks": [
+            "DIY closed-loop systems"
+        ],
+        "tree_string": "(ROOT (PP (IN of) (NP (NNP DIY) (NN closed-loop) (NNS systems))))"
+    },
+    "the growing community ": {
+        "chunks": [
+            "the growing community ",
+            "the growing community "
+        ],
+        "tree_string": "(ROOT (X (NP (DT the) (VBG growing) (NN community))))"
+    },
+    "continued to improve the code and the systems": {
+        "chunks": [
+            "continued to improve ",
+            "to improve ",
+            "to improve ",
+            "the code and the systems",
+            "the code ",
+            "the systems"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD continued) (S (VP (TO to) (VP (VB improve)))))\n    (NP (NP (DT the) (NN code)) (CC and) (NP (DT the) (NNS systems)))))"
+    },
+    "to improve the code and the systems": {
+        "chunks": [
+            "improve the code and the systems",
+            "the code and the systems",
+            "the code ",
+            "the systems"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB improve)\n          (NP\n            (NP (DT the) (NN code))\n            (CC and)\n            (NP (DT the) (NNS systems))))))))"
+    },
+    "improve the code and the systems": {
+        "chunks": [
+            "the code and the systems",
+            "the code ",
+            "the systems"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB improve)\n      (NP\n        (NP (DT the) (NN code))\n        (CC and)\n        (NP (DT the) (NNS systems))))))"
+    },
+    "the code and the systems": {
+        "chunks": [
+            "the code ",
+            "the systems"
+        ],
+        "tree_string": "(ROOT\n  (NP (NP (DT the) (NN code)) (CC and) (NP (DT the) (NNS systems))))"
+    },
+    "Many of us ": {
+        "chunks": [
+            "Many of us ",
+            "of us "
+        ],
+        "tree_string": "(ROOT (NP (NP (JJ Many)) (PP (IN of) (NP (PRP us)))))"
+    },
+    "have no medical or engineering training ": {
+        "chunks": [
+            "have no medical or engineering training ",
+            "no medical or engineering training ",
+            "medical or engineering "
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VB have)\n    (NP\n      (DT no)\n      (UCP (JJ medical) (CC or) (NN engineering))\n      (NN training))))"
+    },
+    "no medical or engineering training ": {
+        "chunks": [
+            "no medical or engineering training ",
+            "no medical or engineering training "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP\n      (DT no)\n      (ADJP (JJ medical) (CC or) (NN engineering))\n      (NN training))))"
+    },
+    "medical or engineering ": {
+        "chunks": [
+            "medical or engineering "
+        ],
+        "tree_string": "(ROOT (UCP (JJ medical) (CC or) (NN engineering)))"
+    },
+    "on improvements in the evening ": {
+        "chunks": [
+            "on improvements in the evening ",
+            "improvements in the evening ",
+            "in the evening ",
+            "the evening "
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN on)\n    (NP\n      (NP (NNS improvements))\n      (PP (IN in) (NP (DT the) (NN evening))))))"
+    },
+    "improvements in the evening ": {
+        "chunks": [
+            "improvements in the evening ",
+            "in the evening ",
+            "the evening "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (NNS improvements))\n    (PP (IN in) (NP (DT the) (NN evening)))))"
+    },
+    "in the evening ": {
+        "chunks": [
+            "in the evening ",
+            "the evening "
+        ],
+        "tree_string": "(ROOT (PP (IN in) (NP (DT the) (NN evening))))"
+    },
+    "Commercial devices similar to ours ": {
+        "chunks": [
+            "Commercial devices similar to ours ",
+            "Commercial devices similar to ours ",
+            "Commercial devices ",
+            "to ours "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP\n      (NP (JJ Commercial) (NNS devices))\n      (ADJP (JJ similar) (PP (TO to) (NP (PRP ours)))))))"
+    },
+    "gradually coming on to the market": {
+        "chunks": [
+            "coming on to the market",
+            "to the market",
+            "the market"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (ADVP (RB gradually))\n      (VP\n        (VBG coming)\n        (PRT (RP on))\n        (PP (TO to) (NP (DT the) (NN market)))))))"
+    },
+    "on to the market": {
+        "chunks": [
+            "to the market",
+            "the market"
+        ],
+        "tree_string": "(ROOT (PP (IN on) (PP (TO to) (NP (DT the) (NN market)))))"
+    },
+    "to be helping companies to speed up development": {
+        "chunks": [
+            "be helping companies to speed up development",
+            "helping companies to speed up development",
+            "to speed up development",
+            "to speed up development",
+            "speed up development"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB be)\n          (VP\n            (VBG helping)\n            (NP (NNS companies))\n            (S\n              (VP\n                (TO to)\n                (VP (VB speed) (PRT (RP up)) (NP (NN development)))))))))))"
+    },
+    "be helping companies to speed up development": {
+        "chunks": [
+            "helping companies to speed up development",
+            "to speed up development",
+            "to speed up development",
+            "speed up development"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VB be)\n    (VP\n      (VBG helping)\n      (NP (NNS companies))\n      (S\n        (VP\n          (TO to)\n          (VP (VB speed) (PRT (RP up)) (NP (NN development))))))))"
+    },
+    "helping companies to speed up development": {
+        "chunks": [
+            "to speed up development",
+            "to speed up development",
+            "speed up development"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG helping)\n      (NP (NNS companies))\n      (S\n        (VP\n          (TO to)\n          (VP (VB speed) (PRT (RP up)) (NP (NN development))))))))"
+    },
+    "to speed up development": {
+        "chunks": [
+            "speed up development"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP (VB speed) (PRT (RP up)) (NP (NN development)))))))"
+    },
+    "The most important thing ": {
+        "chunks": [
+            "The most important thing ",
+            "The most important thing "
+        ],
+        "tree_string": "(ROOT\n  (FRAG (NP (DT The) (ADJP (RBS most) (JJ important)) (NN thing))))"
+    },
+    "is that people don't have to wait": {
+        "chunks": [
+            "people don't have to wait",
+            "don't have to wait",
+            "have to wait",
+            "to wait",
+            "to wait"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (VBZ is)\n        (SBAR\n          (IN that)\n          (S\n            (NP (NNS people))\n            (VP\n              (VBP do)\n              (RB n't)\n              (VP (VB have) (S (VP (TO to) (VP (VB wait))))))))))))"
+    },
+    "that people don't have to wait": {
+        "chunks": [
+            "don't have to wait",
+            "have to wait",
+            "to wait",
+            "to wait"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN that)\n    (S\n      (NP (NNS people))\n      (VP\n        (VBP do)\n        (RB n't)\n        (VP (VB have) (S (VP (TO to) (VP (VB wait)))))))))"
+    },
+    "people don't have to wait": {
+        "chunks": [
+            "have to wait",
+            "to wait",
+            "to wait"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NNS people))\n    (VP\n      (VBP do)\n      (RB n't)\n      (VP (VB have) (S (VP (TO to) (VP (VB wait))))))))"
+    },
+    "don't have to wait": {
+        "chunks": [
+            "have to wait",
+            "to wait",
+            "to wait"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB do)\n      (RB n't)\n      (VP (VB have) (S (VP (TO to) (VP (VB wait))))))))"
+    },
+    "have the freedom to make that choice ": {
+        "chunks": [
+            "have the freedom to make that choice ",
+            "have the freedom to make that choice ",
+            "the freedom to make that choice ",
+            "to make that choice ",
+            "to make that choice ",
+            "make that choice ",
+            "that choice "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB have)\n      (NP\n        (DT the)\n        (NN freedom)\n        (S (VP (TO to) (VP (VB make) (NP (DT that) (NN choice)))))))))"
+    },
+    "the freedom to make that choice ": {
+        "chunks": [
+            "the freedom to make that choice ",
+            "the freedom to make that choice ",
+            "to make that choice ",
+            "to make that choice ",
+            "make that choice ",
+            "that choice "
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP\n      (DT the)\n      (NN freedom)\n      (S (VP (TO to) (VP (VB make) (NP (DT that) (NN choice))))))))"
+    },
+    "to make that choice ": {
+        "chunks": [
+            "to make that choice ",
+            "to make that choice ",
+            "to make that choice ",
+            "make that choice ",
+            "that choice "
+        ],
+        "tree_string": "(ROOT\n  (FRAG (S (VP (TO to) (VP (VB make) (NP (DT that) (NN choice)))))))"
+    },
+    "make that choice ": {
+        "chunks": [
+            "make that choice ",
+            "make that choice ",
+            "that choice "
+        ],
+        "tree_string": "(ROOT (S (VP (VB make) (NP (DT that) (NN choice)))))"
+    },
+    "is something I'm very proud of": {
+        "chunks": [
+            "I'm very proud of",
+            "I'm very proud of",
+            "'m very proud of"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBZ is))\n    (NP\n      (NP (NN something))\n      (SBAR\n        (S\n          (NP (PRP I))\n          (VP (VBP 'm) (ADJP (RB very) (JJ proud) (PP (IN of)))))))))"
+    },
+    "something I'm very proud of": {
+        "chunks": [
+            "'m very proud of"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP\n      (NP (NN something))\n      (SBAR\n        (S\n          (NP (PRP I))\n          (VP (VBP 'm) (ADJP (RB very) (JJ proud) (PP (IN of)))))))))"
+    },
+    "I'm very proud of": {
+        "chunks": [],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP (VBP 'm) (ADJP (RB very) (JJ proud) (PP (IN of))))))"
+    },
+    "'m very proud of": {
+        "chunks": [],
+        "tree_string": "(ROOT (FRAG (VP (VBP 'm) (ADJP (RB very) (JJ proud) (PP (IN of))))))"
     }
 }

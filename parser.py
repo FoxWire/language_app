@@ -5,7 +5,6 @@ from scipy.spatial import distance
 import re
 import json
 
-
 text = '''
 S - simple declarative clause, i.e. one that is not introduced by a (possible empty) subordinating conjunction or a wh-word and that does not exhibit subject-verb inversion.
 SBAR -ADJP - Adjective Phrase.
@@ -32,7 +31,9 @@ X - Unknown, uncertain, or unbracketable. X is often used for bracketing typos a
 SBARQ - Direct question introduced by a wh-word or a wh-phrase. Indirect questions and relative clauses should be bracketed as SBAR, not SBARQ.
 SINV - Inverted declarative sentence, i.e. one in which the subject follows the tensed verb or modal.
 SQ - Inverted yes/no question, or main clause of a wh-question, following the wh-phrase in SBARQ.
+
 '''
+
 
 class Parser():
 	'''
@@ -47,15 +48,19 @@ class Parser():
 	def __init__(self):
 		self.parser = stanford.StanfordParser()
 		self.cache_file = 'sentence_chunker_cache.json'
+		self.labels_file = 'higher_level_labels.txt'
+		# self.all_labels = self.load_labels()
 
 
-	def load_labels(self):
-		'''
-		This will read in the text above from another file and create the list of labels 
-		that are needed for filtering.
-		Will be used in the init to create a set
-		'''
-		all_labels = {line.split('-')[0].strip() for line in text.split('\n')}
+	# def load_labels(self):
+	# 	'''
+	# 	REads in the labels from a text file. These are only the labels that feature higher up in 
+	# 	the parse tree hierarchies and so represent the 'deeper' structure of the sentence.
+
+	# 	'''
+
+	# 	with open(self.labels_file) as data_file:
+	# 		all_labels = {line.split('-')[0].strip() for line in data_file.read().split('\n')}
 	
 	def parse(self, sentence):
 		'''

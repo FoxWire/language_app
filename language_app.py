@@ -16,15 +16,17 @@ import re
 from random import shuffle
 from tqdm import tqdm
 from nltk.parse import stanford
+import os
 
 
 def prepare_cards():
+
+	path_to_texts = './input_texts/'
 	# Loop each of the texts and create one list of all the sentences
-	paths = ['./input_a.txt', './input_b.txt', './input_c.txt', './input_d.txt', './input_e.txt', './input_f.txt']
 	sr = SentenceReader()
 	sentences = []
-	for path in paths:
-		sentences.extend([sentence for sentence in sr.get_sentences(path)])
+	for path in os.listdir(path_to_texts):
+		sentences.extend([sentence for sentence in sr.get_sentences(path_to_texts + path)])
 
 	# For each of the sentences, create a list of parsed objects. These are just tuples with, 
 	# the sentence, the list of chunks and the parse tree as a string
