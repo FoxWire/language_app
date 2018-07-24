@@ -17697,5 +17697,2269 @@
     "'m very proud of": {
         "chunks": [],
         "tree_string": "(ROOT (FRAG (VP (VBP 'm) (ADJP (RB very) (JJ proud) (PP (IN of))))))"
+    },
+    "It was during a production in 2009 at university, where I was studying musical theatre, that I started to feel pain in my right leg.": {
+        "chunks": [
+            "during a production in 2009 ",
+            "a production in 2009 ",
+            "a production ",
+            "in 2009 ",
+            "at university",
+            "where I was studying musical theatre, that I started to feel pain in my right leg",
+            "I was studying musical theatre, that I started to feel pain in my right leg",
+            "was studying musical theatre, that I started to feel pain in my right leg",
+            "studying musical theatre, that I started to feel pain in my right leg",
+            "musical theatre",
+            "that I started to feel pain in my right leg",
+            "I started to feel pain in my right leg",
+            "started to feel pain in my right leg",
+            "to feel pain in my right leg",
+            "to feel pain in my right leg",
+            "feel pain in my right leg",
+            "in my right leg",
+            "my right leg"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP It))\n    (VP\n      (VBD was)\n      (PP\n        (IN during)\n        (NP (NP (DT a) (NN production)) (PP (IN in) (NP (CD 2009)))))\n      (PP (IN at) (NP (NN university)))\n      (, ,)\n      (SBAR\n        (WHADVP (WRB where))\n        (S\n          (NP (PRP I))\n          (VP\n            (VBD was)\n            (VP\n              (VBG studying)\n              (NP (JJ musical) (NN theatre))\n              (, ,)\n              (SBAR\n                (IN that)\n                (S\n                  (NP (PRP I))\n                  (VP\n                    (VBD started)\n                    (S\n                      (VP\n                        (TO to)\n                        (VP\n                          (VB feel)\n                          (NP (NN pain))\n                          (PP\n                            (IN in)\n                            (NP (PRP$ my) (JJ right) (NN leg))))))))))))))\n    (. .)))"
+    },
+    "One year and nine operations later, when I was 20, I had to have it amputated above the knee.": {
+        "chunks": [
+            "One year and nine operations later",
+            "One year and nine operations ",
+            "One year ",
+            "nine operations ",
+            "when I was 20",
+            "I was 20",
+            "was 20",
+            "had to have it amputated above the knee",
+            "to have it amputated above the knee",
+            "to have it amputated above the knee",
+            "have it amputated above the knee",
+            "it amputated above the knee",
+            "amputated above the knee",
+            "above the knee",
+            "the knee"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP\n      (NP\n        (NP (CD One) (NN year))\n        (CC and)\n        (NP (CD nine) (NNS operations)))\n      (RB later))\n    (, ,)\n    (SBAR\n      (WHADVP (WRB when))\n      (S (NP (PRP I)) (VP (VBD was) (NP (CD 20)))))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VBD had)\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VB have)\n            (S\n              (NP (PRP it))\n              (VP\n                (VBN amputated)\n                (PP (IN above) (NP (DT the) (NN knee)))))))))\n    (. .)))"
+    },
+    "I was really upset: why had I been through so many operations?": {
+        "chunks": [
+            "upset: why had I been through so many operations",
+            "why had I been through so many operations",
+            "had I been through so many operations",
+            "been through so many operations",
+            "through so many operations",
+            "so many operations"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD was)\n      (ADVP (RB really))\n      (NP\n        (NP (NN upset))\n        (: :)\n        (SBARQ\n          (WHADVP (WRB why))\n          (SQ\n            (VBD had)\n            (NP (PRP I))\n            (VP\n              (VBN been)\n              (PP\n                (IN through)\n                (NP (ADJP (RB so) (JJ many)) (NNS operations)))))\n          (. ?))))))"
+    },
+    "My consultant explained that they would never have cut my leg off without trying everything else first.": {
+        "chunks": [
+            "My consultant ",
+            "explained that they would never have cut my leg off without trying everything else first",
+            "that they would never have cut my leg off without trying everything else first",
+            "they would never have cut my leg off without trying everything else first",
+            "would never have cut my leg off without trying everything else first",
+            "have cut my leg off without trying everything else first",
+            "cut my leg off without trying everything else first",
+            "my leg ",
+            "off without trying everything else first",
+            "trying everything else first",
+            "trying everything else first",
+            "everything else "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP$ My) (NN consultant))\n    (VP\n      (VBD explained)\n      (SBAR\n        (IN that)\n        (S\n          (NP (PRP they))\n          (VP\n            (MD would)\n            (ADVP (RB never))\n            (VP\n              (VB have)\n              (VP\n                (VBN cut)\n                (NP (PRP$ my) (NN leg))\n                (PP\n                  (RB off)\n                  (IN without)\n                  (S\n                    (VP\n                      (VBG trying)\n                      (NP (NN everything) (RB else))\n                      (ADVP (RB first)))))))))))\n    (. .)))"
+    },
+    "The bone cancer was potentially deadly, so this wasn't just about the loss of a limb.": {
+        "chunks": [
+            "The bone cancer was potentially deadly",
+            "The bone cancer ",
+            "was potentially deadly",
+            "this wasn't just about the loss of a limb",
+            "wasn't just about the loss of a limb",
+            "about the loss of a limb",
+            "about the loss ",
+            "of a limb",
+            "a limb"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (DT The) (NN bone) (NN cancer))\n      (VP (VBD was) (ADJP (RB potentially) (JJ deadly))))\n    (, ,)\n    (IN so)\n    (S\n      (NP (DT this))\n      (VP\n        (VBD was)\n        (RB n't)\n        (ADVP (RB just))\n        (NP\n          (NP (RB about) (DT the) (NN loss))\n          (PP (IN of) (NP (DT a) (NN limb))))))\n    (. .)))"
+    },
+    "He vowed to save my life and come to my first dance performance as an amputee.": {
+        "chunks": [
+            "vowed to save my life and come to my first dance performance as an amputee",
+            "to save my life and come to my first dance performance as an amputee",
+            "to save my life and come to my first dance performance as an amputee",
+            "save my life and come to my first dance performance as an amputee",
+            "save my life ",
+            "my life ",
+            "come to my first dance performance as an amputee",
+            "to my first dance performance ",
+            "my first dance performance ",
+            "as an amputee",
+            "an amputee"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP\n      (VBD vowed)\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VP (VB save) (NP (PRP$ my) (NN life)))\n            (CC and)\n            (VP\n              (VB come)\n              (PP\n                (TO to)\n                (NP (PRP$ my) (JJ first) (NN dance) (NN performance)))\n              (PP (IN as) (NP (DT an) (NN amputee))))))))\n    (. .)))"
+    },
+    "I went home for a week before the amputation.": {
+        "chunks": [
+            "went home for a week before the amputation",
+            "for a week ",
+            "a week ",
+            "before the amputation",
+            "the amputation"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD went)\n      (NP (NN home))\n      (PP (IN for) (NP (DT a) (NN week)))\n      (PP (IN before) (NP (DT the) (NN amputation))))\n    (. .)))"
+    },
+    "I drive a manual car, so I searched on YouTube and found a double amputee doing just that, with no modifications at all.": {
+        "chunks": [
+            "I drive a manual car",
+            "drive a manual car",
+            "a manual car",
+            "I searched on YouTube and found a double amputee doing just that, with no modifications at all",
+            "searched on YouTube and found a double amputee doing just that, with no modifications at all",
+            "searched on YouTube ",
+            "on YouTube ",
+            "found a double amputee doing just that, with no modifications at all",
+            "a double amputee doing just that",
+            "a double amputee ",
+            "doing just that",
+            "just that",
+            "with no modifications ",
+            "no modifications ",
+            "at all"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP I))\n      (VP (VBP drive) (NP (DT a) (JJ manual) (NN car))))\n    (, ,)\n    (IN so)\n    (S\n      (NP (PRP I))\n      (VP\n        (VP (VBD searched) (PP (IN on) (NP (NNP YouTube))))\n        (CC and)\n        (VP\n          (VBD found)\n          (NP\n            (NP (DT a) (JJ double) (NN amputee))\n            (VP (VBG doing) (NP (RB just) (DT that))))\n          (, ,)\n          (PP (IN with) (NP (DT no) (NNS modifications)))\n          (ADVP (IN at) (DT all)))))\n    (. .)))"
+    },
+    "Seeing what amputees could do got me really excited about becoming one.": {
+        "chunks": [
+            "Seeing what amputees could do ",
+            "Seeing what amputees could do ",
+            "what amputees could do ",
+            "amputees could do ",
+            "could do ",
+            "got me really excited about becoming one",
+            "me really excited about becoming one",
+            "about becoming one",
+            "becoming one",
+            "becoming one"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (VP\n        (VBG Seeing)\n        (SBAR\n          (WHNP (WP what))\n          (S (NP (NNS amputees)) (VP (MD could) (VP (VB do)))))))\n    (VP\n      (VBD got)\n      (S\n        (NP (PRP me))\n        (ADJP\n          (RB really)\n          (JJ excited)\n          (PP (IN about) (S (VP (VBG becoming) (NP (CD one))))))))\n    (. .)))"
+    },
+    "Then I remembered Clayton Peg Leg Bates  a tapping legend who'd lost his leg in a cotton mill accident when he was 12, and had danced on a peg leg made by his uncle.": {
+        "chunks": [
+            "remembered Clayton Peg Leg Bates  a tapping legend who'd lost his leg in a cotton mill accident when he was 12, and had danced on a peg leg made by his uncle",
+            "remembered Clayton Peg Leg Bates  a tapping legend who'd lost his leg in a cotton mill accident when he was 12",
+            "Clayton Peg Leg Bates  a tapping legend who'd lost his leg in a cotton mill accident when he was 12",
+            "Clayton Peg Leg Bates  ",
+            "a tapping legend who'd lost his leg in a cotton mill accident when he was 12",
+            "a tapping legend ",
+            "who'd lost his leg in a cotton mill accident when he was 12",
+            "'d lost his leg in a cotton mill accident when he was 12",
+            "'d lost his leg in a cotton mill accident when he was 12",
+            "lost his leg in a cotton mill accident when he was 12",
+            "his leg ",
+            "in a cotton mill accident when he was 12",
+            "a cotton mill accident when he was 12",
+            "a cotton mill accident ",
+            "when he was 12",
+            "he was 12",
+            "was 12",
+            "had danced on a peg leg made by his uncle",
+            "danced on a peg leg made by his uncle",
+            "on a peg leg made by his uncle",
+            "a peg leg made by his uncle",
+            "a peg leg ",
+            "made by his uncle",
+            "by his uncle",
+            "his uncle"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (RB Then)\n    (NP (PRP I))\n    (VP\n      (VP\n        (VBD remembered)\n        (S\n          (NP (NNP Clayton) (NNP Peg) (NNP Leg) (NNP Bates))\n          (NP\n            (NP (DT a) (JJ tapping) (NN legend))\n            (SBAR\n              (WHNP (WP who))\n              (S\n                (VP\n                  (VBD 'd)\n                  (VP\n                    (VBN lost)\n                    (NP (PRP$ his) (NN leg))\n                    (PP\n                      (IN in)\n                      (NP\n                        (NP\n                          (DT a)\n                          (NN cotton)\n                          (NN mill)\n                          (NN accident))\n                        (SBAR\n                          (WHADVP (WRB when))\n                          (S\n                            (NP (PRP he))\n                            (VP (VBD was) (NP (CD 12))))))))))))))\n      (, ,)\n      (CC and)\n      (VP\n        (VBD had)\n        (VP\n          (VBN danced)\n          (PP\n            (IN on)\n            (NP\n              (NP (DT a) (JJ peg) (NN leg))\n              (VP (VBN made) (PP (IN by) (NP (PRP$ his) (NN uncle)))))))))\n    (. .)))"
+    },
+    "I'd grown up idolising him.": {
+        "chunks": [
+            "grown up idolising him",
+            "idolising him",
+            "idolising him"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD 'd)\n      (VP\n        (VBN grown)\n        (PRT (RP up))\n        (S (VP (VBG idolising) (NP (PRP him))))))\n    (. .)))"
+    },
+    "He was totally badass.": {
+        "chunks": [
+            "was totally badass"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBD was) (ADJP (RB totally) (JJ badass)))\n    (. .)))"
+    },
+    "Before the operation, I posted a video of him dancing on the Ed Sullivan Show, and thought, In one year, I'll be doing this.": {
+        "chunks": [
+            "Before the operation",
+            "the operation",
+            "posted a video of him dancing on the Ed Sullivan Show",
+            "a video of him dancing on the Ed Sullivan Show",
+            "a video ",
+            "of him dancing on the Ed Sullivan Show",
+            "him dancing on the Ed Sullivan Show",
+            "dancing on the Ed Sullivan Show",
+            "on the Ed Sullivan Show",
+            "the Ed Sullivan Show",
+            "thought, In one year, I'll be doing this",
+            ", In one year, I'll be doing this",
+            ", In one year, I'll be doing this",
+            "In one year",
+            "one year",
+            "'ll be doing this",
+            "be doing this",
+            "doing this"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP (IN Before) (NP (DT the) (NN operation)))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VP\n        (VBD posted)\n        (NP\n          (NP (DT a) (NN video))\n          (PP\n            (IN of)\n            (S\n              (NP (PRP him))\n              (VP\n                (VBG dancing)\n                (PP\n                  (IN on)\n                  (NP (DT the) (NNP Ed) (NNP Sullivan) (NNP Show))))))))\n      (, ,)\n      (CC and)\n      (VP\n        (VBD thought)\n        (SBAR\n          (S\n            (, ,)\n            (PP (IN In) (NP (CD one) (NN year)))\n            (, ,)\n            (NP (PRP I))\n            (VP\n              (MD 'll)\n              (VP (VB be) (VP (VBG doing) (NP (DT this)))))))))\n    (. .)))"
+    },
+    "I was up and using my first prosthetic leg very quickly.": {
+        "chunks": [
+            "was up and using my first prosthetic leg very quickly",
+            "up and using my first prosthetic leg very quickly",
+            "using my first prosthetic leg very quickly",
+            "my first prosthetic leg ",
+            "very quickly"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD was)\n      (UCP\n        (ADVP (RB up))\n        (CC and)\n        (VP\n          (VBG using)\n          (NP (PRP$ my) (JJ first) (JJ prosthetic) (NN leg))\n          (ADVP (RB very) (RB quickly)))))\n    (. .)))"
+    },
+    "I learned to walk and dress myself fashionably, which is very important to me.": {
+        "chunks": [
+            "to walk and dress myself fashionably",
+            "to walk and dress myself fashionably",
+            "walk and dress myself fashionably",
+            "which is very important to me",
+            "is very important to me",
+            "is very important to me",
+            "to me"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD learned)\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VB walk)\n            (CC and)\n            (VB dress)\n            (NP (PRP myself))\n            (ADVP (RB fashionably)))))\n      (, ,)\n      (SBAR\n        (WHNP (WDT which))\n        (S\n          (VP\n            (VBZ is)\n            (ADJP\n              (RB very)\n              (JJ important)\n              (PP (TO to) (NP (PRP me))))))))\n    (. .)))"
+    },
+    "I taught myself to drive again, and went back to college.": {
+        "chunks": [
+            "taught myself to drive again",
+            "to drive again",
+            "to drive again",
+            "drive again",
+            "went back to college",
+            "to college"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VP\n        (VBD taught)\n        (NP (PRP myself))\n        (S (VP (TO to) (VP (VB drive) (ADVP (RB again))))))\n      (, ,)\n      (CC and)\n      (VP (VBD went) (PRT (RP back)) (PP (TO to) (NP (NN college)))))\n    (. .)))"
+    },
+    "I soon found out the cancer had spread to my lungs.": {
+        "chunks": [
+            "found out the cancer had spread to my lungs",
+            "the cancer had spread to my lungs",
+            "the cancer had spread to my lungs",
+            "the cancer ",
+            "had spread to my lungs",
+            "spread to my lungs",
+            "to my lungs",
+            "my lungs"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (ADVP (RB soon))\n    (VP\n      (VBD found)\n      (PRT (RP out))\n      (SBAR\n        (S\n          (NP (DT the) (NN cancer))\n          (VP\n            (VBD had)\n            (VP (VBN spread) (PP (TO to) (NP (PRP$ my) (NNS lungs))))))))\n    (. .)))"
+    },
+    "I had two operations to remove tumours and 16 months of chemotherapy.": {
+        "chunks": [
+            "had two operations to remove tumours and 16 months of chemotherapy",
+            "two operations ",
+            "to remove tumours and 16 months of chemotherapy",
+            "to remove tumours and 16 months of chemotherapy",
+            "remove tumours and 16 months of chemotherapy",
+            "tumours and 16 months of chemotherapy",
+            "16 months of chemotherapy",
+            "16 months ",
+            "of chemotherapy"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD had)\n      (NP (CD two) (NNS operations))\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VB remove)\n            (NP\n              (NP (NNS tumours))\n              (CC and)\n              (NP\n                (NP (CD 16) (NNS months))\n                (PP (IN of) (NP (NN chemotherapy)))))))))\n    (. .)))"
+    },
+    "University kept me positive.": {
+        "chunks": [
+            "kept me positive",
+            "me positive"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NNP University))\n    (VP (VBD kept) (S (NP (PRP me)) (ADJP (JJ positive))))\n    (. .)))"
+    },
+    "I'd have chemo during the day, and then sing and act in the evening with a backpack of fluids.": {
+        "chunks": [
+            "have chemo during the day",
+            "during the day",
+            "the day",
+            "sing and act in the evening with a backpack of fluids",
+            "in the evening ",
+            "the evening ",
+            "with a backpack of fluids",
+            "a backpack of fluids",
+            "a backpack ",
+            "of fluids"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (MD 'd)\n      (VP\n        (VP\n          (VB have)\n          (NP (NN chemo))\n          (PP (IN during) (NP (DT the) (NN day))))\n        (, ,)\n        (CC and)\n        (ADVP (RB then))\n        (VP\n          (VB sing)\n          (CC and)\n          (VB act)\n          (PP (IN in) (NP (DT the) (NN evening)))\n          (PP\n            (IN with)\n            (NP\n              (NP (DT a) (NN backpack))\n              (PP (IN of) (NP (NNS fluids))))))))\n    (. .)))"
+    },
+    "As soon as I finished my treatment in 2011, I said to my prosthetist that it was time to try a peg leg so I could dance.": {
+        "chunks": [
+            "As soon as I finished my treatment in 2011",
+            "as I finished my treatment in 2011",
+            "I finished my treatment in 2011",
+            "finished my treatment in 2011",
+            "my treatment ",
+            "in 2011",
+            "said to my prosthetist that it was time to try a peg leg so I could dance",
+            "to my prosthetist ",
+            "my prosthetist ",
+            "that it was time to try a peg leg so I could dance",
+            "it was time to try a peg leg so I could dance",
+            "was time to try a peg leg so I could dance",
+            "time to try a peg leg so I could dance",
+            "to try a peg leg so I could dance",
+            "to try a peg leg so I could dance",
+            "try a peg leg so I could dance",
+            "a peg leg ",
+            "so I could dance",
+            "I could dance",
+            "could dance"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP\n      (RB As)\n      (RB soon)\n      (SBAR\n        (IN as)\n        (S\n          (NP (PRP I))\n          (VP\n            (VBD finished)\n            (NP (PRP$ my) (NN treatment))\n            (PP (IN in) (NP (CD 2011)))))))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VBD said)\n      (PP (TO to) (NP (PRP$ my) (NN prosthetist)))\n      (SBAR\n        (IN that)\n        (S\n          (NP (PRP it))\n          (VP\n            (VBD was)\n            (VP\n              (NN time)\n              (S\n                (VP\n                  (TO to)\n                  (VP\n                    (VB try)\n                    (NP (DT a) (JJ peg) (NN leg))\n                    (SBAR\n                      (IN so)\n                      (S\n                        (NP (PRP I))\n                        (VP (MD could) (VP (VB dance)))))))))))))\n    (. .)))"
+    },
+    "I'd been tapdancing at a high level for over a decade and I was missing it.": {
+        "chunks": [
+            "I'd been tapdancing at a high level for over a decade ",
+            "'d been tapdancing at a high level for over a decade ",
+            "been tapdancing at a high level for over a decade ",
+            "tapdancing at a high level for over a decade ",
+            "at a high level ",
+            "a high level ",
+            "for over a decade ",
+            "over a decade ",
+            "a decade ",
+            "I was missing it",
+            "was missing it",
+            "missing it"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP I))\n      (VP\n        (VBD 'd)\n        (VP\n          (VBN been)\n          (VP\n            (VBG tapdancing)\n            (PP (IN at) (NP (DT a) (JJ high) (NN level)))\n            (PP (IN for) (PP (IN over) (NP (DT a) (NN decade))))))))\n    (CC and)\n    (S (NP (PRP I)) (VP (VBD was) (VP (VBG missing) (NP (PRP it)))))\n    (. .)))"
+    },
+    "I went to a rehearsal space alone, put it on and started creating rhythms.": {
+        "chunks": [
+            "went to a rehearsal space alone",
+            "to a rehearsal space ",
+            "a rehearsal space ",
+            "put it on ",
+            "started creating rhythms",
+            "creating rhythms",
+            "creating rhythms"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VP\n        (VBD went)\n        (PP (TO to) (NP (DT a) (JJ rehearsal) (NN space)))\n        (ADVP (RB alone)))\n      (, ,)\n      (VP (VBP put) (NP (PRP it)) (PRT (RP on)))\n      (CC and)\n      (VP (VBD started) (S (VP (VBG creating) (NP (NNS rhythms))))))\n    (. .)))"
+    },
+    "I treated it like an instrument, an extension of my body.": {
+        "chunks": [
+            "like an instrument, an extension of my body",
+            "an instrument, an extension of my body",
+            "an instrument",
+            "an extension of my body",
+            "an extension ",
+            "of my body",
+            "my body"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD treated)\n      (NP (PRP it))\n      (PP\n        (IN like)\n        (NP\n          (NP (DT an) (NN instrument))\n          (, ,)\n          (NP\n            (NP (DT an) (NN extension))\n            (PP (IN of) (NP (PRP$ my) (NN body)))))))\n    (. .)))"
+    },
+    "My muscle memory kicked in; I could still do things with my left foot, and then dropped in the peg leg for extra beats.": {
+        "chunks": [
+            "My muscle memory kicked in",
+            "My muscle memory ",
+            "kicked in",
+            "I could still do things with my left foot, and then dropped in the peg leg for extra beats",
+            "could still do things with my left foot, and then dropped in the peg leg for extra beats",
+            "could still do things with my left foot",
+            "do things with my left foot",
+            "with my left foot",
+            "my left foot",
+            "then dropped in the peg leg for extra beats",
+            "in the peg leg for extra beats",
+            "the peg leg for extra beats",
+            "the peg leg ",
+            "for extra beats",
+            "extra beats"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP$ My) (NN muscle) (NN memory))\n      (VP (VBD kicked) (PRT (RP in))))\n    (: ;)\n    (S\n      (NP (PRP I))\n      (VP\n        (VP\n          (MD could)\n          (ADVP (RB still))\n          (VP\n            (VB do)\n            (NP (NNS things))\n            (PP (IN with) (NP (PRP$ my) (JJ left) (NN foot)))))\n        (, ,)\n        (CC and)\n        (VP\n          (ADVP (RB then))\n          (VBD dropped)\n          (PP\n            (IN in)\n            (NP\n              (NP (DT the) (JJ peg) (NN leg))\n              (PP (IN for) (NP (JJ extra) (NNS beats))))))))\n    (. .)))"
+    },
+    "I used videos to track my progress.": {
+        "chunks": [
+            "used videos to track my progress",
+            "to track my progress",
+            "to track my progress",
+            "track my progress",
+            "my progress"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD used)\n      (NP (NNS videos))\n      (S (VP (TO to) (VP (VB track) (NP (PRP$ my) (NN progress))))))\n    (. .)))"
+    },
+    "My roommate said I should post them online  I did the first one at 4am, and by the time I woke up, it was everywhere.": {
+        "chunks": [
+            "My roommate said I should post them online  I did the first one at 4am, and by the time I woke up",
+            "My roommate said I should post them online  I did the first one at 4am",
+            "My roommate ",
+            "said I should post them online  I did the first one at 4am",
+            "I should post them online  I did the first one at 4am",
+            "I should post them online  I did the first one at 4am",
+            "should post them online  I did the first one at 4am",
+            "post them online  I did the first one at 4am",
+            "them online  I did the first one at 4am",
+            "them online  I did the first one at 4am",
+            "online  I did the first one at 4am",
+            "I did the first one at 4am",
+            "I did the first one at 4am",
+            "did the first one at 4am",
+            "the first one ",
+            "at 4am",
+            "4am",
+            "by the time I woke up",
+            "by the time ",
+            "the time ",
+            "woke up",
+            "was everywhere"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (S\n        (NP (PRP$ My) (NN roommate))\n        (VP\n          (VBD said)\n          (SBAR\n            (S\n              (NP (PRP I))\n              (VP\n                (MD should)\n                (VP\n                  (VB post)\n                  (SBAR\n                    (S\n                      (NP (PRP them))\n                      (VP\n                        (VBD online)\n                        (SBAR\n                          (S\n                            (NP (PRP I))\n                            (VP\n                              (VBD did)\n                              (NP (DT the) (JJ first) (NN one))\n                              (PP (IN at) (NP (CD 4) (RB am)))))))))))))))\n      (, ,)\n      (CC and)\n      (S\n        (PP (IN by) (NP (DT the) (NN time)))\n        (NP (PRP I))\n        (VP (VBD woke) (PRT (RP up)))))\n    (, ,)\n    (NP (PRP it))\n    (VP (VBD was) (ADVP (RB everywhere)))\n    (. .)))"
+    },
+    "There is a different technique; with a real foot you've got a heel and toe, and you can make different sounds and rhythms.": {
+        "chunks": [
+            "There is a different technique",
+            "is a different technique",
+            "a different technique",
+            "with a real foot you've got a heel and toe, and you can make different sounds and rhythms",
+            "with a real foot you've got a heel and toe",
+            "with a real foot ",
+            "a real foot ",
+            "'ve got a heel and toe",
+            "got a heel and toe",
+            "a heel and toe",
+            "you can make different sounds and rhythms",
+            "can make different sounds and rhythms",
+            "make different sounds and rhythms",
+            "different sounds and rhythms"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (EX There))\n      (VP (VBZ is) (NP (DT a) (JJ different) (NN technique))))\n    (: ;)\n    (S\n      (S\n        (PP (IN with) (NP (DT a) (JJ real) (NN foot)))\n        (NP (PRP you))\n        (VP\n          (VBP 've)\n          (VP (VBN got) (NP (DT a) (NN heel) (CC and) (NN toe)))))\n      (, ,)\n      (CC and)\n      (S\n        (NP (PRP you))\n        (VP\n          (MD can)\n          (VP\n            (VB make)\n            (NP (JJ different) (NNS sounds) (CC and) (NNS rhythms))))))\n    (. .)))"
+    },
+    "When you have a peg, you just have one point.": {
+        "chunks": [
+            "When you have a peg",
+            "you have a peg",
+            "have a peg",
+            "a peg",
+            "have one point",
+            "one point"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (SBAR\n      (WHADVP (WRB When))\n      (S (NP (PRP you)) (VP (VBP have) (NP (DT a) (NN peg)))))\n    (, ,)\n    (NP (PRP you))\n    (ADVP (RB just))\n    (VP (VBP have) (NP (CD one) (NN point)))\n    (. .)))"
+    },
+    "Now, I dance in a different way.": {
+        "chunks": [
+            "dance in a different way",
+            "in a different way",
+            "a different way"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP (RB Now))\n    (, ,)\n    (NP (PRP I))\n    (VP (VB dance) (PP (IN in) (NP (DT a) (JJ different) (NN way))))\n    (. .)))"
+    },
+    "People tell me my shoulders are hunched or my head is over to the side.": {
+        "chunks": [
+            "People tell me my shoulders are hunched ",
+            "tell me my shoulders are hunched ",
+            "my shoulders are hunched ",
+            "my shoulders are hunched ",
+            "my shoulders ",
+            "are hunched ",
+            "my head is over to the side",
+            "my head ",
+            "is over to the side",
+            "to the side",
+            "the side"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (NNS People))\n      (VP\n        (VBP tell)\n        (NP (PRP me))\n        (SBAR\n          (S\n            (NP (PRP$ my) (NNS shoulders))\n            (VP (VBP are) (VP (VBN hunched)))))))\n    (CC or)\n    (S\n      (NP (PRP$ my) (NN head))\n      (VP\n        (VBZ is)\n        (ADJP (IN over) (PP (TO to) (NP (DT the) (NN side))))))\n    (. .)))"
+    },
+    "Well, that's because I'm dancing on one leg!": {
+        "chunks": [
+            "because I'm dancing on one leg",
+            "I'm dancing on one leg",
+            "'m dancing on one leg",
+            "dancing on one leg",
+            "on one leg",
+            "one leg"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (INTJ (UH Well))\n    (, ,)\n    (NP (DT that))\n    (VP\n      (VBZ 's)\n      (SBAR\n        (IN because)\n        (S\n          (NP (PRP I))\n          (VP\n            (VBP 'm)\n            (VP (VBG dancing) (PP (IN on) (NP (CD one) (NN leg))))))))\n    (. !)))"
+    },
+    "In 2010, when I first became one, amputees were just about to break through into the mainstream.": {
+        "chunks": [
+            "In 2010",
+            "when I first became one",
+            "I first became one",
+            "became one",
+            "were just about to break through into the mainstream",
+            "about to break through into the mainstream",
+            "to break through into the mainstream",
+            "to break through into the mainstream",
+            "break through into the mainstream",
+            "into the mainstream",
+            "the mainstream"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP (IN In) (NP (CD 2010)))\n    (, ,)\n    (SBAR\n      (WHADVP (WRB when))\n      (S\n        (NP (PRP I))\n        (ADVP (RB first))\n        (VP (VBD became) (NP (CD one)))))\n    (, ,)\n    (NP (NNS amputees))\n    (VP\n      (VBD were)\n      (ADVP (RB just))\n      (VP\n        (IN about)\n        (S\n          (VP\n            (TO to)\n            (VP\n              (VB break)\n              (PRT (RP through))\n              (PP (IN into) (NP (DT the) (NN mainstream))))))))\n    (. .)))"
+    },
+    "There's been a shift since.": {
+        "chunks": [
+            "been a shift since",
+            "a shift since",
+            "a shift "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (EX There))\n    (VP\n      (VBZ 's)\n      (VP (VBN been) (ADVP (NP (DT a) (NN shift)) (IN since))))\n    (. .)))"
+    },
+    "Now, it's, Hey, I'm an amputee, loud and proud!": {
+        "chunks": [
+            "'m an amputee, loud and proud",
+            "an amputee, loud and proud",
+            "an amputee"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP (RB Now))\n    (, ,)\n    (NP (PRP it))\n    (VP\n      (VBZ 's)\n      (, ,)\n      (S\n        (INTJ (UH Hey))\n        (, ,)\n        (NP (PRP I))\n        (VP\n          (VBP 'm)\n          (NP\n            (NP (DT an) (NN amputee))\n            (, ,)\n            (ADJP (JJ loud) (CC and) (JJ proud))))))\n    (. !)))"
+    },
+    "It's important to show the world amputees who are happy and continuing with their lives, although I was self-conscious in the early days, especially when people would draw their kids away from me.": {
+        "chunks": [
+            "to show the world amputees who are happy and continuing with their lives",
+            "to show the world amputees who are happy and continuing with their lives",
+            "show the world amputees who are happy and continuing with their lives",
+            "the world amputees who are happy and continuing with their lives",
+            "the world amputees ",
+            "who are happy and continuing with their lives",
+            "are happy and continuing with their lives",
+            "are happy and continuing with their lives",
+            "happy and continuing with their lives",
+            "continuing with their lives",
+            "with their lives",
+            "their lives",
+            "although I was self-conscious in the early days, especially when people would draw their kids away from me",
+            "I was self-conscious in the early days, especially when people would draw their kids away from me",
+            "was self-conscious in the early days, especially when people would draw their kids away from me",
+            "in the early days",
+            "the early days",
+            "especially when people would draw their kids away from me",
+            "people would draw their kids away from me",
+            "would draw their kids away from me",
+            "draw their kids away from me",
+            "their kids ",
+            "from me"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP It))\n    (VP\n      (VBZ 's)\n      (ADJP\n        (JJ important)\n        (S\n          (VP\n            (TO to)\n            (VP\n              (VB show)\n              (NP\n                (NP (DT the) (NN world) (NNS amputees))\n                (SBAR\n                  (WHNP (WP who))\n                  (S\n                    (VP\n                      (VBP are)\n                      (UCP\n                        (ADJP (JJ happy))\n                        (CC and)\n                        (VP\n                          (VBG continuing)\n                          (PP\n                            (IN with)\n                            (NP (PRP$ their) (NNS lives)))))))))))))\n      (, ,)\n      (SBAR\n        (IN although)\n        (S\n          (NP (PRP I))\n          (VP\n            (VBD was)\n            (ADJP (JJ self-conscious))\n            (PP (IN in) (NP (DT the) (JJ early) (NNS days)))\n            (, ,)\n            (SBAR\n              (WHADVP (RB especially) (WRB when))\n              (S\n                (NP (NNS people))\n                (VP\n                  (MD would)\n                  (VP\n                    (VB draw)\n                    (NP (PRP$ their) (NNS kids))\n                    (PRT (RP away))\n                    (PP (IN from) (NP (PRP me)))))))))))\n    (. .)))"
+    },
+    "I now volunteer in schools and hospitals, dancing and talking about my leg; I do motivational speaking and teach dance classes as well as playing in my band.": {
+        "chunks": [
+            "I now volunteer in schools and hospitals, dancing and talking about my leg",
+            "volunteer in schools and hospitals, dancing and talking about my leg",
+            "in schools and hospitals",
+            "schools and hospitals",
+            "dancing and talking about my leg",
+            "dancing and talking about my leg",
+            "about my leg",
+            "my leg",
+            "I do motivational speaking and teach dance classes as well as playing in my band",
+            "do motivational speaking and teach dance classes as well as playing in my band",
+            "do motivational speaking ",
+            "motivational speaking ",
+            "teach dance classes as well as playing in my band",
+            "teach dance classes ",
+            "dance classes ",
+            "as well as ",
+            "playing in my band",
+            "in my band",
+            "my band"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP I))\n      (ADVP (RB now))\n      (VP\n        (VB volunteer)\n        (PP (IN in) (NP (NNS schools) (CC and) (NNS hospitals)))\n        (, ,)\n        (S\n          (VP\n            (VBG dancing)\n            (CC and)\n            (VBG talking)\n            (PP (IN about) (NP (PRP$ my) (NN leg)))))))\n    (: ;)\n    (S\n      (NP (PRP I))\n      (VP\n        (VP (VBP do) (NP (JJ motivational) (NN speaking)))\n        (CC and)\n        (VP\n          (VP (VB teach) (NP (NN dance) (NNS classes)))\n          (CONJP (RB as) (RB well) (IN as))\n          (VP (VBG playing) (PP (IN in) (NP (PRP$ my) (NN band)))))))\n    (. .)))"
+    },
+    "I have nine prosthetics, and typically travel with four  two peg and two walking legs.": {
+        "chunks": [
+            "I have nine prosthetics",
+            "have nine prosthetics",
+            "nine prosthetics",
+            "typically travel with four  two peg and two walking legs",
+            "travel with four  ",
+            "with four  ",
+            "two peg and two walking legs",
+            "two peg ",
+            "two walking legs"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S (NP (PRP I)) (VP (VBP have) (NP (CD nine) (NNS prosthetics))))\n    (, ,)\n    (CC and)\n    (S\n      (ADVP (RB typically))\n      (VP (VBP travel) (PP (IN with) (NP (CD four))))\n      (NP\n        (NP (CD two) (NNS peg))\n        (CC and)\n        (NP (CD two) (VBG walking) (NNS legs))))\n    (. .)))"
+    },
+    "The peg legs are made of alloy or titanium  a wooden one would probably break.": {
+        "chunks": [
+            "The peg legs are made of alloy or titanium  ",
+            "The peg legs ",
+            "are made of alloy or titanium  ",
+            "made of alloy or titanium  ",
+            "of alloy or titanium  ",
+            "alloy or titanium  ",
+            "a wooden one ",
+            "would probably break"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (DT The) (JJ peg) (NNS legs))\n      (VP\n        (VBP are)\n        (VP\n          (VBN made)\n          (PP (IN of) (NP (NN alloy) (CC or) (NN titanium))))))\n    (NP (DT a) (JJ wooden) (NN one))\n    (VP (MD would) (ADVP (RB probably)) (VP (VB break)))\n    (. .)))"
+    },
+    "Since losing my leg, I've worked on different musicals, celebrating the fact that I'm an amputee.": {
+        "chunks": [
+            "Since losing my leg",
+            "losing my leg",
+            "losing my leg",
+            "my leg",
+            "'ve worked on different musicals, celebrating the fact that I'm an amputee",
+            "worked on different musicals, celebrating the fact that I'm an amputee",
+            "on different musicals",
+            "different musicals",
+            "celebrating the fact that I'm an amputee",
+            "celebrating the fact that I'm an amputee",
+            "the fact ",
+            "that I'm an amputee",
+            "I'm an amputee",
+            "'m an amputee",
+            "an amputee"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP (IN Since) (S (VP (VBG losing) (NP (PRP$ my) (NN leg)))))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VBP 've)\n      (VP\n        (VBN worked)\n        (PP (IN on) (NP (JJ different) (NNS musicals)))\n        (, ,)\n        (S\n          (VP\n            (VBG celebrating)\n            (NP (DT the) (NN fact))\n            (SBAR\n              (IN that)\n              (S\n                (NP (PRP I))\n                (VP (VBP 'm) (NP (DT an) (NN amputee)))))))))\n    (. .)))"
+    },
+    "In one show, my character was in bed with his girlfriend.": {
+        "chunks": [
+            "In one show",
+            "one show",
+            "my character ",
+            "was in bed with his girlfriend",
+            "in bed with his girlfriend",
+            "bed with his girlfriend",
+            "with his girlfriend",
+            "his girlfriend"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP (IN In) (NP (CD one) (NN show)))\n    (, ,)\n    (NP (PRP$ my) (NN character))\n    (VP\n      (VBD was)\n      (PP\n        (IN in)\n        (NP\n          (NP (NN bed))\n          (PP (IN with) (NP (PRP$ his) (NN girlfriend))))))\n    (. .)))"
+    },
+    "The joke was that one of the bedposts was actually my leg, which I removed and started screwing into my residual limb in a very sensual way.": {
+        "chunks": [
+            "The joke ",
+            "was that one of the bedposts was actually my leg, which I removed and started screwing into my residual limb in a very sensual way",
+            "that one of the bedposts was actually my leg, which I removed and started screwing into my residual limb in a very sensual way",
+            "one of the bedposts was actually my leg, which I removed and started screwing into my residual limb in a very sensual way",
+            "one of the bedposts ",
+            "of the bedposts ",
+            "the bedposts ",
+            "was actually my leg, which I removed and started screwing into my residual limb in a very sensual way",
+            "my leg, which I removed and started screwing into my residual limb in a very sensual way",
+            "my leg",
+            "which I removed and started screwing into my residual limb in a very sensual way",
+            "I removed and started screwing into my residual limb in a very sensual way",
+            "removed and started screwing into my residual limb in a very sensual way",
+            "started screwing into my residual limb in a very sensual way",
+            "screwing into my residual limb in a very sensual way",
+            "screwing into my residual limb in a very sensual way",
+            "into my residual limb in a very sensual way",
+            "my residual limb in a very sensual way",
+            "my residual limb ",
+            "in a very sensual way",
+            "a very sensual way"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT The) (NN joke))\n    (VP\n      (VBD was)\n      (SBAR\n        (IN that)\n        (S\n          (NP\n            (NP (CD one))\n            (PP (IN of) (NP (DT the) (NNS bedposts))))\n          (VP\n            (VBD was)\n            (ADVP (RB actually))\n            (NP\n              (NP (PRP$ my) (NN leg))\n              (, ,)\n              (SBAR\n                (WHNP (WDT which))\n                (S\n                  (NP (PRP I))\n                  (VP\n                    (VP (VBD removed))\n                    (CC and)\n                    (VP\n                      (VBD started)\n                      (S\n                        (VP\n                          (VBG screwing)\n                          (PP\n                            (IN into)\n                            (NP\n                              (NP (PRP$ my) (JJ residual) (NN limb))\n                              (PP\n                                (IN in)\n                                (NP\n                                  (DT a)\n                                  (ADJP (RB very) (JJ sensual))\n                                  (NN way))))))))))))))))\n    (. .)))"
+    },
+    "I'm totally comfortable joking about it.": {
+        "chunks": [
+            "joking about it",
+            "joking about it",
+            "about it"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBP 'm)\n      (ADJP\n        (RB totally)\n        (JJ comfortable)\n        (S (VP (VBG joking) (PP (IN about) (NP (PRP it)))))))\n    (. .)))"
+    },
+    "I get the audience behind me by making them laugh.": {
+        "chunks": [
+            "get the audience behind me by making them laugh",
+            "the audience behind me ",
+            "the audience ",
+            "behind me ",
+            "by making them laugh",
+            "making them laugh",
+            "making them laugh",
+            "them laugh"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBP get)\n      (NP (NP (DT the) (NN audience)) (PP (IN behind) (NP (PRP me))))\n      (PP\n        (IN by)\n        (S (VP (VBG making) (S (NP (PRP them)) (VP (NN laugh)))))))\n    (. .)))"
+    },
+    "I didn't choose any of this, but my career will probably be bigger and better because of my peg leg.": {
+        "chunks": [
+            "I didn't choose any of this",
+            "didn't choose any of this",
+            "choose any of this",
+            "any of this",
+            "of this",
+            "my career will probably be bigger and better because of my peg leg",
+            "my career ",
+            "will probably be bigger and better because of my peg leg",
+            "be bigger and better because of my peg leg",
+            "because of my peg leg",
+            "my peg leg"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (S\n      (NP (PRP I))\n      (VP\n        (VBD did)\n        (RB n't)\n        (VP\n          (VB choose)\n          (NP (NP (DT any)) (PP (IN of) (NP (DT this)))))))\n    (, ,)\n    (CC but)\n    (S\n      (NP (PRP$ my) (NN career))\n      (VP\n        (MD will)\n        (ADVP (RB probably))\n        (VP\n          (VB be)\n          (ADJP\n            (ADJP (JJR bigger) (CC and) (JJR better))\n            (PP\n              (RB because)\n              (IN of)\n              (NP (PRP$ my) (JJ peg) (NN leg)))))))\n    (. .)))"
+    },
+    "I've danced at Paralympic events in London, and at the Oscars earlier this year.": {
+        "chunks": [
+            "at Paralympic events in London, and at the Oscars ",
+            "at Paralympic events in London",
+            "Paralympic events in London",
+            "Paralympic events ",
+            "in London",
+            "at the Oscars ",
+            "the Oscars ",
+            "earlier this year"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBP 've)\n      (VP\n        (VBN danced)\n        (PP\n          (PP\n            (IN at)\n            (NP\n              (NP (JJ Paralympic) (NNS events))\n              (PP (IN in) (NP (NNP London)))))\n          (, ,)\n          (CC and)\n          (PP (IN at) (NP (DT the) (NNPS Oscars))))\n        (NP (RBR earlier) (DT this) (NN year))))\n    (. .)))"
+    },
+    "I'm now auditioning for principal Broadway roles, and was nominated for outstanding actor in a musical at the Drama Desk awards this year.": {
+        "chunks": [
+            "'m now auditioning for principal Broadway roles",
+            "auditioning for principal Broadway roles",
+            "for principal Broadway roles",
+            "principal Broadway roles",
+            "was nominated for outstanding actor in a musical at the Drama Desk awards this year",
+            "nominated for outstanding actor in a musical at the Drama Desk awards this year",
+            "for outstanding actor in a musical at the Drama Desk awards ",
+            "outstanding actor in a musical at the Drama Desk awards ",
+            "outstanding actor ",
+            "in a musical at the Drama Desk awards ",
+            "a musical at the Drama Desk awards ",
+            "a musical ",
+            "at the Drama Desk awards ",
+            "the Drama Desk awards ",
+            "this year"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VP\n        (VBP 'm)\n        (ADVP (RB now))\n        (VP\n          (VBG auditioning)\n          (PP\n            (IN for)\n            (NP (JJ principal) (NNP Broadway) (NNS roles)))))\n      (, ,)\n      (CC and)\n      (VP\n        (VBD was)\n        (VP\n          (VBN nominated)\n          (PP\n            (IN for)\n            (NP\n              (NP (JJ outstanding) (NN actor))\n              (PP\n                (IN in)\n                (NP\n                  (NP (DT a) (NN musical))\n                  (PP\n                    (IN at)\n                    (NP (DT the) (NNP Drama) (NNP Desk) (NNS awards)))))))\n          (NP (DT this) (NN year)))))\n    (. .)))"
+    },
+    "Disabled actors have taken leading and ensemble parts on Broadway.": {
+        "chunks": [
+            "Disabled actors ",
+            "have taken leading and ensemble parts on Broadway",
+            "taken leading and ensemble parts on Broadway",
+            "leading and ensemble parts ",
+            "on Broadway"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (JJ Disabled) (NNS actors))\n    (VP\n      (VBP have)\n      (VP\n        (VBN taken)\n        (NP (JJ leading) (CC and) (NN ensemble) (NNS parts))\n        (PP (IN on) (NP (NNP Broadway)))))\n    (. .)))"
+    },
+    "Now, I want to see an amputee in one of those leading roles.": {
+        "chunks": [
+            "want to see an amputee in one of those leading roles",
+            "to see an amputee in one of those leading roles",
+            "to see an amputee in one of those leading roles",
+            "see an amputee in one of those leading roles",
+            "an amputee in one of those leading roles",
+            "an amputee ",
+            "in one ",
+            "of those leading roles",
+            "those leading roles"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP (RB Now))\n    (, ,)\n    (NP (PRP I))\n    (VP\n      (VBP want)\n      (S\n        (VP\n          (TO to)\n          (VP\n            (VB see)\n            (NP\n              (NP (DT an) (NN amputee))\n              (PP (IN in) (NP (CD one)))\n              (PP (IN of) (NP (DT those) (VBG leading) (NNS roles))))))))\n    (. .)))"
+    },
+    "Maybe it'll be me..": {
+        "chunks": [
+            "'ll be me",
+            "be me"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (ADVP (RB Maybe))\n    (NP (PRP it))\n    (VP (MD 'll) (VP (VB be) (NP (PRP me))))\n    (. .)\n    (. .)))"
+    },
+    "during a production in 2009 ": {
+        "chunks": [
+            "during a production in 2009 ",
+            "a production in 2009 ",
+            "a production ",
+            "in 2009 "
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN during)\n    (NP (NP (DT a) (NN production)) (PP (IN in) (NP (CD 2009))))))"
+    },
+    "a production in 2009 ": {
+        "chunks": [
+            "a production in 2009 ",
+            "a production ",
+            "in 2009 "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT a) (NN production)) (PP (IN in) (NP (CD 2009)))))"
+    },
+    "started to feel pain in my right leg": {
+        "chunks": [
+            "to feel pain in my right leg",
+            "to feel pain in my right leg",
+            "feel pain in my right leg",
+            "in my right leg",
+            "my right leg"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN started)\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB feel)\n          (NP (NN pain))\n          (PP (IN in) (NP (PRP$ my) (JJ right) (NN leg))))))))"
+    },
+    "to feel pain in my right leg": {
+        "chunks": [
+            "feel pain in my right leg",
+            "in my right leg",
+            "my right leg"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB feel)\n          (NP (NN pain))\n          (PP (IN in) (NP (PRP$ my) (JJ right) (NN leg))))))))"
+    },
+    "feel pain in my right leg": {
+        "chunks": [
+            "in my right leg",
+            "my right leg"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB feel)\n      (NP (NN pain))\n      (PP (IN in) (NP (PRP$ my) (JJ right) (NN leg))))))"
+    },
+    "in my right leg": {
+        "chunks": [
+            "my right leg"
+        ],
+        "tree_string": "(ROOT (PP (IN in) (NP (PRP$ my) (JJ right) (NN leg))))"
+    },
+    "One year and nine operations later": {
+        "chunks": [
+            "One year ",
+            "nine operations later",
+            "nine operations "
+        ],
+        "tree_string": "(ROOT\n  (UCP\n    (NP (CD One) (NN year))\n    (CC and)\n    (ADVP (NP (CD nine) (NNS operations)) (RB later))))"
+    },
+    "One year and nine operations ": {
+        "chunks": [
+            "One year and nine operations ",
+            "One year ",
+            "nine operations "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (CD One) (NN year))\n    (CC and)\n    (NP (CD nine) (NNS operations))))"
+    },
+    "when I was 20": {
+        "chunks": [
+            "I was 20",
+            "was 20"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHADVP (WRB when))\n    (S (NP (PRP I)) (VP (VBD was) (NP (CD 20))))))"
+    },
+    "had to have it amputated above the knee": {
+        "chunks": [
+            "to have it amputated above the knee",
+            "to have it amputated above the knee",
+            "have it amputated above the knee",
+            "it amputated above the knee",
+            "amputated above the knee",
+            "above the knee",
+            "the knee"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN had)\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB have)\n          (S\n            (NP (PRP it))\n            (VP\n              (VBN amputated)\n              (PP (IN above) (NP (DT the) (NN knee))))))))))"
+    },
+    "to have it amputated above the knee": {
+        "chunks": [
+            "have it amputated above the knee",
+            "it amputated above the knee",
+            "amputated above the knee",
+            "above the knee",
+            "the knee"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB have)\n          (S\n            (NP (PRP it))\n            (VP\n              (VBN amputated)\n              (PP (IN above) (NP (DT the) (NN knee))))))))))"
+    },
+    "have it amputated above the knee": {
+        "chunks": [
+            "it amputated above the knee",
+            "amputated above the knee",
+            "above the knee",
+            "the knee"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB have)\n      (S\n        (NP (PRP it))\n        (VP (VBN amputated) (PP (IN above) (NP (DT the) (NN knee))))))))"
+    },
+    "it amputated above the knee": {
+        "chunks": [
+            "amputated above the knee",
+            "above the knee",
+            "the knee"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP it))\n    (VP (VBN amputated) (PP (IN above) (NP (DT the) (NN knee))))))"
+    },
+    "amputated above the knee": {
+        "chunks": [
+            "above the knee",
+            "the knee"
+        ],
+        "tree_string": "(ROOT (VP (VBN amputated) (PP (IN above) (NP (DT the) (NN knee)))))"
+    },
+    "why had I been through so many operations": {
+        "chunks": [
+            "had I been through so many operations",
+            "been through so many operations",
+            "through so many operations",
+            "so many operations"
+        ],
+        "tree_string": "(ROOT\n  (SBARQ\n    (WHADVP (WRB why))\n    (SQ\n      (VBD had)\n      (NP (PRP I))\n      (VP\n        (VBN been)\n        (PP\n          (IN through)\n          (NP (ADJP (RB so) (JJ many)) (NNS operations)))))))"
+    },
+    "had I been through so many operations": {
+        "chunks": [
+            "been through so many operations",
+            "through so many operations",
+            "so many operations"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VBD had)\n    (NP (PRP I))\n    (VP\n      (VBN been)\n      (PP\n        (IN through)\n        (NP (ADJP (RB so) (JJ many)) (NNS operations))))))"
+    },
+    "been through so many operations": {
+        "chunks": [
+            "through so many operations",
+            "so many operations"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN been)\n    (PP (IN through) (NP (ADJP (RB so) (JJ many)) (NNS operations)))))"
+    },
+    "through so many operations": {
+        "chunks": [
+            "so many operations"
+        ],
+        "tree_string": "(ROOT\n  (PP (IN through) (NP (ADJP (RB so) (JJ many)) (NNS operations))))"
+    },
+    "off without trying everything else first": {
+        "chunks": [
+            "trying everything else first",
+            "trying everything else first",
+            "everything else "
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (RB off)\n    (IN without)\n    (S\n      (VP\n        (VBG trying)\n        (NP (NN everything) (RB else))\n        (ADVP (RB first))))))"
+    },
+    "trying everything else first": {
+        "chunks": [
+            "everything else "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG trying)\n      (NP (NN everything) (RB else))\n      (ADVP (RB first)))))"
+    },
+    "The bone cancer was potentially deadly": {
+        "chunks": [
+            "The bone cancer ",
+            "was potentially deadly"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT The) (NN bone) (NN cancer))\n    (VP (VBD was) (ADJP (RB potentially) (JJ deadly)))))"
+    },
+    "The bone cancer ": {
+        "chunks": [
+            "The bone cancer "
+        ],
+        "tree_string": "(ROOT (NP (DT The) (NN bone) (NN cancer)))"
+    },
+    "wasn't just about the loss of a limb": {
+        "chunks": [
+            "wasn't just about ",
+            "n't just about ",
+            "just about ",
+            "the loss of a limb",
+            "the loss ",
+            "of a limb",
+            "a limb"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD was) (VP (RB n't) (NP (RB just) (RB about))))\n    (NP (NP (DT the) (NN loss)) (PP (IN of) (NP (DT a) (NN limb))))))"
+    },
+    "about the loss of a limb": {
+        "chunks": [
+            "the loss of a limb",
+            "the loss ",
+            "of a limb",
+            "a limb"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (IN about)\n    (NP (NP (DT the) (NN loss)) (PP (IN of) (NP (DT a) (NN limb))))))"
+    },
+    "about the loss ": {
+        "chunks": [
+            "about the loss ",
+            "the loss "
+        ],
+        "tree_string": "(ROOT (PP (IN about) (NP (DT the) (NN loss))))"
+    },
+    "save my life ": {
+        "chunks": [
+            "save my life ",
+            "save my life ",
+            "my life "
+        ],
+        "tree_string": "(ROOT (S (VP (VB save) (NP (PRP$ my) (NN life)))))"
+    },
+    "to my first dance performance ": {
+        "chunks": [
+            "to my first dance performance ",
+            "my first dance performance "
+        ],
+        "tree_string": "(ROOT\n  (PP (TO to) (NP (PRP$ my) (JJ first) (NN dance) (NN performance))))"
+    },
+    "my first dance performance ": {
+        "chunks": [
+            "my first dance performance ",
+            "my first dance "
+        ],
+        "tree_string": "(ROOT\n  (NP (NP (PRP$ my) (JJ first) (NN dance)) (NP (NN performance))))"
+    },
+    "went home for a week before the amputation": {
+        "chunks": [
+            "home for a week before the amputation",
+            "for a week before the amputation",
+            "a week before the amputation",
+            "a week ",
+            "before the amputation",
+            "the amputation"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD went))\n    (NP\n      (NP (NN home))\n      (PP\n        (IN for)\n        (NP\n          (NP (DT a) (NN week))\n          (PP (IN before) (NP (DT the) (NN amputation))))))))"
+    },
+    "for a week ": {
+        "chunks": [
+            "for a week ",
+            "a week "
+        ],
+        "tree_string": "(ROOT (PP (IN for) (NP (DT a) (NN week))))"
+    },
+    "I drive a manual car": {
+        "chunks": [
+            "drive a manual car",
+            "a manual car"
+        ],
+        "tree_string": "(ROOT\n  (S (NP (PRP I)) (VP (VBP drive) (NP (DT a) (JJ manual) (NN car)))))"
+    },
+    "drive a manual car": {
+        "chunks": [
+            "a manual car"
+        ],
+        "tree_string": "(ROOT (S (VP (VB drive) (NP (DT a) (JJ manual) (NN car)))))"
+    },
+    "searched on YouTube ": {
+        "chunks": [
+            "searched on YouTube ",
+            "searched on "
+        ],
+        "tree_string": "(ROOT (SINV (VP (VBD searched) (PRT (RP on))) (NP (NNP YouTube))))"
+    },
+    "a double amputee doing just that": {
+        "chunks": [
+            "a double amputee ",
+            "doing just that",
+            "doing just that",
+            "just that"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP (DT a) (JJ double) (NN amputee))\n    (S (VP (VBG doing) (NP (RB just) (DT that))))))"
+    },
+    "a double amputee ": {
+        "chunks": [
+            "a double amputee ",
+            "a double amputee "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT a) (JJ double) (NN amputee))))"
+    },
+    "with no modifications ": {
+        "chunks": [
+            "with no modifications ",
+            "no modifications "
+        ],
+        "tree_string": "(ROOT (PP (IN with) (NP (DT no) (NNS modifications))))"
+    },
+    "Seeing what amputees could do ": {
+        "chunks": [
+            "Seeing what amputees could do ",
+            "Seeing what amputees could do ",
+            "what amputees could do ",
+            "amputees could do ",
+            "could do "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG Seeing)\n      (SBAR\n        (WHNP (WP what))\n        (S (NP (NNS amputees)) (VP (MD could) (VP (VB do))))))))"
+    },
+    "what amputees could do ": {
+        "chunks": [
+            "what amputees could do ",
+            "amputees could do ",
+            "could do "
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHNP (WP what))\n    (S (NP (NNS amputees)) (VP (MD could) (VP (VB do))))))"
+    },
+    "amputees could do ": {
+        "chunks": [
+            "amputees could do ",
+            "could do "
+        ],
+        "tree_string": "(ROOT (S (NP (NNS amputees)) (VP (MD could) (VP (VB do)))))"
+    },
+    "got me really excited about becoming one": {
+        "chunks": [
+            "about becoming one",
+            "becoming one",
+            "becoming one"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VBD got)\n    (NP (PRP me))\n    (ADJP\n      (RB really)\n      (JJ excited)\n      (PP (IN about) (S (VP (VBG becoming) (NP (CD one))))))))"
+    },
+    "me really excited about becoming one": {
+        "chunks": [
+            "about becoming one",
+            "becoming one",
+            "becoming one"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP me))\n    (ADJP\n      (RB really)\n      (JJ excited)\n      (PP (IN about) (S (VP (VBG becoming) (NP (CD one))))))))"
+    },
+    "Clayton Peg Leg Bates  ": {
+        "chunks": [
+            "Clayton Peg Leg Bates  "
+        ],
+        "tree_string": "(ROOT (NP (NNP Clayton) (NNP Peg) (NNP Leg) (NNP Bates)))"
+    },
+    "a tapping legend ": {
+        "chunks": [
+            "a tapping legend "
+        ],
+        "tree_string": "(ROOT (FRAG (DT a) (INTJ (UH tapping)) (NP (NN legend))))"
+    },
+    "a cotton mill accident when he was 12": {
+        "chunks": [
+            "a cotton mill accident ",
+            "when he was 12",
+            "he was 12",
+            "was 12"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP\n      (NP (DT a) (NN cotton) (NN mill) (NN accident))\n      (SBAR\n        (WHADVP (WRB when))\n        (S (NP (PRP he)) (VP (VBD was) (NP (CD 12))))))))"
+    },
+    "a cotton mill accident ": {
+        "chunks": [
+            "a cotton mill accident ",
+            "a cotton ",
+            "mill accident "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT a) (NN cotton)) (NP (NN mill) (NN accident))))"
+    },
+    "when he was 12": {
+        "chunks": [
+            "he was 12",
+            "was 12"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHADVP (WRB when))\n    (S (NP (PRP he)) (VP (VBD was) (NP (CD 12))))))"
+    },
+    "on a peg leg made by his uncle": {
+        "chunks": [
+            "a peg leg made by his uncle",
+            "a peg leg ",
+            "made by his uncle",
+            "by his uncle",
+            "his uncle"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN on)\n    (NP\n      (NP (DT a) (JJ peg) (NN leg))\n      (VP (VBN made) (PP (IN by) (NP (PRP$ his) (NN uncle)))))))"
+    },
+    "a peg leg made by his uncle": {
+        "chunks": [
+            "a peg leg ",
+            "made by his uncle",
+            "by his uncle",
+            "his uncle"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT a) (JJ peg) (NN leg))\n    (VP (VBN made) (PP (IN by) (NP (PRP$ his) (NN uncle))))))"
+    },
+    "a peg leg ": {
+        "chunks": [
+            "a peg leg "
+        ],
+        "tree_string": "(ROOT (FRAG (DT a) (INTJ (UH peg)) (NP (NN leg))))"
+    },
+    "made by his uncle": {
+        "chunks": [
+            "by his uncle",
+            "his uncle"
+        ],
+        "tree_string": "(ROOT (VP (VBN made) (PP (IN by) (NP (PRP$ his) (NN uncle)))))"
+    },
+    "grown up idolising him": {
+        "chunks": [
+            "idolising him",
+            "idolising him"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN grown)\n    (PRT (RP up))\n    (S (VP (VBG idolising) (NP (PRP him))))))"
+    },
+    "of him dancing on the Ed Sullivan Show": {
+        "chunks": [
+            "him dancing on the Ed Sullivan Show",
+            "dancing on the Ed Sullivan Show",
+            "on the Ed Sullivan Show",
+            "the Ed Sullivan Show"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN of)\n    (S\n      (NP (PRP him))\n      (VP\n        (VBG dancing)\n        (PP (IN on) (NP (DT the) (NNP Ed) (NNP Sullivan) (NNP Show)))))))"
+    },
+    "him dancing on the Ed Sullivan Show": {
+        "chunks": [
+            "dancing on the Ed Sullivan Show",
+            "on the Ed Sullivan Show",
+            "the Ed Sullivan Show"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (S\n      (NP (PRP him))\n      (VP\n        (VBG dancing)\n        (PP (IN on) (NP (DT the) (NNP Ed) (NNP Sullivan) (NNP Show)))))))"
+    },
+    "dancing on the Ed Sullivan Show": {
+        "chunks": [
+            "on the Ed Sullivan Show",
+            "the Ed Sullivan Show"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG dancing)\n      (PP (IN on) (NP (DT the) (NNP Ed) (NNP Sullivan) (NNP Show))))))"
+    },
+    "on the Ed Sullivan Show": {
+        "chunks": [
+            "the Ed Sullivan Show"
+        ],
+        "tree_string": "(ROOT (PP (IN on) (NP (DT the) (NNP Ed) (NNP Sullivan) (NNP Show))))"
+    },
+    "the Ed Sullivan Show": {
+        "chunks": [
+            "Ed Sullivan Show"
+        ],
+        "tree_string": "(ROOT (FRAG (X (DT the)) (NP (NNP Ed) (NNP Sullivan) (NNP Show))))"
+    },
+    "thought, In one year, I'll be doing this": {
+        "chunks": [
+            "In one year",
+            "one year",
+            "'ll be doing this",
+            "be doing this",
+            "doing this"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NN thought))\n    (, ,)\n    (PP (IN In) (NP (CD one) (NN year)))\n    (, ,)\n    (NP (PRP I))\n    (VP (MD 'll) (VP (VB be) (VP (VBG doing) (NP (DT this)))))))"
+    },
+    ", In one year, I'll be doing this": {
+        "chunks": [
+            "In one year",
+            "one year",
+            "'ll be doing this",
+            "be doing this",
+            "doing this"
+        ],
+        "tree_string": "(ROOT\n  (PRN\n    (, ,)\n    (S\n      (PP (IN In) (NP (CD one) (NN year)))\n      (, ,)\n      (NP (PRP I))\n      (VP (MD 'll) (VP (VB be) (VP (VBG doing) (NP (DT this))))))))"
+    },
+    "'ll be doing this": {
+        "chunks": [
+            "'ll be doing ",
+            "be doing "
+        ],
+        "tree_string": "(ROOT\n  (SINV (VP (MD 'll) (VP (VB be) (VP (VBG doing)))) (NP (DT this))))"
+    },
+    "using my first prosthetic leg very quickly": {
+        "chunks": [
+            "my first prosthetic leg ",
+            "very quickly"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG using)\n      (NP (PRP$ my) (JJ first) (JJ prosthetic) (NN leg))\n      (ADVP (RB very) (RB quickly)))))"
+    },
+    "my first prosthetic leg ": {
+        "chunks": [
+            "my first prosthetic leg ",
+            "my first prosthetic "
+        ],
+        "tree_string": "(ROOT (NP (NP (PRP$ my) (JJ first) (NN prosthetic)) (NP (NN leg))))"
+    },
+    "to walk and dress myself fashionably": {
+        "chunks": [
+            "walk and dress myself fashionably"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB walk)\n          (CC and)\n          (VB dress)\n          (NP (PRP myself))\n          (ADVP (RB fashionably)))))))"
+    },
+    "walk and dress myself fashionably": {
+        "chunks": [
+            "dress myself fashionably"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VP (VB walk))\n      (CC and)\n      (VP (VB dress) (NP (PRP myself)) (ADVP (RB fashionably))))))"
+    },
+    "which is very important to me": {
+        "chunks": [
+            "is very important to me",
+            "is very important to me",
+            "to me"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHNP (WDT which))\n    (S\n      (VP\n        (VBZ is)\n        (ADJP (RB very) (JJ important) (PP (TO to) (NP (PRP me))))))))"
+    },
+    "is very important to me": {
+        "chunks": [
+            "is very important to "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBZ is) (ADJP (RB very) (JJ important) (PP (TO to))))\n    (NP (PRP me))))"
+    },
+    "taught myself to drive again": {
+        "chunks": [
+            "myself to drive again",
+            "to drive again",
+            "drive again"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN taught)\n    (S\n      (NP (PRP myself))\n      (VP (TO to) (VP (VB drive) (ADVP (RB again)))))))"
+    },
+    "went back to college": {
+        "chunks": [
+            "to college"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP (VBD went) (PRT (RP back)) (PP (TO to) (NP (NN college))))))"
+    },
+    "the cancer had spread to my lungs": {
+        "chunks": [
+            "the cancer ",
+            "had spread to my lungs",
+            "spread to my lungs",
+            "to my lungs",
+            "my lungs"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (DT the) (NN cancer))\n    (VP\n      (VBD had)\n      (VP (VBN spread) (PP (TO to) (NP (PRP$ my) (NNS lungs)))))))"
+    },
+    "had spread to my lungs": {
+        "chunks": [
+            "spread to my lungs",
+            "to my lungs",
+            "my lungs"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VBD had)\n    (NP (NP (NN spread)) (PP (TO to) (NP (PRP$ my) (NNS lungs))))))"
+    },
+    "spread to my lungs": {
+        "chunks": [
+            "to my lungs",
+            "my lungs"
+        ],
+        "tree_string": "(ROOT (S (VP (VB spread) (PP (TO to) (NP (PRP$ my) (NNS lungs))))))"
+    },
+    "to remove tumours and 16 months of chemotherapy": {
+        "chunks": [
+            "remove tumours and 16 months of chemotherapy",
+            "tumours and 16 months of chemotherapy",
+            "16 months of chemotherapy",
+            "16 months ",
+            "of chemotherapy"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB remove)\n          (NP\n            (NP (NNS tumours))\n            (CC and)\n            (NP\n              (NP (CD 16) (NNS months))\n              (PP (IN of) (NP (NN chemotherapy))))))))))"
+    },
+    "remove tumours and 16 months of chemotherapy": {
+        "chunks": [
+            "tumours and 16 months of chemotherapy",
+            "16 months of chemotherapy",
+            "16 months ",
+            "of chemotherapy"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB remove)\n      (NP\n        (NP (NNS tumours))\n        (CC and)\n        (NP\n          (NP (CD 16) (NNS months))\n          (PP (IN of) (NP (NN chemotherapy))))))))"
+    },
+    "tumours and 16 months of chemotherapy": {
+        "chunks": [
+            "tumours and 16 months ",
+            "16 months ",
+            "of chemotherapy"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (NP (NNS tumours)) (CC and) (NP (CD 16) (NNS months)))\n    (PP (IN of) (NP (NN chemotherapy)))))"
+    },
+    "16 months of chemotherapy": {
+        "chunks": [
+            "16 months ",
+            "of chemotherapy"
+        ],
+        "tree_string": "(ROOT\n  (NP (NP (CD 16) (NNS months)) (PP (IN of) (NP (NN chemotherapy)))))"
+    },
+    "have chemo during the day": {
+        "chunks": [
+            "chemo during the day",
+            "during the day",
+            "the day"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB have)\n      (VP (VBN chemo) (PP (IN during) (NP (DT the) (NN day)))))))"
+    },
+    "with a backpack of fluids": {
+        "chunks": [
+            "a backpack of fluids",
+            "a backpack ",
+            "of fluids"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN with)\n    (NP (NP (DT a) (NN backpack)) (PP (IN of) (NP (NNS fluids))))))"
+    },
+    "a backpack of fluids": {
+        "chunks": [
+            "a backpack ",
+            "of fluids"
+        ],
+        "tree_string": "(ROOT (NP (NP (DT a) (NN backpack)) (PP (IN of) (NP (NNS fluids)))))"
+    },
+    "as I finished my treatment in 2011": {
+        "chunks": [
+            "I finished my treatment in 2011",
+            "finished my treatment in 2011",
+            "my treatment ",
+            "in 2011"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN as)\n    (S\n      (NP (PRP I))\n      (VP\n        (VBD finished)\n        (NP (PRP$ my) (NN treatment))\n        (PP (IN in) (NP (CD 2011)))))))"
+    },
+    "I finished my treatment in 2011": {
+        "chunks": [
+            "finished my treatment in 2011",
+            "my treatment ",
+            "in 2011"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD finished)\n      (NP (PRP$ my) (NN treatment))\n      (PP (IN in) (NP (CD 2011))))))"
+    },
+    "finished my treatment in 2011": {
+        "chunks": [
+            "my treatment in 2011",
+            "my treatment ",
+            "in 2011"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD finished))\n    (NP (NP (PRP$ my) (NN treatment)) (PP (IN in) (NP (CD 2011))))))"
+    },
+    "to my prosthetist ": {
+        "chunks": [
+            "to my prosthetist ",
+            "my prosthetist "
+        ],
+        "tree_string": "(ROOT (PP (TO to) (NP (PRP$ my) (NN prosthetist))))"
+    },
+    "try a peg leg so I could dance": {
+        "chunks": [
+            "a peg leg ",
+            "so I could dance",
+            "I could dance",
+            "could dance"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB try)\n      (NP (DT a) (JJ peg) (NN leg))\n      (SBAR (IN so) (S (NP (PRP I)) (VP (MD could) (VP (VB dance))))))))"
+    },
+    "so I could dance": {
+        "chunks": [
+            "I could dance",
+            "could dance"
+        ],
+        "tree_string": "(ROOT\n  (SBAR (IN so) (S (NP (PRP I)) (VP (MD could) (VP (VB dance))))))"
+    },
+    "at a high level ": {
+        "chunks": [
+            "at a high level ",
+            "a high level "
+        ],
+        "tree_string": "(ROOT (PP (IN at) (NP (DT a) (JJ high) (NN level))))"
+    },
+    "a high level ": {
+        "chunks": [
+            "a high level ",
+            "a high level "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT a) (JJ high) (NN level))))"
+    },
+    "for over a decade ": {
+        "chunks": [
+            "for over a decade ",
+            "over a decade ",
+            "a decade "
+        ],
+        "tree_string": "(ROOT (PP (IN for) (PP (IN over) (NP (DT a) (NN decade)))))"
+    },
+    "over a decade ": {
+        "chunks": [
+            "over a decade ",
+            "a decade "
+        ],
+        "tree_string": "(ROOT (PP (IN over) (NP (DT a) (NN decade))))"
+    },
+    "I was missing it": {
+        "chunks": [
+            "was missing it",
+            "missing it"
+        ],
+        "tree_string": "(ROOT\n  (S (NP (PRP I)) (VP (VBD was) (VP (VBG missing) (NP (PRP it))))))"
+    },
+    "went to a rehearsal space alone": {
+        "chunks": [
+            "went to a rehearsal space ",
+            "to a rehearsal space ",
+            "a rehearsal space "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP\n      (VBD went)\n      (PP (TO to) (NP (DT a) (JJ rehearsal) (NN space))))\n    (NP (RB alone))))"
+    },
+    "to a rehearsal space ": {
+        "chunks": [
+            "to a rehearsal space ",
+            "a rehearsal space "
+        ],
+        "tree_string": "(ROOT (PP (TO to) (NP (DT a) (JJ rehearsal) (NN space))))"
+    },
+    "a rehearsal space ": {
+        "chunks": [
+            "a rehearsal space "
+        ],
+        "tree_string": "(ROOT (NP (DT a) (NN rehearsal) (NN space)))"
+    },
+    "put it on ": {
+        "chunks": [
+            "put it on ",
+            "put it on "
+        ],
+        "tree_string": "(ROOT (S (VP (VB put) (NP (PRP it)) (PP (IN on)))))"
+    },
+    "like an instrument, an extension of my body": {
+        "chunks": [
+            "an instrument",
+            "an extension of my body",
+            "an extension ",
+            "of my body",
+            "my body"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBP like))\n    (NP\n      (NP (DT an) (NN instrument))\n      (, ,)\n      (NP\n        (NP (DT an) (NN extension))\n        (PP (IN of) (NP (PRP$ my) (NN body)))))))"
+    },
+    "an instrument, an extension of my body": {
+        "chunks": [
+            "an instrument, an extension ",
+            "an instrument",
+            "an extension ",
+            "of my body",
+            "my body"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP\n      (NP (DT an) (NN instrument))\n      (, ,)\n      (NP (DT an) (NN extension)))\n    (PP (IN of) (NP (PRP$ my) (NN body)))))"
+    },
+    "an extension of my body": {
+        "chunks": [
+            "an extension ",
+            "of my body",
+            "my body"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT an) (NN extension))\n    (PP (IN of) (NP (PRP$ my) (NN body)))))"
+    },
+    "My muscle memory kicked in": {
+        "chunks": [
+            "My muscle memory ",
+            "kicked in"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP$ My) (NN muscle) (NN memory))\n    (VP (VBD kicked) (PRT (RP in)))))"
+    },
+    "My muscle memory ": {
+        "chunks": [
+            "My muscle memory ",
+            "My muscle memory "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (PRP$ My) (NN muscle) (NN memory))))"
+    },
+    "could still do things with my left foot": {
+        "chunks": [
+            "could still do ",
+            "things with my left foot",
+            "with my left foot",
+            "my left foot"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (MD could) (ADVP (RB still)) (VP (VB do)))\n    (NP\n      (NP (NNS things))\n      (PP (IN with) (NP (PRP$ my) (JJ left) (NN foot))))))"
+    },
+    "do things with my left foot": {
+        "chunks": [
+            "with my left foot",
+            "my left foot"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB do)\n      (NP (NNS things))\n      (PP (IN with) (NP (PRP$ my) (JJ left) (NN foot))))))"
+    },
+    "with my left foot": {
+        "chunks": [
+            "my left foot"
+        ],
+        "tree_string": "(ROOT (PP (IN with) (NP (PRP$ my) (JJ left) (NN foot))))"
+    },
+    "in the peg leg for extra beats": {
+        "chunks": [
+            "the peg leg for extra beats",
+            "the peg leg ",
+            "for extra beats",
+            "extra beats"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN in)\n    (NP\n      (NP (DT the) (JJ peg) (NN leg))\n      (PP (IN for) (NP (JJ extra) (NNS beats))))))"
+    },
+    "the peg leg for extra beats": {
+        "chunks": [
+            "the peg leg ",
+            "for extra beats",
+            "extra beats"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT the) (JJ peg) (NN leg))\n    (PP (IN for) (NP (JJ extra) (NNS beats)))))"
+    },
+    "the peg leg ": {
+        "chunks": [
+            "the peg leg "
+        ],
+        "tree_string": "(ROOT (NP (DT the) (NN peg) (NN leg)))"
+    },
+    "used videos to track my progress": {
+        "chunks": [
+            "to track my progress",
+            "to track my progress",
+            "track my progress",
+            "my progress"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN used)\n    (NP (NNS videos))\n    (S (VP (TO to) (VP (VB track) (NP (PRP$ my) (NN progress)))))))"
+    },
+    "to track my progress": {
+        "chunks": [
+            "track my progress",
+            "my progress"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S (VP (TO to) (VP (VB track) (NP (PRP$ my) (NN progress)))))))"
+    },
+    "I did the first one at 4am": {
+        "chunks": [
+            "the first one ",
+            "at 4am",
+            "4am"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD did)\n      (NP (DT the) (JJ first) (NN one))\n      (PP (IN at) (NP (CD 4) (RB am))))))"
+    },
+    "did the first one at 4am": {
+        "chunks": [
+            "the first one ",
+            "at 4am",
+            "4am"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VBD did)\n    (NP\n      (NP (DT the) (JJ first) (NN one))\n      (PP (IN at) (NP (CD 4) (RB am))))))"
+    },
+    "the first one ": {
+        "chunks": [
+            "the first one ",
+            "the first one "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT the) (JJ first) (NN one))))"
+    },
+    "by the time I woke up": {
+        "chunks": [
+            "by the time ",
+            "the time ",
+            "woke up"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (PP (IN by) (NP (DT the) (NN time)))\n    (NP (PRP I))\n    (VP (VBD woke) (PRT (RP up)))))"
+    },
+    "There is a different technique": {
+        "chunks": [
+            "is a different technique",
+            "a different technique"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (EX There))\n    (VP (VBZ is) (NP (DT a) (JJ different) (NN technique)))))"
+    },
+    "is a different technique": {
+        "chunks": [
+            "a different technique"
+        ],
+        "tree_string": "(ROOT (SINV (VBZ is) (NP (DT a) (JJ different) (NN technique))))"
+    },
+    "with a real foot ": {
+        "chunks": [
+            "with a real foot ",
+            "a real foot "
+        ],
+        "tree_string": "(ROOT (PP (IN with) (NP (DT a) (JJ real) (NN foot))))"
+    },
+    "a real foot ": {
+        "chunks": [
+            "a real foot ",
+            "a real foot "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT a) (JJ real) (NN foot))))"
+    },
+    "'ve got a heel and toe": {
+        "chunks": [
+            "'ve got ",
+            "a heel and toe",
+            "a heel "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBP 've) (VP (VBN got)))\n    (NP (NP (DT a) (NN heel)) (CC and) (NP (NN toe)))))"
+    },
+    "got a heel and toe": {
+        "chunks": [
+            "a heel and toe",
+            "a heel "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD got))\n    (NP (NP (DT a) (NN heel)) (CC and) (NP (NN toe)))))"
+    },
+    "a heel and toe": {
+        "chunks": [
+            "a heel "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT a) (NN heel)) (CC and) (NP (NN toe))))"
+    },
+    "you can make different sounds and rhythms": {
+        "chunks": [
+            "can make different sounds and rhythms",
+            "make different sounds and rhythms",
+            "different sounds and rhythms"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP you))\n    (VP\n      (MD can)\n      (VP\n        (VB make)\n        (NP (JJ different) (NNS sounds) (CC and) (NNS rhythms))))))"
+    },
+    "can make different sounds and rhythms": {
+        "chunks": [
+            "can make different ",
+            "make different ",
+            "sounds and rhythms"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (MD can) (VP (VB make) (ADJP (JJ different))))\n    (NP (NNS sounds) (CC and) (NNS rhythms))))"
+    },
+    "make different sounds and rhythms": {
+        "chunks": [
+            "different sounds and rhythms"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB make)\n      (NP (JJ different) (NNS sounds) (CC and) (NNS rhythms)))))"
+    },
+    "different sounds and rhythms": {
+        "chunks": [
+            "different sounds "
+        ],
+        "tree_string": "(ROOT\n  (NP (NP (JJ different) (NNS sounds)) (CC and) (NP (NNS rhythms))))"
+    },
+    "When you have a peg": {
+        "chunks": [
+            "you have a peg",
+            "have a peg",
+            "a peg"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHADVP (WRB When))\n    (S (NP (PRP you)) (VP (VBP have) (NP (DT a) (NN peg))))))"
+    },
+    "you have a peg": {
+        "chunks": [
+            "have a peg",
+            "a peg"
+        ],
+        "tree_string": "(ROOT (S (NP (PRP you)) (VP (VBP have) (NP (DT a) (NN peg)))))"
+    },
+    "dance in a different way": {
+        "chunks": [
+            "in a different way",
+            "a different way"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP (VB dance) (PP (IN in) (NP (DT a) (JJ different) (NN way))))))"
+    },
+    "in a different way": {
+        "chunks": [
+            "a different way"
+        ],
+        "tree_string": "(ROOT (PP (IN in) (NP (DT a) (JJ different) (NN way))))"
+    },
+    "People tell me my shoulders are hunched ": {
+        "chunks": [
+            "People tell me my shoulders are hunched ",
+            "tell me my shoulders are hunched ",
+            "my shoulders are hunched ",
+            "my shoulders are hunched ",
+            "my shoulders ",
+            "are hunched "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NNS People))\n    (VP\n      (VBP tell)\n      (NP (PRP me))\n      (SBAR\n        (S\n          (NP (PRP$ my) (NNS shoulders))\n          (VP (VBP are) (VP (VBN hunched))))))))"
+    },
+    "tell me my shoulders are hunched ": {
+        "chunks": [
+            "tell me my shoulders are hunched ",
+            "tell me my shoulders are hunched ",
+            "my shoulders are hunched ",
+            "my shoulders are hunched ",
+            "my shoulders ",
+            "are hunched "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB tell)\n      (NP (PRP me))\n      (SBAR\n        (S\n          (NP (PRP$ my) (NNS shoulders))\n          (VP (VBP are) (VP (VBN hunched))))))))"
+    },
+    "my shoulders are hunched ": {
+        "chunks": [
+            "my shoulders are hunched ",
+            "my shoulders ",
+            "are hunched "
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP$ my) (NNS shoulders))\n    (VP (VBP are) (VP (VBN hunched)))))"
+    },
+    "my head is over to the side": {
+        "chunks": [
+            "my head ",
+            "is over to the side",
+            "to the side",
+            "the side"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP$ my) (NN head))\n    (VP\n      (VBZ is)\n      (ADJP (IN over) (PP (TO to) (NP (DT the) (NN side)))))))"
+    },
+    "is over to the side": {
+        "chunks": [
+            "is over to ",
+            "the side"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBZ is) (ADJP (IN over) (PP (TO to))))\n    (NP (DT the) (NN side))))"
+    },
+    "because I'm dancing on one leg": {
+        "chunks": [
+            "'m dancing on one leg",
+            "dancing on one leg",
+            "on one leg",
+            "one leg"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN because)\n    (S\n      (NP (PRP I))\n      (VP\n        (VBP 'm)\n        (VP (VBG dancing) (PP (IN on) (NP (CD one) (NN leg))))))))"
+    },
+    "I'm dancing on one leg": {
+        "chunks": [
+            "dancing on one leg",
+            "on one leg",
+            "one leg"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBP 'm)\n      (VP (VBG dancing) (PP (IN on) (NP (CD one) (NN leg)))))))"
+    },
+    "'m dancing on one leg": {
+        "chunks": [
+            "'m dancing on ",
+            "dancing on ",
+            "one leg"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBP 'm) (VP (VBG dancing) (PRT (RP on))))\n    (NP (CD one) (NN leg))))"
+    },
+    "dancing on one leg": {
+        "chunks": [
+            "on one leg",
+            "one leg"
+        ],
+        "tree_string": "(ROOT (S (VP (VBG dancing) (PP (IN on) (NP (CD one) (NN leg))))))"
+    },
+    "when I first became one": {
+        "chunks": [
+            "I first became one",
+            "became one"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHADVP (WRB when))\n    (S\n      (NP (PRP I))\n      (ADVP (RB first))\n      (VP (VBD became) (NP (CD one))))))"
+    },
+    "I first became one": {
+        "chunks": [
+            "first became one"
+        ],
+        "tree_string": "(ROOT\n  (S (NP (PRP I)) (VP (ADVP (RB first)) (VBD became) (NP (CD one)))))"
+    },
+    "about to break through into the mainstream": {
+        "chunks": [
+            "to break through into the mainstream",
+            "to break through into the mainstream",
+            "break through into the mainstream",
+            "into the mainstream",
+            "the mainstream"
+        ],
+        "tree_string": "(ROOT\n  (ADJP\n    (IN about)\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB break)\n          (PRT (RP through))\n          (PP (IN into) (NP (DT the) (NN mainstream))))))))"
+    },
+    "to break through into the mainstream": {
+        "chunks": [
+            "break through into the mainstream",
+            "into the mainstream",
+            "the mainstream"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (S\n      (VP\n        (TO to)\n        (VP\n          (VB break)\n          (PRT (RP through))\n          (PP (IN into) (NP (DT the) (NN mainstream))))))))"
+    },
+    "break through into the mainstream": {
+        "chunks": [
+            "into the mainstream",
+            "the mainstream"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB break)\n      (PRT (RP through))\n      (PP (IN into) (NP (DT the) (NN mainstream))))))"
+    },
+    "been a shift since": {
+        "chunks": [
+            "a shift since",
+            "a shift "
+        ],
+        "tree_string": "(ROOT (VP (VBN been) (ADVP (NP (DT a) (NN shift)) (IN since))))"
+    },
+    "'m an amputee, loud and proud": {
+        "chunks": [
+            "an amputee"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBP 'm))\n    (NP\n      (NP (DT an) (NN amputee))\n      (, ,)\n      (ADJP (JJ loud) (CC and) (JJ proud)))))"
+    },
+    "an amputee, loud and proud": {
+        "chunks": [
+            "an amputee"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP\n      (NP (DT an) (NN amputee))\n      (, ,)\n      (ADJP (JJ loud) (CC and) (JJ proud)))))"
+    },
+    "the world amputees ": {
+        "chunks": [
+            "the world amputees ",
+            "the world "
+        ],
+        "tree_string": "(ROOT (S (NP (DT the) (NN world)) (VP (VBZ amputees))))"
+    },
+    "who are happy and continuing with their lives": {
+        "chunks": [
+            "are happy and continuing with their lives",
+            "are happy and continuing with their lives",
+            "happy and continuing with their lives",
+            "continuing with their lives",
+            "with their lives",
+            "their lives"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (WHNP (WP who))\n    (S\n      (VP\n        (VBP are)\n        (UCP\n          (ADJP (JJ happy))\n          (CC and)\n          (VP\n            (VBG continuing)\n            (PP (IN with) (NP (PRP$ their) (NNS lives)))))))))"
+    },
+    "are happy and continuing with their lives": {
+        "chunks": [
+            "are happy ",
+            "continuing with their lives",
+            "with their lives",
+            "their lives"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (VP\n      (VP (VBP are) (ADJP (JJ happy)))\n      (CC and)\n      (VP\n        (VBG continuing)\n        (PP (IN with) (NP (PRP$ their) (NNS lives)))))))"
+    },
+    "happy and continuing with their lives": {
+        "chunks": [
+            "continuing with their lives",
+            "with their lives",
+            "their lives"
+        ],
+        "tree_string": "(ROOT\n  (UCP\n    (ADJP (JJ happy))\n    (CC and)\n    (VP\n      (VBG continuing)\n      (PP (IN with) (NP (PRP$ their) (NNS lives))))))"
+    },
+    "continuing with their lives": {
+        "chunks": [
+            "with their lives",
+            "their lives"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG continuing)\n      (PP (IN with) (NP (PRP$ their) (NNS lives))))))"
+    },
+    "in the early days": {
+        "chunks": [
+            "the early days"
+        ],
+        "tree_string": "(ROOT (PP (IN in) (NP (DT the) (JJ early) (NNS days))))"
+    },
+    "people would draw their kids away from me": {
+        "chunks": [
+            "would draw their kids away from me",
+            "draw their kids away from me",
+            "their kids ",
+            "from me"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (NNS people))\n    (VP\n      (MD would)\n      (VP\n        (VB draw)\n        (NP (PRP$ their) (NNS kids))\n        (PRT (RP away))\n        (PP (IN from) (NP (PRP me)))))))"
+    },
+    "would draw their kids away from me": {
+        "chunks": [
+            "would draw their kids away from ",
+            "draw their kids away from ",
+            "their kids "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP\n      (MD would)\n      (VP\n        (VB draw)\n        (NP (PRP$ their) (NNS kids))\n        (PRT (RP away))\n        (PP (IN from))))\n    (NP (PRP me))))"
+    },
+    "draw their kids away from me": {
+        "chunks": [
+            "their kids ",
+            "from me"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB draw)\n      (NP (PRP$ their) (NNS kids))\n      (ADVP (RB away))\n      (PP (IN from) (NP (PRP me))))))"
+    },
+    "in schools and hospitals": {
+        "chunks": [
+            "schools and hospitals"
+        ],
+        "tree_string": "(ROOT (PP (IN in) (NP (NNS schools) (CC and) (NNS hospitals))))"
+    },
+    "dancing and talking about my leg": {
+        "chunks": [
+            "about my leg",
+            "my leg"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG dancing)\n      (CC and)\n      (VBG talking)\n      (PP (IN about) (NP (PRP$ my) (NN leg))))))"
+    },
+    "do motivational speaking ": {
+        "chunks": [
+            "do motivational speaking ",
+            "do motivational speaking ",
+            "motivational speaking "
+        ],
+        "tree_string": "(ROOT (S (VP (VB do) (NP (JJ motivational) (NN speaking)))))"
+    },
+    "teach dance classes ": {
+        "chunks": [
+            "teach dance classes ",
+            "teach dance classes ",
+            "dance classes "
+        ],
+        "tree_string": "(ROOT (S (VP (VB teach) (NP (NN dance) (NNS classes)))))"
+    },
+    "as well as ": {
+        "chunks": [
+            "as well as "
+        ],
+        "tree_string": "(ROOT (ADVP (RB as) (RB well) (RB as)))"
+    },
+    "playing in my band": {
+        "chunks": [
+            "in my band",
+            "my band"
+        ],
+        "tree_string": "(ROOT (S (VP (VBG playing) (PP (IN in) (NP (PRP$ my) (NN band))))))"
+    },
+    "I have nine prosthetics": {
+        "chunks": [
+            "have nine prosthetics",
+            "nine prosthetics"
+        ],
+        "tree_string": "(ROOT\n  (S (NP (PRP I)) (VP (VBP have) (NP (CD nine) (NNS prosthetics)))))"
+    },
+    "travel with four  ": {
+        "chunks": [
+            "travel with four  ",
+            "travel with four  ",
+            "with four  "
+        ],
+        "tree_string": "(ROOT (S (VP (VB travel) (PP (IN with) (NP (CD four))))))"
+    },
+    "with four  ": {
+        "chunks": [
+            "with four  "
+        ],
+        "tree_string": "(ROOT (PP (IN with) (NP (CD four))))"
+    },
+    "two peg and two walking legs": {
+        "chunks": [
+            "two peg ",
+            "two walking legs"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (CD two) (NNS peg))\n    (CC and)\n    (NP (CD two) (NN walking) (NNS legs))))"
+    },
+    "The peg legs ": {
+        "chunks": [
+            "The peg legs ",
+            "The peg legs "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT The) (JJ peg) (NNS legs))))"
+    },
+    "are made of alloy or titanium  ": {
+        "chunks": [
+            "are made of alloy or titanium  ",
+            "are made of ",
+            "made of ",
+            "alloy or titanium  "
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBP are) (VP (VBN made) (PP (IN of))))\n    (NP (NN alloy) (CC or) (NN titanium))))"
+    },
+    "made of alloy or titanium  ": {
+        "chunks": [
+            "made of alloy or titanium  ",
+            "of alloy or titanium  ",
+            "alloy or titanium  "
+        ],
+        "tree_string": "(ROOT\n  (VP (VBN made) (PP (IN of) (NP (NN alloy) (CC or) (NN titanium)))))"
+    },
+    "of alloy or titanium  ": {
+        "chunks": [
+            "of alloy or titanium  ",
+            "alloy or titanium  "
+        ],
+        "tree_string": "(ROOT (PP (IN of) (NP (NN alloy) (CC or) (NN titanium))))"
+    },
+    "alloy or titanium  ": {
+        "chunks": [
+            "alloy or titanium  "
+        ],
+        "tree_string": "(ROOT (NP (NN alloy) (CC or) (NN titanium)))"
+    },
+    "a wooden one ": {
+        "chunks": [
+            "a wooden one ",
+            "a wooden one "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (DT a) (JJ wooden) (NN one))))"
+    },
+    "Since losing my leg": {
+        "chunks": [
+            "losing my leg",
+            "losing my leg",
+            "my leg"
+        ],
+        "tree_string": "(ROOT (PP (IN Since) (S (VP (VBG losing) (NP (PRP$ my) (NN leg))))))"
+    },
+    "celebrating the fact that I'm an amputee": {
+        "chunks": [
+            "the fact ",
+            "that I'm an amputee",
+            "I'm an amputee",
+            "'m an amputee",
+            "an amputee"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG celebrating)\n      (NP (DT the) (NN fact))\n      (SBAR\n        (IN that)\n        (S (NP (PRP I)) (VP (VBP 'm) (NP (DT an) (NN amputee))))))))"
+    },
+    "that I'm an amputee": {
+        "chunks": [
+            "'m an amputee",
+            "an amputee"
+        ],
+        "tree_string": "(ROOT\n  (SBAR\n    (IN that)\n    (S (NP (PRP I)) (VP (VBP 'm) (NP (DT an) (NN amputee))))))"
+    },
+    "was in bed with his girlfriend": {
+        "chunks": [
+            "was in ",
+            "bed with his girlfriend",
+            "with his girlfriend",
+            "his girlfriend"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD was) (ADVP (RB in)))\n    (NP (NP (NN bed)) (PP (IN with) (NP (PRP$ his) (NN girlfriend))))))"
+    },
+    "in bed with his girlfriend": {
+        "chunks": [
+            "bed with his girlfriend",
+            "with his girlfriend",
+            "his girlfriend"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN in)\n    (NP (NP (NN bed)) (PP (IN with) (NP (PRP$ his) (NN girlfriend))))))"
+    },
+    "bed with his girlfriend": {
+        "chunks": [
+            "with his girlfriend",
+            "his girlfriend"
+        ],
+        "tree_string": "(ROOT\n  (NP (NP (NN bed)) (PP (IN with) (NP (PRP$ his) (NN girlfriend)))))"
+    },
+    "one of the bedposts ": {
+        "chunks": [
+            "one of the bedposts ",
+            "of the bedposts ",
+            "the bedposts "
+        ],
+        "tree_string": "(ROOT (NP (NP (CD one)) (PP (IN of) (NP (DT the) (NNS bedposts)))))"
+    },
+    "of the bedposts ": {
+        "chunks": [
+            "of the bedposts ",
+            "the bedposts "
+        ],
+        "tree_string": "(ROOT (PP (IN of) (NP (DT the) (NNS bedposts))))"
+    },
+    "my residual limb in a very sensual way": {
+        "chunks": [
+            "my residual limb ",
+            "in a very sensual way",
+            "a very sensual way"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (PRP$ my) (JJ residual) (NN limb))\n    (PP (IN in) (NP (DT a) (ADJP (RB very) (JJ sensual)) (NN way)))))"
+    },
+    "my residual limb ": {
+        "chunks": [
+            "my residual limb ",
+            "my residual limb "
+        ],
+        "tree_string": "(ROOT (FRAG (NP (PRP$ my) (JJ residual) (NN limb))))"
+    },
+    "in a very sensual way": {
+        "chunks": [
+            "a very sensual way"
+        ],
+        "tree_string": "(ROOT\n  (PP (IN in) (NP (DT a) (ADJP (RB very) (JJ sensual)) (NN way))))"
+    },
+    "a very sensual way": {
+        "chunks": [],
+        "tree_string": "(ROOT (FRAG (NP (DT a) (ADJP (RB very) (JJ sensual)) (NN way))))"
+    },
+    "the audience behind me ": {
+        "chunks": [
+            "the audience behind me ",
+            "the audience ",
+            "behind me "
+        ],
+        "tree_string": "(ROOT\n  (NP (NP (DT the) (NN audience)) (PP (IN behind) (NP (PRP me)))))"
+    },
+    "by making them laugh": {
+        "chunks": [
+            "making them laugh",
+            "making them laugh",
+            "them laugh"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN by)\n    (S (VP (VBG making) (S (NP (PRP them)) (VP (NN laugh)))))))"
+    },
+    "I didn't choose any of this": {
+        "chunks": [
+            "choose any of this",
+            "any of this",
+            "of this"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (NP (PRP I))\n    (VP\n      (VBD did)\n      (RB n't)\n      (VP (VB choose) (NP (NP (DT any)) (PP (IN of) (NP (DT this))))))))"
+    },
+    "didn't choose any of this": {
+        "chunks": [
+            "didn't choose ",
+            "any of this",
+            "of this"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP (VBD did) (RB n't) (VP (VB choose)))\n    (NP (NP (DT any)) (PP (IN of) (NP (DT this))))))"
+    },
+    "choose any of this": {
+        "chunks": [
+            "any of this",
+            "of this"
+        ],
+        "tree_string": "(ROOT\n  (S (VP (VB choose) (NP (NP (DT any)) (PP (IN of) (NP (DT this)))))))"
+    },
+    "because of my peg leg": {
+        "chunks": [
+            "my peg leg"
+        ],
+        "tree_string": "(ROOT (PP (RB because) (IN of) (NP (PRP$ my) (JJ peg) (NN leg))))"
+    },
+    "at Paralympic events in London": {
+        "chunks": [
+            "Paralympic events in London",
+            "Paralympic events ",
+            "in London"
+        ],
+        "tree_string": "(ROOT\n  (PP\n    (IN at)\n    (NP\n      (NP (JJ Paralympic) (NNS events))\n      (PP (IN in) (NP (NNP London))))))"
+    },
+    "Paralympic events in London": {
+        "chunks": [
+            "Paralympic events ",
+            "in London"
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (JJ Paralympic) (NNS events))\n    (PP (IN in) (NP (NNP London)))))"
+    },
+    "at the Oscars ": {
+        "chunks": [
+            "at the Oscars ",
+            "the Oscars "
+        ],
+        "tree_string": "(ROOT (FRAG (X (IN at)) (NP (DT the) (NNPS Oscars))))"
+    },
+    "'m now auditioning for principal Broadway roles": {
+        "chunks": [
+            "'m now auditioning for principal ",
+            "auditioning for principal ",
+            "for principal ",
+            "Broadway roles"
+        ],
+        "tree_string": "(ROOT\n  (SINV\n    (VP\n      (VBP 'm)\n      (ADVP (RB now))\n      (VP (VBG auditioning) (PP (IN for) (NP (NN principal)))))\n    (NP (NNP Broadway) (NNS roles))))"
+    },
+    "auditioning for principal Broadway roles": {
+        "chunks": [
+            "for principal Broadway roles",
+            "principal Broadway roles"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VBG auditioning)\n      (PP (IN for) (NP (JJ principal) (NNP Broadway) (NNS roles))))))"
+    },
+    "for principal Broadway roles": {
+        "chunks": [
+            "principal Broadway roles"
+        ],
+        "tree_string": "(ROOT (PP (IN for) (NP (JJ principal) (NNP Broadway) (NNS roles))))"
+    },
+    "a musical at the Drama Desk awards ": {
+        "chunks": [
+            "a musical at the Drama Desk awards ",
+            "a musical ",
+            "at the Drama Desk awards ",
+            "the Drama Desk awards "
+        ],
+        "tree_string": "(ROOT\n  (NP\n    (NP (DT a) (NN musical))\n    (PP (IN at) (NP (DT the) (NNP Drama) (NNP Desk) (NNS awards)))))"
+    },
+    "at the Drama Desk awards ": {
+        "chunks": [
+            "at the Drama Desk awards ",
+            "the Drama Desk awards "
+        ],
+        "tree_string": "(ROOT (PP (IN at) (NP (DT the) (NNP Drama) (NNP Desk) (NNS awards))))"
+    },
+    "the Drama Desk awards ": {
+        "chunks": [
+            "the Drama Desk awards ",
+            "the Drama Desk "
+        ],
+        "tree_string": "(ROOT (NP (NP (DT the) (NNP Drama) (NNP Desk)) (NP (NNS awards))))"
+    },
+    "have taken leading and ensemble parts on Broadway": {
+        "chunks": [
+            "taken leading and ensemble parts on Broadway",
+            "leading and ensemble parts ",
+            "on Broadway"
+        ],
+        "tree_string": "(ROOT\n  (S\n    (VP\n      (VB have)\n      (VP\n        (VBN taken)\n        (NP (JJ leading) (CC and) (NN ensemble) (NNS parts))\n        (PP (IN on) (NP (NNP Broadway)))))))"
+    },
+    "taken leading and ensemble parts on Broadway": {
+        "chunks": [
+            "leading and ensemble parts ",
+            "on Broadway"
+        ],
+        "tree_string": "(ROOT\n  (VP\n    (VBN taken)\n    (NP (JJ leading) (CC and) (NN ensemble) (NNS parts))\n    (PP (IN on) (NP (NNP Broadway)))))"
+    },
+    "leading and ensemble parts ": {
+        "chunks": [
+            "leading and ensemble parts ",
+            "leading and ensemble parts "
+        ],
+        "tree_string": "(ROOT\n  (S (VP (VBG leading) (CC and) (VBG ensemble) (NP (NNS parts)))))"
+    },
+    "an amputee in one of those leading roles": {
+        "chunks": [
+            "an amputee ",
+            "in one of those leading roles",
+            "one of those leading roles",
+            "of those leading roles",
+            "those leading roles"
+        ],
+        "tree_string": "(ROOT\n  (FRAG\n    (NP (DT an) (NN amputee))\n    (PP\n      (IN in)\n      (NP\n        (NP (CD one))\n        (PP (IN of) (NP (DT those) (VBG leading) (NNS roles)))))))"
+    },
+    "of those leading roles": {
+        "chunks": [
+            "those leading roles"
+        ],
+        "tree_string": "(ROOT (PP (IN of) (NP (DT those) (VBG leading) (NNS roles))))"
     }
 }
